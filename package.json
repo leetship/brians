@@ -1,0 +1,30 @@
+{
+    "name": "leetcontracts",
+    "devDependencies": {
+        "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+        "erc721a": "^4.2.3",
+        "hardhat": "^2.14.0",
+        "terser": "^5.17.1"
+    },
+    "dependencies": {
+        "@0xsequence/sstore2": "github:0xsequence/sstore2",
+        "@nomicfoundation/hardhat-network-helpers": "^1.0.8",
+        "@openzeppelin/contracts": "^4.9.1",
+        "dom-parser": "^0.1.6",
+        "dotenv": "^16.0.3",
+        "ethers": "5.7.2",
+        "keccak256": "^1.0.6",
+        "merkletreejs": "^0.3.10",
+        "solady": "^0.0.103"
+    },
+    "scripts": {
+        "clean": "npx hardhat clean",
+        "build": "npx hardhat compile",
+        "local-node": "npx hardhat node",
+        "test": "npx hardhat test test/LeetBrian.js",
+        "interact": "npx hardhat run scripts/interact.js --network base-goerli",
+        "deploy-hardhat": "npx hardhat run scripts/deploy.js --network localhost",
+        "deploy-base-goerli": "npx hardhat run scripts/deploy.js --network base-goerli",
+        "deploy-base-mainnet": "npx hardhat run scripts/deploy.js --network base-mainnet"
+    }
+}
