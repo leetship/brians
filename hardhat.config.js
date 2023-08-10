@@ -4,13 +4,13 @@ require("dotenv").config();
 
 module.exports = {
     solidity: {
-        version: "0.8.17",
+        version: "0.8.20",
         settings: {
             optimizer: {
                 enabled: true,
                 runs: 1337,
             },
-            // viaIR: true,
+            viaIR: true,
         },
     },
     networks: {

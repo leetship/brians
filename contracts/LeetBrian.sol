@@ -3,7 +3,7 @@
 // 1337 Based Brians
 // by hoanh.eth
 //
-pragma solidity ^0.8.17;
+pragma solidity ^0.8.20;
 
 import "@0xsequence/sstore2/contracts/SSTORE2.sol";
 import "@openzeppelin/contracts/utils/cryptography/MerkleProof.sol";
@@ -43,8 +43,8 @@ contract LeetBrian is ERC721A, ERC721AQueryable, Ownable {
 
     Trait[][6] private _traits;
 
-    mapping(bytes32 => bool) private _combo;
-    mapping(uint256 => Brian) private _registry;
+    mapping(uint256 => uint256) private _combo;
+    mapping(uint256 => uint256) private _registry;
     mapping(address => bool) _minted;
 
     error MintClose();
@@ -161,7 +161,7 @@ contract LeetBrian is ERC721A, ERC721AQueryable, Ownable {
     {
         if (!_exists(tokenID)) revert InvalidToken();
 
-        Brian memory brian = _registry[tokenID];
+        Brian memory brian = _getTraits(tokenID);
         bytes memory json = abi.encodePacked(
             '{"name": "1337 Based Brian #',
             LibString.toString(tokenID),
@@ -288,24 +288,30 @@ contract LeetBrian is ERC721A, ERC721AQueryable, Ownable {
     ) private {
         uint256 seed = uint256(
             keccak256(
-                abi.encodePacked(block.difficulty, tokenID, address(this))
+                abi.encodePacked(block.prevrandao, tokenID, address(this))
             )
         );
-        uint256 current = tokenID;
-        bytes32 combination;
-        Brian memory brian;
-        while (true) {
-            brian.background = _getRandomTraitIndex(rarities[0], seed);
-            brian.body = _getRandomTraitIndex(rarities[1], seed >> 8);
-            brian.under = _getRandomTraitIndex(rarities[2], seed >> 16);
-            brian.eyes = _getRandomTraitIndex(rarities[3], seed >> 32);
-            brian.over = _getRandomTraitIndex(rarities[4], seed >> 40);
-            brian.special = _getRandomTraitIndex(rarities[5], seed >> 48);
 
-            combination = keccak256(abi.encode(brian));
-            if (!_combo[combination]) {
-                _combo[combination] = true;
-                _registry[current] = brian;
+        uint256 current = tokenID;
+        uint256 combination;
+        uint256[] calldata backgroundRarities = rarities[0];
+        uint256[] calldata bodyRarities = rarities[1];
+        uint256[] calldata underRarities = rarities[2];
+        uint256[] calldata eyesRarities = rarities[3];
+        uint256[] calldata overRarities = rarities[4];
+        uint256[] calldata specialRarities = rarities[5];
+
+        while (true) {
+            combination = _getRandomTraitIndex(backgroundRarities, seed);
+            combination |= (_getRandomTraitIndex(bodyRarities, seed >> 16) << 8);
+            combination |= (_getRandomTraitIndex(underRarities, seed >> 32) << 16);
+            combination |= (_getRandomTraitIndex(eyesRarities, seed >> 48) << 24);
+            combination |= (_getRandomTraitIndex(overRarities, seed >> 64) << 32);
+            combination |= (_getRandomTraitIndex(specialRarities, seed >> 80) << 40);
+            
+            if (_combo[combination] == 0) {
+                _combo[combination] = 1;
+                _storeTraits(current, combination);
 
                 unchecked {
                     ++current;
@@ -343,5 +349,43 @@ contract LeetBrian is ERC721A, ERC721AQueryable, Ownable {
             }
         }
         revert();
+    }
+
+    function _storeTraits(uint256 tokenId, uint256 traitCombination) internal {
+        uint256 tokenTraitBucket = tokenId / 4;
+        uint256 tokenTraitSlot = tokenId % 4;
+        uint256 traitMask = not(0xFFFFFFFFFFFFFFFF << (64 * tokenTraitSlot));
+        _registry[tokenTraitBucket] =
+            (_registry[tokenTraitBucket] & traitMask) |
+            (traitCombination << (64 * tokenTraitSlot));
+    }
+
+    function _getTraits(
+        uint256 tokenId
+    ) internal view returns (Brian memory brian) {
+        uint256 tokenTraitBucket = tokenId / 4;
+        uint256 tokenTraitSlot = tokenId % 4;
+        uint256 traitMask = 0xFFFFFFFFFFFFFFFF << (64 * tokenTraitSlot);
+        uint256 traitCombination = (_registry[tokenTraitBucket] &
+            traitMask) >> (64 * tokenTraitSlot);
+        traitMask = 0xFF;
+
+        brian.background = traitCombination & traitMask;
+        traitCombination >>= 8;
+        brian.body = traitCombination & traitMask;
+        traitCombination >>= 8;
+        brian.under = traitCombination & traitMask;
+        traitCombination >>= 8;
+        brian.eyes = traitCombination & traitMask;
+        traitCombination >>= 8;
+        brian.over = traitCombination & traitMask;
+        traitCombination >>= 8;
+        brian.special = traitCombination;
+    }
+
+    function not(uint256 val) internal pure returns (uint256 notval) {
+        assembly ("memory-safe") {
+            notval := not(val)
+        }
     }
 }
