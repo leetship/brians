@@ -69,7 +69,7 @@ async function main() {
     ];
     let rarities = [];
     for (let i = 0; i < allLayers.length; i++) {
-        rarities.push(allLayers[i][2]);
+        rarities.push(allLayers[i].rarities);
     }
     console.log(rarities);
     console.log("PREPARED LAYERS AND RARITIES");
@@ -87,9 +87,15 @@ async function main() {
 
     // ADD TRAITS
     for (let i = 0; i < allLayers.length; i++) {
-        await leetContract.addTraits(i, allLayers[i][0], allLayers[i][1]);
+        console.log(
+            `ADDING TRAITS AT LAYER ${i} FOR A TOTAL OF ${allLayers[i].traits.length} TRAITS`
+        );
+
+        await leetContract.addTraits(i, allLayers[i].traits, {
+            gasLimit: 60000000,
+        });
     }
-    console.log("ADDED TRAITS");
+    console.log("ADDED ALL TRAITS");
 
     // VERYFI ON BASESCAN
     if (hre.network.name == "base-goerli") {

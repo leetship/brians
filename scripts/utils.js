@@ -475,7 +475,10 @@ exports.prepLayer = (assets_path, traits, layer) => {
 
     for (let i = 0; i < payload.length; i++) {
         const filename = `${payload[i].name}.png`;
-        const filedata = payload[i].img_data.split("data:image/png;base64,")[1];
+        let filedata = payload[i].img_data.split("data:image/png;base64,")[1];
+        if (filedata === undefined) {
+            filedata = payload[i].img_data.split("data:image/gif;base64,")[1];
+        }
 
         // SAVE THE IMAGE LOCALLY
         const dirpath = `${assets_path}/${layer}`;
@@ -494,7 +497,12 @@ exports.prepLayer = (assets_path, traits, layer) => {
         rarities.push(payload[i].rarity);
     }
 
-    console.log(names);
-    console.log(rarities);
-    return [names, images, rarities];
+    let results = { traits: [], rarities: rarities };
+    for (let i = 0; i < names.length; i++) {
+        results.traits.push({
+            name: names[i],
+            image: images[i],
+        });
+    }
+    return results;
 };

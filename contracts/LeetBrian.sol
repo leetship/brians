@@ -19,6 +19,11 @@ struct Trait {
     address image;
 }
 
+struct Payload {
+    string name;
+    bytes image;
+}
+
 struct Brian {
     uint256 background;
     uint256 body;
@@ -46,7 +51,6 @@ contract LeetBrian is ERC721A, ERC721AQueryable, Ownable {
     error MintOut();
     error InvalidRarities();
     error InvalidToken();
-    error NotEqualLength();
     error NotOnWhitelist();
     error MaxMintPerAddress();
 
@@ -95,21 +99,18 @@ contract LeetBrian is ERC721A, ERC721AQueryable, Ownable {
      */
     function addTraits(
         uint8 layer,
-        string[] calldata names,
-        bytes[] calldata images
+        Payload[] calldata payload
     ) public onlyOwner {
-        if (names.length != images.length) revert NotEqualLength();
-
         uint256 i = 0;
         Trait memory trait;
         do {
-            trait.name = names[i];
-            trait.image = SSTORE2.write(images[i]);
+            trait.name = payload[i].name;
+            trait.image = SSTORE2.write(payload[i].image);
             _traits[layer].push(trait);
             unchecked {
                 ++i;
             }
-        } while (i < names.length);
+        } while (i < payload.length);
     }
 
     /**

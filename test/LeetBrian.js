@@ -84,7 +84,7 @@ describe("Functional Validation", function () {
             ];
             let rarities = [];
             for (let i = 0; i < allLayers.length; i++) {
-                rarities.push(allLayers[i][2]);
+                rarities.push(allLayers[i].rarities);
             }
             console.log(rarities);
             console.log("PREPARED LAYERS AND RARITIES");
@@ -107,11 +107,7 @@ describe("Functional Validation", function () {
 
             // ADD TRAITS
             for (let i = 0; i < allLayers.length; i++) {
-                await leetContract.addTraits(
-                    i,
-                    allLayers[i][0],
-                    allLayers[i][1]
-                );
+                await leetContract.addTraits(i, allLayers[i].traits);
             }
             console.log("ADDED TRAITS");
 
