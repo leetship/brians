@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: MIT
 // 1337 Based Brians
 // by hoanh.eth
+// gas optimizations by 0xth0mas.eth
 //
 pragma solidity ^0.8.20;
 
@@ -15,8 +16,8 @@ import {ERC721AQueryable} from "erc721a/contracts/extensions/ERC721AQueryable.so
 import {Ownable} from "@openzeppelin/contracts/access/Ownable.sol";
 
 struct Trait {
-    string name;
     address image;
+    string name;
 }
 
 struct Payload {
@@ -41,7 +42,8 @@ contract LeetBrian is ERC721A, ERC721AQueryable, Ownable {
     bytes32 private _merkleRoot;
     bytes32 private _raritiesHash;
 
-    Trait[][6] private _traits;
+    mapping(uint256 => uint256) private _traitCounts;
+    mapping(uint256 => mapping(uint256 => Trait)) private _traits;
 
     mapping(uint256 => uint256) private _combo;
     mapping(uint256 => uint256) private _registry;
@@ -80,7 +82,7 @@ contract LeetBrian is ERC721A, ERC721AQueryable, Ownable {
         bytes32[] calldata merkleProof
     ) public view returns (bool) {
         return
-            MerkleProof.verify(
+            MerkleProof.verifyCalldata(
                 merkleProof,
                 _merkleRoot,
                 keccak256(abi.encodePacked(addr))
@@ -101,16 +103,19 @@ contract LeetBrian is ERC721A, ERC721AQueryable, Ownable {
         uint8 layer,
         Payload[] calldata payload
     ) public onlyOwner {
-        uint256 i = 0;
-        Trait memory trait;
-        do {
-            trait.name = payload[i].name;
+        uint256 traitIndex = _traitCounts[layer];
+        unchecked { _traitCounts[layer] += payload.length; }
+
+        for(uint256 i;i < payload.length;) {
+            Trait storage trait = _traits[layer][traitIndex];
             trait.image = SSTORE2.write(payload[i].image);
-            _traits[layer].push(trait);
+            trait.name = payload[i].name;
+
             unchecked {
                 ++i;
+                ++traitIndex;
             }
-        } while (i < payload.length);
+        }
     }
 
     /**
