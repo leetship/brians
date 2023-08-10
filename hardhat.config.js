@@ -10,6 +10,7 @@ module.exports = {
                 enabled: true,
                 runs: 1337,
             },
+            evmVersion: "paris",
             viaIR: true,
         },
     },
