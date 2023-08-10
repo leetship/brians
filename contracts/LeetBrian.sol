@@ -40,12 +40,15 @@ contract LeetBrian is ERC721A, ERC721AQueryable, Ownable {
 
     mapping(bytes32 => bool) private _combo;
     mapping(uint256 => Brian) private _registry;
+    mapping(address => bool) _minted;
 
     error MintClose();
     error MintOut();
     error InvalidRarities();
     error InvalidToken();
     error NotEqualLength();
+    error NotOnWhitelist();
+    error MaxMintPerAddress();
 
     constructor(
         string memory name,
@@ -110,20 +113,37 @@ contract LeetBrian is ERC721A, ERC721AQueryable, Ownable {
     }
 
     /**
-     * @notice Mint function
+     * @notice Whilelist mint
      */
-    function mint(uint256 amount, uint256[][] calldata rarities) public {
-        if (!isOpen) revert MintClose();
-        if (keccak256(abi.encode(rarities)) != _raritiesHash) {
-            revert InvalidRarities();
-        }
-        uint256 minted = _totalMinted();
-        unchecked {
-            if ((minted + amount) > supply) revert MintOut();
-        }
+    function whitelistMint(
+        bytes32[] calldata merkleProof,
+        uint256[][] calldata rarities
+    ) public {
+        if (!checkWhitelist(msg.sender, merkleProof)) revert NotOnWhitelist();
+        if (_minted[msg.sender]) revert MaxMintPerAddress();
 
-        _setTraitsCombination(minted, amount, rarities);
-        _safeMint(msg.sender, amount, "");
+        _mint(1, rarities, msg.sender);
+    }
+
+    /**
+     * @notice Owner mint
+     */
+    function ownerMint(
+        uint256 amount,
+        uint256[][] calldata rarities
+    ) public onlyOwner {
+        _mint(amount, rarities, msg.sender);
+    }
+
+    /**
+     * @notice Airdrop to an address
+     */
+    function airdrop(
+        uint256 amount,
+        uint256[][] calldata rarities,
+        address to
+    ) public onlyOwner {
+        _mint(amount, rarities, to);
     }
 
     /**
@@ -155,6 +175,27 @@ contract LeetBrian is ERC721A, ERC721AQueryable, Ownable {
         );
 
         return string(abi.encodePacked("data:application/json,", json));
+    }
+
+    /**
+     * @notice Helper mint function
+     */
+    function _mint(
+        uint256 amount,
+        uint256[][] calldata rarities,
+        address to
+    ) private {
+        if (!isOpen) revert MintClose();
+        if (keccak256(abi.encode(rarities)) != _raritiesHash) {
+            revert InvalidRarities();
+        }
+        uint256 minted = _totalMinted();
+        unchecked {
+            if ((minted + amount) > supply) revert MintOut();
+        }
+
+        _setTraitsCombination(minted, amount, rarities);
+        _safeMint(to, amount, "");
     }
 
     /**

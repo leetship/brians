@@ -111,7 +111,7 @@ async function main() {
     if (hre.network.name == "localhost") {
         await leetContract.setMintStatus(true);
         const MINT_AMOUNTS = 33;
-        await leetContract.mint(MINT_AMOUNTS, rarities);
+        await leetContract.ownerMint(MINT_AMOUNTS, rarities);
         console.log("MINTED", MINT_AMOUNTS);
 
         let distribution = {};

@@ -18,7 +18,7 @@ async function main() {
     //     [1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000],
     // ];
     // const MINT_AMOUNTS = 6;
-    // await leetContract.mint(MINT_AMOUNTS, rarities, { gasLimit: 2000000 });
+    // await leetContract.ownerMint(MINT_AMOUNTS, rarities, { gasLimit: 2000000 });
     // console.log("MINTED", MINT_AMOUNTS);
 }
 
