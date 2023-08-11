@@ -96,31 +96,30 @@ describe("Functional Validation", function () {
             // DEPLOY CONTRACT
             const leetContract = await (
                 await ethers.getContractFactory(contractCodeName)
-            ).deploy(
-                contractName,
-                contractSymbol,
-                contractSupply
-            );
+            ).deploy(contractName, contractSymbol, contractSupply);
             await leetContract.deployed();
             console.log("DEPLOYED CONTRACT", leetContract.address);
 
             // ADD TRAITS
             for (let i = 0; i < allLayers.length; i++) {
-                await leetContract.addTraits(i, allLayers[i].traits, allLayers[i].rarities);
+                await leetContract.addTraits(
+                    i,
+                    allLayers[i].traits,
+                    allLayers[i].rarities
+                );
             }
             console.log("ADDED TRAITS");
 
             // TEST MINT
             await leetContract.setMintStatus(true);
-            const MINT_AMOUNTS = 33;
-            await leetContract.ownerMint(MINT_AMOUNTS);
-            console.log("MINTED", MINT_AMOUNTS);
+            await leetContract.ownerMint(contractSupply);
+            console.log("MINTED", contractSupply);
 
             let distribution = {};
             for (let i = 0; i < LAYERS.length; i++) {
                 distribution[LAYERS[i]] = {};
             }
-            for (let i = 0; i < MINT_AMOUNTS; i++) {
+            for (let i = 0; i < contractSupply; i++) {
                 const tokenURI = await leetContract.tokenURI(i);
                 const payload = JSON.parse(
                     tokenURI.split("data:application/json,")[1]

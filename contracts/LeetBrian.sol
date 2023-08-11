@@ -1,8 +1,8 @@
 //
 // SPDX-License-Identifier: MIT
-// 1337 Based Brians
-// by hoanh.eth
-// gas optimizations by 0xth0mas.eth
+// Contract for 1337 Brians on Base
+// Written by hoanh.eth
+// Gas optimizations by 0xth0mas.eth
 //
 pragma solidity ^0.8.20;
 
@@ -100,11 +100,13 @@ contract LeetBrian is ERC721A, ERC721AQueryable, Ownable {
         Payload[] calldata payload,
         uint16[] calldata traitRarities
     ) public onlyOwner {
-        if(payload.length != traitRarities.length) revert();
+        if (payload.length != traitRarities.length) revert();
         uint256 traitIndex = _traitCounts[layer];
-        unchecked { _traitCounts[layer] += payload.length; }
+        unchecked {
+            _traitCounts[layer] += payload.length;
+        }
 
-        for(uint256 i;i < payload.length;) {
+        for (uint256 i; i < payload.length; ) {
             Trait storage trait = _traits[layer][traitIndex];
             trait.image = SSTORE2.write(payload[i].image);
             trait.name = payload[i].name;
@@ -120,9 +122,7 @@ contract LeetBrian is ERC721A, ERC721AQueryable, Ownable {
     /**
      * @notice Whilelist mint
      */
-    function whitelistMint(
-        bytes32[] calldata merkleProof
-    ) public {
+    function whitelistMint(bytes32[] calldata merkleProof) public {
         if (!checkWhitelist(msg.sender, merkleProof)) revert NotOnWhitelist();
         if (_minted[msg.sender]) revert MaxMintPerAddress();
 
@@ -132,19 +132,14 @@ contract LeetBrian is ERC721A, ERC721AQueryable, Ownable {
     /**
      * @notice Owner mint
      */
-    function ownerMint(
-        uint256 amount
-    ) public onlyOwner {
+    function ownerMint(uint256 amount) public onlyOwner {
         _mint(amount, msg.sender);
     }
 
     /**
      * @notice Airdrop to an address
      */
-    function airdrop(
-        uint256 amount,
-        address to
-    ) public onlyOwner {
+    function airdrop(uint256 amount, address to) public onlyOwner {
         _mint(amount, to);
     }
 
@@ -182,10 +177,7 @@ contract LeetBrian is ERC721A, ERC721AQueryable, Ownable {
     /**
      * @notice Helper mint function
      */
-    function _mint(
-        uint256 amount,
-        address to
-    ) private {
+    function _mint(uint256 amount, address to) private {
         if (!isOpen) revert MintClose();
         uint256 minted = _totalMinted();
         unchecked {
@@ -278,10 +270,7 @@ contract LeetBrian is ERC721A, ERC721AQueryable, Ownable {
     /**
      * @notice Get an unique DNA for a given token ID
      */
-    function _setTraitsCombination(
-        uint256 tokenID,
-        uint256 amount
-    ) private {
+    function _setTraitsCombination(uint256 tokenID, uint256 amount) private {
         uint256 seed = uint256(
             keccak256(
                 abi.encodePacked(block.prevrandao, tokenID, address(this))
@@ -299,12 +288,17 @@ contract LeetBrian is ERC721A, ERC721AQueryable, Ownable {
 
         while (true) {
             combination = _getRandomTraitIndex(backgroundRarities, seed);
-            combination |= (_getRandomTraitIndex(bodyRarities, seed >> 16) << 8);
-            combination |= (_getRandomTraitIndex(underRarities, seed >> 32) << 16);
-            combination |= (_getRandomTraitIndex(eyesRarities, seed >> 48) << 24);
-            combination |= (_getRandomTraitIndex(overRarities, seed >> 64) << 32);
-            combination |= (_getRandomTraitIndex(specialRarities, seed >> 80) << 40);
-            
+            combination |= (_getRandomTraitIndex(bodyRarities, seed >> 16) <<
+                8);
+            combination |= (_getRandomTraitIndex(underRarities, seed >> 32) <<
+                16);
+            combination |= (_getRandomTraitIndex(eyesRarities, seed >> 48) <<
+                24);
+            combination |= (_getRandomTraitIndex(overRarities, seed >> 64) <<
+                32);
+            combination |= (_getRandomTraitIndex(specialRarities, seed >> 80) <<
+                40);
+
             if (_combo[combination] == 0) {
                 _combo[combination] = 1;
                 _storeTraits(current, combination);
@@ -347,6 +341,9 @@ contract LeetBrian is ERC721A, ERC721AQueryable, Ownable {
         revert();
     }
 
+    /**
+     * @notice Store traits for a given token ID
+     */
     function _storeTraits(uint256 tokenId, uint256 traitCombination) internal {
         uint256 tokenTraitBucket = tokenId / 4;
         uint256 tokenTraitSlot = tokenId % 4;
@@ -356,14 +353,17 @@ contract LeetBrian is ERC721A, ERC721AQueryable, Ownable {
             (traitCombination << (64 * tokenTraitSlot));
     }
 
+    /**
+     * @notice Get traits for a given token ID
+     */
     function _getTraits(
         uint256 tokenId
     ) internal view returns (Brian memory brian) {
         uint256 tokenTraitBucket = tokenId / 4;
         uint256 tokenTraitSlot = tokenId % 4;
         uint256 traitMask = 0xFFFFFFFFFFFFFFFF << (64 * tokenTraitSlot);
-        uint256 traitCombination = (_registry[tokenTraitBucket] &
-            traitMask) >> (64 * tokenTraitSlot);
+        uint256 traitCombination = (_registry[tokenTraitBucket] & traitMask) >>
+            (64 * tokenTraitSlot);
         traitMask = 0xFF;
 
         brian.background = traitCombination & traitMask;

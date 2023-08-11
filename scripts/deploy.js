@@ -70,18 +70,18 @@ async function main() {
     let rarities = [];
     for (let i = 0; i < allLayers.length; i++) {
         rarities.push(allLayers[i].rarities);
+        const total = allLayers[i].rarities.reduce((a, b) => a + b);
+        if (total !== 10000) {
+            throw new Error(`Layer ${i} rarities doesn't add up (${total})`);
+        }
     }
     console.log(rarities);
     console.log("PREPARED LAYERS AND RARITIES");
 
-    const raritiesHash = ethers.utils.keccak256(
-        ethers.utils.defaultAbiCoder.encode(["uint256[][]"], [rarities])
-    );
-
     // DEPLOY CONTRACT
     const leetContract = await (
         await ethers.getContractFactory(contractCodeName)
-    ).deploy(contractName, contractSymbol, contractSupply, raritiesHash);
+    ).deploy(contractName, contractSymbol, contractSupply);
     await leetContract.deployed();
     console.log("DEPLOYED CONTRACT", leetContract.address);
 
@@ -91,9 +91,14 @@ async function main() {
             `ADDING TRAITS AT LAYER ${i} FOR A TOTAL OF ${allLayers[i].traits.length} TRAITS`
         );
 
-        await leetContract.addTraits(i, allLayers[i].traits, {
-            gasLimit: 60000000,
-        });
+        await leetContract.addTraits(
+            i,
+            allLayers[i].traits,
+            allLayers[i].rarities,
+            {
+                gasLimit: 60000000,
+            }
+        );
     }
     console.log("ADDED ALL TRAITS");
 
@@ -107,7 +112,6 @@ async function main() {
                 contractName,
                 contractSymbol,
                 contractSupply,
-                raritiesHash,
             ],
         });
         console.log("VERIFED ON BASESCAN");
@@ -116,19 +120,19 @@ async function main() {
     // TEST MINT LOCALLY
     if (hre.network.name == "localhost") {
         await leetContract.setMintStatus(true);
-        const MINT_AMOUNTS = 33;
-        await leetContract.ownerMint(MINT_AMOUNTS, rarities);
-        console.log("MINTED", MINT_AMOUNTS);
+        await leetContract.ownerMint(contractSupply);
+        console.log("MINTED", contractSupply);
 
         let distribution = {};
         for (let i = 0; i < LAYERS.length; i++) {
             distribution[LAYERS[i]] = {};
         }
-        for (let i = 0; i < MINT_AMOUNTS; i++) {
+        for (let i = 0; i < contractSupply; i++) {
             const tokenURI = await leetContract.tokenURI(i);
             const payload = JSON.parse(
                 tokenURI.split("data:application/json,")[1]
             );
+            console.log(payload.attributes);
             for (let i = 0; i < payload.attributes.length; i++) {
                 const traitType = payload.attributes[i].trait_type;
                 const traitValue = payload.attributes[i].value;

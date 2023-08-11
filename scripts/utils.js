@@ -492,7 +492,7 @@ exports.prepLayer = (assets_path, traits, layer) => {
 
         // READ IT AGAIN AS BYTES
         const imageBytes = fs.readFileSync(filepath, {});
-        names.push(payload[i].name);
+        names.push(`${payload[i].name}`.toLowerCase().trim());
         images.push(imageBytes);
         rarities.push(payload[i].rarity);
     }
