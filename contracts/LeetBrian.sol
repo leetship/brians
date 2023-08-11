@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: MIT
 // Contract for 1337 Brians on Base
 // Written by hoanh.eth
-// Gas optimized by 0xth0mas.eth
+// Gas optimizations by 0xth0mas.eth
 //
 pragma solidity ^0.8.20;
 
