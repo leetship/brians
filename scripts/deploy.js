@@ -132,6 +132,7 @@ async function main() {
             const payload = JSON.parse(
                 tokenURI.split("data:application/json,")[1]
             );
+            console.log(payload.attributes);
             for (let i = 0; i < payload.attributes.length; i++) {
                 const traitType = payload.attributes[i].trait_type;
                 const traitValue = payload.attributes[i].value;
