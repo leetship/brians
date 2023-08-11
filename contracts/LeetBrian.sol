@@ -241,18 +241,18 @@ contract LeetBrian is ERC721A, ERC721AQueryable, Ownable {
             string.concat(
                 _getTraitMetadata(
                     "background",
-                    _traits[0][brian.background].name
+                    _traits[0][brian.background].name,
+                    true
                 ),
-                ",",
-                _getTraitMetadata("brian", _traits[1][brian.body].name),
-                ",",
-                _getTraitMetadata("under", _traits[2][brian.under].name),
-                ",",
-                _getTraitMetadata("eyes", _traits[3][brian.eyes].name),
-                ",",
-                _getTraitMetadata("over", _traits[4][brian.over].name),
-                ",",
-                _getTraitMetadata("special", _traits[5][brian.special].name)
+                _getTraitMetadata("brian", _traits[1][brian.body].name, true),
+                _getTraitMetadata("under", _traits[2][brian.under].name, true),
+                _getTraitMetadata("eyes", _traits[3][brian.eyes].name, true),
+                _getTraitMetadata("over", _traits[4][brian.over].name, true),
+                _getTraitMetadata(
+                    "special",
+                    _traits[5][brian.special].name,
+                    false
+                )
             );
     }
 
@@ -261,8 +261,25 @@ contract LeetBrian is ERC721A, ERC721AQueryable, Ownable {
      */
     function _getTraitMetadata(
         string memory key,
-        string memory value
+        string memory value,
+        bool withComma
     ) internal pure returns (string memory trait) {
+        if (
+            keccak256(abi.encodePacked(value)) ==
+            keccak256(abi.encodePacked("none"))
+        ) {
+            return "";
+        }
+        if (withComma) {
+            return
+                string.concat(
+                    '{"trait_type":"',
+                    key,
+                    '","value": "',
+                    value,
+                    '"},'
+                );
+        }
         return
             string.concat('{"trait_type":"', key, '","value": "', value, '"}');
     }
