@@ -113,15 +113,14 @@ describe("Functional Validation", function () {
 
             // TEST MINT
             await leetContract.setMintStatus(true);
-            const MINT_AMOUNTS = 33;
-            await leetContract.ownerMint(MINT_AMOUNTS, rarities);
-            console.log("MINTED", MINT_AMOUNTS);
+            await leetContract.ownerMint(contractSupply, rarities);
+            console.log("MINTED", contractSupply);
 
             let distribution = {};
             for (let i = 0; i < LAYERS.length; i++) {
                 distribution[LAYERS[i]] = {};
             }
-            for (let i = 0; i < MINT_AMOUNTS; i++) {
+            for (let i = 0; i < contractSupply; i++) {
                 const tokenURI = await leetContract.tokenURI(i);
                 const payload = JSON.parse(
                     tokenURI.split("data:application/json,")[1]
