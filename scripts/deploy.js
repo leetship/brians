@@ -45,9 +45,10 @@ async function main() {
     const contractSupply = 69;
 
     // PREPARE LAYERS AND RARITIES
-    const traits = await utils.fetchTraitsData(
-        "https://1337py.vercel.app/brian/traits"
-    );
+    // const traits = await utils.fetchTraitsData(
+    //     "https://1337py.vercel.app/brian/traits"
+    // );
+    const traits = utils.fetchMockTraitsDataForBrian();
     const layerBackground = utils.prepLayer(
         TMP_ASSETS_DIR,
         traits,
@@ -103,7 +104,11 @@ async function main() {
     console.log("ADDED ALL TRAITS");
 
     // VERYFI ON BASESCAN
-    if (hre.network.name == "base-goerli") {
+    if (
+        hre.network.name == "base-goerli" ||
+        hre.network.name == "base-mainnet"
+    ) {
+        console.log("VERIFYING ON BASESCAN");
         await delay(30000);
 
         await hre.run("verify:verify", {
@@ -119,6 +124,7 @@ async function main() {
 
     // TEST MINT LOCALLY
     if (hre.network.name == "localhost") {
+        console.log("TESTING MINTS");
         await leetContract.setMintStatus(true);
         await leetContract.ownerMint(contractSupply);
         console.log("MINTED", contractSupply);

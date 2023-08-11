@@ -36,7 +36,7 @@ module.exports = {
         },
         "base-mainnet": {
             url: "https://mainnet.base.org",
-            accounts: [process.env.GOERLI_PRIVATE_KEY],
+            accounts: [process.env.ETHEREUM_PRIVATE_KEY],
             gasPrice: 1000000000,
             blockGasLimit: 60000000,
         },
@@ -46,6 +46,7 @@ module.exports = {
             goerli: process.env.ETHERSCAN_APIKEY,
             mainnet: process.env.ETHERSCAN_APIKEY,
             "base-goerli": process.env.BASESCAN_APIKEY,
+            "base-mainnet": process.env.BASESCAN_APIKEY,
         },
         customChains: [
             {
@@ -54,6 +55,14 @@ module.exports = {
                 urls: {
                     apiURL: "https://api-goerli.basescan.org/api",
                     browserURL: "https://goerli.basescan.org",
+                },
+            },
+            {
+                network: "base-mainnet",
+                chainId: 8453,
+                urls: {
+                    apiURL: "https://api.basescan.org/api",
+                    browserURL: "https://basescan.org",
                 },
             },
         ],
