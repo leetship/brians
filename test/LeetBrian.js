@@ -96,24 +96,23 @@ describe("Functional Validation", function () {
             // DEPLOY CONTRACT
             const leetContract = await (
                 await ethers.getContractFactory(contractCodeName)
-            ).deploy(
-                contractName,
-                contractSymbol,
-                contractSupply,
-                raritiesHash
-            );
+            ).deploy(contractName, contractSymbol, contractSupply);
             await leetContract.deployed();
             console.log("DEPLOYED CONTRACT", leetContract.address);
 
             // ADD TRAITS
             for (let i = 0; i < allLayers.length; i++) {
-                await leetContract.addTraits(i, allLayers[i].traits);
+                await leetContract.addTraits(
+                    i,
+                    allLayers[i].traits,
+                    allLayers[i].rarities
+                );
             }
             console.log("ADDED TRAITS");
 
             // TEST MINT
             await leetContract.setMintStatus(true);
-            await leetContract.ownerMint(contractSupply, rarities);
+            await leetContract.ownerMint(contractSupply);
             console.log("MINTED", contractSupply);
 
             let distribution = {};

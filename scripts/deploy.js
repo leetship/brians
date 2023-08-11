@@ -78,14 +78,10 @@ async function main() {
     console.log(rarities);
     console.log("PREPARED LAYERS AND RARITIES");
 
-    const raritiesHash = ethers.utils.keccak256(
-        ethers.utils.defaultAbiCoder.encode(["uint256[][]"], [rarities])
-    );
-
     // DEPLOY CONTRACT
     const leetContract = await (
         await ethers.getContractFactory(contractCodeName)
-    ).deploy(contractName, contractSymbol, contractSupply, raritiesHash);
+    ).deploy(contractName, contractSymbol, contractSupply);
     await leetContract.deployed();
     console.log("DEPLOYED CONTRACT", leetContract.address);
 
@@ -95,9 +91,14 @@ async function main() {
             `ADDING TRAITS AT LAYER ${i} FOR A TOTAL OF ${allLayers[i].traits.length} TRAITS`
         );
 
-        await leetContract.addTraits(i, allLayers[i].traits, {
-            gasLimit: 60000000,
-        });
+        await leetContract.addTraits(
+            i,
+            allLayers[i].traits,
+            allLayers[i].rarities,
+            {
+                gasLimit: 60000000,
+            }
+        );
     }
     console.log("ADDED ALL TRAITS");
 
@@ -111,7 +112,6 @@ async function main() {
                 contractName,
                 contractSymbol,
                 contractSupply,
-                raritiesHash,
             ],
         });
         console.log("VERIFED ON BASESCAN");
@@ -120,7 +120,7 @@ async function main() {
     // TEST MINT LOCALLY
     if (hre.network.name == "localhost") {
         await leetContract.setMintStatus(true);
-        await leetContract.ownerMint(contractSupply, rarities);
+        await leetContract.ownerMint(contractSupply);
         console.log("MINTED", contractSupply);
 
         let distribution = {};
