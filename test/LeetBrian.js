@@ -99,8 +99,7 @@ describe("Functional Validation", function () {
             ).deploy(
                 contractName,
                 contractSymbol,
-                contractSupply,
-                raritiesHash
+                contractSupply
             );
             await leetContract.deployed();
             console.log("DEPLOYED CONTRACT", leetContract.address);

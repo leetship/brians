@@ -40,7 +40,6 @@ contract LeetBrian is ERC721A, ERC721AQueryable, Ownable {
     bool public isOpen = false;
 
     bytes32 private _merkleRoot;
-    bytes32 private _raritiesHash;
 
     mapping(uint256 => uint256) private _traitCounts;
     mapping(uint256 => mapping(uint256 => Trait)) private _traits;
@@ -52,7 +51,6 @@ contract LeetBrian is ERC721A, ERC721AQueryable, Ownable {
 
     error MintClose();
     error MintOut();
-    error InvalidRarities();
     error InvalidToken();
     error NotOnWhitelist();
     error MaxMintPerAddress();
@@ -60,12 +58,9 @@ contract LeetBrian is ERC721A, ERC721AQueryable, Ownable {
     constructor(
         string memory name,
         string memory symbol,
-        uint256 totalSupply,
-        bytes32 raritiesHash
+        uint256 totalSupply
     ) ERC721A(name, symbol) {
         supply = totalSupply;
-
-        _raritiesHash = raritiesHash;
     }
 
     /**
@@ -345,7 +340,7 @@ contract LeetBrian is ERC721A, ERC721AQueryable, Ownable {
             }
 
             unchecked {
-                lowerBound += percentage;
+                lowerBound = upperBound;
                 ++i;
             }
         }
