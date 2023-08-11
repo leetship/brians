@@ -1,0 +1,3202 @@
+[
+    {
+        "_id": "64d28f8bcc9d1932b74910bf",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAd0lEQVR4nO3SsQmAMBQE0LOS1LG1yR5pBCvTZDsH0UrIMlpmh2/1IYit3+YehKS74whAREREREQEoKYieuv7lxLBRwk+SlvIPPxZwiRcabgyX2C9sqxXtl+gLWH9B7o2aDwWAMA57wCAYZu6rwugpiKud6/HYoEbnJtpoO+fjX4AAAAASUVORK5CYII=",
+        "name": "Say What Acid",
+        "rarity": 4,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28f8dcc9d1932b74910c0",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAg0lEQVR4nO3SwQ2DMAyF4d90FUboEmUOxsoeDEE3oKOAXg8REA494kvfJ1mR7EixHIOZmZmZmf09SdrPVltLaUKgV6mhI3W/TpKIYChncihARMoEOoAApvFMTmPNpWjHDzVSv2FeVv3agXlZc5bwaKKR9XjsY35/tkvh2T/qhYhb1+EL83t6lPfYlPMAAAAASUVORK5CYII=",
+        "name": "Say What Naut",
+        "rarity": 2,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28f8ecc9d1932b74910c1",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAxUlEQVR4nO2TMQrCQBBFnxJRsHG6mC5FcgpLixzAK3gJryJ4Ag+QQjtPYQpLBYsRRBQU1kIjSaHdxmZetbu/+I/ZXTAMwzAMwzAM48+0Kmv3I/Mu4ESkFqhqIxJBWZ7EWS0oyFFV51siKMsP0xW9tAPAbXsnmWfNSIiI43X/Ll1HLl1Hn30l80ZLRFw5Ad1cXlKjPuF8TLHLvb+FoFycZw+GywEAx8mVMPZV+UUAYL84vQ+7zbQDbVWl2OW1X5DEWXX8XnkCY7dEhnYOimQAAAAASUVORK5CYII=",
+        "name": "Say What Hood",
+        "rarity": 19,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28f8fcc9d1932b74910c2",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAVElEQVR4nO2RMQrAMAwD5dL/f1kd3IAL6Vh1uTMBeTolkQAAAAAAACRJdp9dTta47UnnMeW7HCpg13B2/uH516S/4VEiLT/nUktduQKt8sut6/sqFw0SJuloG72GAAAAAElFTkSuQmCC",
+        "name": "Say What Logo",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28f91cc9d1932b74910c3",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAlklEQVR4nO3Tuw2DMBgE4AOxAJEooPUKtKzjobwObVZwSxMJRrgU2LGT/neT+yq/pP/8AkRERERE5N91ucED/AwuZdzaUHeuGFIYz1Yh+rsgmIvnIPWJWMq7JACc+x3isfnfeVs8wHMPJEAitVudQF0oX8PofFlg/BaGbikhXvGZAliW/NYDaeczMbkVk1uBmbhiaPId3zXbO4Aj+WlfAAAAAElFTkSuQmCC",
+        "name": "Say What Monroe",
+        "rarity": 28,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28f92cc9d1932b74910c4",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAqUlEQVR4nO3SMQrCQBCF4T+SI3gIwSqIkCKnWDxDxCp9rPUKIdulDEhOYWET7ILt9t5hLCQSUTuzFs5Xvd1ZGIZZUEoppZRSSv27oA95EsmwsD+eg9fn3zd51/zT3RjCPqzt5qlQpoWP/vcVNE0jAIvZFYD2MgXAGONlDeRJJK6zAgggrrPifQVlWuA6+8g/UVeZ1FXmZfJeCLDaxgIQL+cMz4fdafQ/cANoEy/S+kaYIgAAAABJRU5ErkJggg==",
+        "name": "Say What Helga",
+        "rarity": 2,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28f93cc9d1932b74910c5",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAArElEQVR4nO3QsQ2CQBTG8T9GgtTkDWHcgRUoMAZHsHEJNqDAEWys6bkd0A0ovB04C0WjiSWnxfs195JXfN89UEoppZRSSv0LEXGAG99fh3sv4b6UmFwAIEniqs3qbbE/XbDWBl4K8PjtcZcCsD2Yz/20BUTEVeslKfcrGDpvF5gBRENO2WQYOgwdZZMRDfnU2a8CAIs4pKhbirplEYdewgHm43C1Z/q+f86+3ADHxDn25STBtgAAAABJRU5ErkJggg==",
+        "name": "Say What Prince",
+        "rarity": 5,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28f94cc9d1932b74910c6",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAASklEQVR4nO3SMQoAIAhAUe3+d7ZBCYMa04b/IBAXTRUBAAAAgJ9YqKw5cvFTXNWAqepKRlw6CYnZ+ytew95E1w108WVffq35MB6ZBEgp6OosVugAAAAASUVORK5CYII=",
+        "name": "Say What Fluffi",
+        "rarity": 3,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28f96cc9d1932b74910c7",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAi0lEQVR4nO3TsQ3CMBQE0IvFBMzgmgEygcfJCBQM4CkssdNNkCG4NEFyAnTkK8W96ixZOtv6BszMzMzM7EzmMWkekyI7U1/+LYcdAACuzxfuj1tUNwBgeAeybm6d8zR8bv+/BACSlPPUl0NS6CxofQHt8uEu/YKsEZ2/lUaVxvhvSNZNcWnUfiiPsgDqWDd5CnlvGQAAAABJRU5ErkJggg==",
+        "name": "Say What Kick Punch",
+        "rarity": 6,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28f97cc9d1932b74910c8",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAg0lEQVR4nO3RsQmAMBAF0B9xFu3TBTKGA1jZO4G4hlUGEHexTGXrFmehkaitXPUfhFwgcJcfgIiIiIiI6EmupabIm1vvYL1Lg6gwqYihezSt28l8r/8vJSB1O+XNAeWvQAydJO801AggovzyMj8sY3MWw6w5A2C9k62vZF9x79Y7lSQOvgwvmBkYefoAAAAASUVORK5CYII=",
+        "name": "Say What HRN",
+        "rarity": 5,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28f98cc9d1932b74910c9",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAFVBMVEUAAAD6vX/lp2n/6QD7/wAAMdD/eaKgaO38AAAAAXRSTlMAQObYZgAAADhJREFUeJxjYBgFgwIIKqLymYWEDVAEWAQFHdC0CKLyWYNNA1BF3FLQbHEUQRNgUkDlMwoKCiDzARHZA0RNv1e/AAAAAElFTkSuQmCC",
+        "name": "Say What Brother",
+        "rarity": 4,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28f9acc9d1932b74910ca",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAmUlEQVR4nO3SoQ7CMBDG8f+GRPMACBQJEjcsb7KEd6rnGbDMoRoSFAKFmp5ciumWrr4XxPdLmubuxF3aAxERERER+TMhHjN12vx7veBdOw1iOkDwrqUfRjbrlekQdZ7oh9Gi76wCODXHAHDvHsSYGFcmAxCf+33eArC7ffJ6cSG5Q5YrarED3rXTApqZv+D17BaF/aFJ68X8AFFsKe5E/D1HAAAAAElFTkSuQmCC",
+        "name": "Say What Aoki",
+        "rarity": 22,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28f9bcc9d1932b74910cb",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAeElEQVR4nGNgGAWjYBSMglEwCkbBKBgFo2AUjILBBCYZWf6/7OX9n552MsEYyBZPMrKkmyNgDvivu20rXDDv3HEGBgYGuoYEw2Uv7/8wQM8QQAEDkQZYkDmvJ6kyrGJgYGDYRj8HMDIwMDDUHonD6utmm0WMtHYAAB3sJimkmar0AAAAAElFTkSuQmCC",
+        "name": "Say What Rose",
+        "rarity": 2,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28f9ccc9d1932b74910cc",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAnUlEQVR4nO3SMQ7CMAwF0B/MECFkdfQtGDpzi16qd+EWzJyAGaljVSQmqs9QBaUIsSULfpOjP9hOAjjnnHPOOef+Xchq/siK2aTmpoKubWAqMJVvAxWRtmTXNqvgdBnzvCyS7GOkqdBU2MdIklVvAKbC42M5nnfEMM1Vtt/mBx72S3G91+i9HmCY5nAbn0x1rQHenxAA0rOHED7zYl5YrS0fjk0sngAAAABJRU5ErkJggg==",
+        "name": "Say What Again",
+        "rarity": 3,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28f9ecc9d1932b74910cd",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAcklEQVR4nGNgGAWjYBSMglEwCkbBKBgFo2AUjILBBDznMPz3nMPwn552MiFbjo1NLwf8356CEISy6eIIRhjD3CTs/9dvHxi+fXvHwMDAwHDvwRlGnLpoBcxNwv4rKZjQNQ2gg/8MdAp6GIAFMy5LaR4NACgsG/6grtwPAAAAAElFTkSuQmCC",
+        "name": "Say What Ninja",
+        "rarity": 17,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28f9fcc9d1932b74910ce",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAIVBMVEUAAAD2UDz+//b78vLyMBnPKRanKRrc9vUKIyLN5eCVwbtwOuIfAAAAAXRSTlMAQObYZgAAAEBJREFUeJxjYBgFgwUIoPCYDBgdkPmMzsoiAcgCImFGpSg6XDPUp6EaYVS5FNUM91lsKGYwzApgSEARSGBD4QIATUEIRC7t0SgAAAAASUVORK5CYII=",
+        "name": "Mcpuff The Oranda",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28fa0cc9d1932b74910cf",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAG1BMVEUAAADjg8mC8MURq3AO8JnLYa+3nLw2ET1rJ3c6M5NuAAAAAXRSTlMAQObYZgAAAEFJREFUeJxjYBgFgwIIACEyUADyFZAFTBgYWAyQBVicmV1QzXAxcUDhs5q4mKKqCHYOQOEzp5sVowgYV5g3I9sCAG9OBl+jCpUtAAAAAElFTkSuQmCC",
+        "name": "Mothramah",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28fa1cc9d1932b74910d0",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAsklEQVR4nO2TIQ7CQBBFXxuCq11VvZaGqzS4GnodDoCs4To06IoVpKqmvmZRC3SzOAbMPLWZbPJnfv4HRVEURVEURVH+TJYaHk4779zMMI1YU3I935P/vsEmFgZwbgbAmpJhGqW0gYQD/nbxAF2/PGdt24o5kCe3qhqO+62U5lorPMLlHxaSz8C75b+6HqIMpFzo+kU0A6sWZFWTFXXu4dUAa0opbSAKYVHnPggGcekaPgCmZjSceUI22AAAAABJRU5ErkJggg==",
+        "name": "Captain Price",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28fa3cc9d1932b74910d1",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAFVBMVEUAAAD/r8ukX4hqNmEZ7//Th6JCFiWe9gY6AAAAAXRSTlMAQObYZgAAADlJREFUeJxjYBgFgwQIoHIZBVAFGBmY0DQIOzmg8AVFlRVQBNiCBBhRBFKVxVAFAgwMElANTUDlAwDfEQQLaVn0IgAAAABJRU5ErkJggg==",
+        "name": "Orchid Mantid",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28fa4cc9d1932b74910d2",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAsElEQVR4nO3TuxHCMAwG4N8+rZE7SEORgo2o2IImTbZw5RlYhJImgSoj0HAWTawToUXQ6Gv8kO9kWzbgnHPOOeec+7OgB308sfTLED6Xfx8tLQNAG7cAgLFMMofVJi0xAM6UuPZ/kVROlynx436WwNx06MsQMiU+PI9mtxBr8jpxud4kmCnxUg4zcX3C/W4jwbFM5o8xAO83oJMD9r8h1OS6/tXcdOabID3Q9delsPQC6BNASeI1yEIAAAAASUVORK5CYII=",
+        "name": "Tentacle",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28fa5cc9d1932b74910d3",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAhklEQVR4nO3SsQ0CMQyF4d8ndnBFnRnZgBXTUzymMAWXE6Cga/DR+JMiJUqUJzuBUkoppZRSyp/Zyzx29lMs2QF7DKC1NqsegN57ehcAkBRADMyf5Oe26iSFuxOX89uB5XpL7cB2eUwqtiM+YUCM8Lu0rp5jfZZUJwMbQe6enfedpPh0RO4D6BBDxVwOMhIAAAAASUVORK5CYII=",
+        "name": "Scrooge",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28fa7cc9d1932b74910d4",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAD1BMVEUAAAA2NDJZVlJpamoAAAARv80ZAAAAAXRSTlMAQObYZgAAAEJJREFUeJxjYBgFgwEIMjAwCiALCBkbG6EIKBsbGysgCxg7uzg5oAgYuzgJoAqYGKHYYgRUgSJgrIxqJoOxkRIKHwAjBAbYtkWnuQAAAABJRU5ErkJggg==",
+        "name": "Kylie The Koala",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28fa8cc9d1932b74910d5",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAElBMVEUAAABfX1/Dw8N/f39HR0f/yQ4UudIPAAAAAXRSTlMAQObYZgAAADhJREFUeJxjYBgFgxIwChkJogoYGxuiCDC5mDihCDAbORmjCqi4KKOaaqRkgCogGCiAqkVJCUULAENuBEPtbtbzAAAAAElFTkSuQmCC",
+        "name": "Catte",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28fa9cc9d1932b74910d6",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAFVBMVEUAAAD/4zD/qO4ZKfR1f/j////lkdXxiRnFAAAAAXRSTlMAQObYZgAAADdJREFUeJxjYBgFgxIwMjAZoIoIKKmgijAFqTmgCCgpqaGoYFNSSEJRwaTAkIRmKlANqkASigAAPcIEmJ+xVucAAAAASUVORK5CYII=",
+        "name": "Unicorn",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28fabcc9d1932b74910d7",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAElBMVEUAAACPBwzPDxa4GB7///8AAAAFjb6OAAAAAXRSTlMAQObYZgAAAD5JREFUeJxjYBgFgwEICgqiCigrMAigijAxGKDwFYUNURUIqwS7oggIiQaFogooKSmgmqEsLIhijbIAI4oCAChMA90b/7I3AAAAAElFTkSuQmCC",
+        "name": "Lando The Lobster",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28faccc9d1932b74910d8",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAApElEQVR4nO3UvQ2DMBAF4GcLiRqJJUiViVghVbxDXCUjhIVIFZaw5NrVpSAnIELpbJr3VbYs651/ASIiIiIiOphZd/zlLAAQYoIfJrM/JZNvuIiIaLtErnF9J36YjK5ehZiW4jLuhm2bGgDgHq9NSNvU0LGcLLCc/VqICdf7iNvznbWASsN+w+dtP2W/B9W/wRIvwQLzebu+K3LrdwvQIoDyf8AHyPI5jve/YroAAAAASUVORK5CYII=",
+        "name": "Carrie The Camel",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28fadcc9d1932b74910d9",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAElBMVEUAAAASUykGLRS13cMKSCGbFTy1Koi7AAAAAXRSTlMAQObYZgAAAClJREFUeJxjYBgFQxEIogsoo8kLCjqiCAQHB4qgCLgAAZoZLErotjgAAJadAztTcFf0AAAAAElFTkSuQmCC",
+        "name": "Gator",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28faecc9d1932b74910da",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAyklEQVR4nO3RMQrCMBQG4L8ieIRAoGTSUvACOYDgGXTLKGR26WKdunboCbyCZ/AAHUrFoTlCoas8l1baycVWh/dNDxL4/5cAjDHGGGOMsX+xVoraMf1piVwIyoWgz7e/Y96b01PT4D5VcmvWhSeZto/zCgBw3S2QZHqyVwCAtKod+UufjJXUzVMEewBSY6UNQjU4OB5u3hQFYKwkYyUlmX5vXtWO2i+4jJ0/A4Bu+zjS2GyfiCM9du6wQFk49IsEoUJZOBgr92MXeAEq3ECzF9U/8QAAAABJRU5ErkJggg==",
+        "name": "Cryptoad",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28fb0cc9d1932b74910db",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAFVBMVEUAAAAZpJ/e7EoTgHzt//6I1tNam5kbybN8AAAAAXRSTlMAQObYZgAAADFJREFUeJxjYBgFgwMIoHKZGJnRBQzQtaCrYBBEM4RFBE0gNBDNELZkVAFGY2NjZD0AgAMCsZljyvEAAAAASUVORK5CYII=",
+        "name": "Torph",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28fb1cc9d1932b74910dc",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAFVBMVEUAAACfRa1bFGYuCzTg8eEdJR0AAAAFsBzKAAAAB3RSTlMA//////+kWcYuhwAAADNJREFUeJxjYBgFQwQwCiiiCpgEuaLwmRUFBVAEjBRDA1EFBJVQzTBSSxNGNcMowQCZDwD6vgRYD0/8RwAAAABJRU5ErkJggg==",
+        "name": "Toad",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28fb2cc9d1932b74910dd",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAqElEQVR4nO3SoQ0CQRCF4f825zAoOkAgIBjESkIQaApAERo4iUTSwMmtgDIo4MRRxhkUyQ4CFrgCmDXzmVmxycy8DBhjjDHGGGMyKwCcD0LXwHBKqvG6K1QnERH5rVnkaP6J2fnwat41xPasG7/zQd7bi5tUAqgl0T9CoD6tANhvNyopfAcA6mrEfLbufViMy78OUqbHYHnjcGyIrc7miUvN75eH/vEBT6VfOJDV1jNyAAAAAElFTkSuQmCC",
+        "name": "Penny The Peacock",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28fb4cc9d1932b74910de",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAGFBMVEUAAACHZibXpUWdditiSBbBkTX///+2ijXQFnZeAAAAAXRSTlMAQObYZgAAAD5JREFUeJxjYBgFgwEIKigYCyALsASHhKAqSUxEUcDAbGxsiCLgXm5sgKrFxRlVBYOgIKoKFkFhVBUshqgCACU+Bf0vWK14AAAAAElFTkSuQmCC",
+        "name": "Dingo",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28fb5cc9d1932b74910df",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAkUlEQVR4nGNgGAWjYBSMglEwCkbBKBgFo2AUjAI0UObU9b/Mqes/vexjRLYYXbJrXxkjuhjNgIWvyv/79+//Z2BggNP0sBfuQ/cE/f8f335FkTyx+Q7NQ4AF2fLt80+gSAqKiNDafgYmZJ97JlogW06X+GdCD3YbPwO6Wc7AwMDAhMz5/PYHw9VjT+iX8hkYGABppDBPZppv1QAAAABJRU5ErkJggg==",
+        "name": "The Pickle",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28fb6cc9d1932b74910e0",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAD1BMVEUAAABpampZVlI8OzgAAADnb4DsAAAAAXRSTlMAQObYZgAAADlJREFUeJxjYBgFgwEwCioZoAgICgoqowiIOAqKoKlwcUYVUDQxQhUQEkE1Q1DEGVWLMIa1xsYofABfJwRokduFsAAAAABJRU5ErkJggg==",
+        "name": "Seymour The Seal",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28fb8cc9d1932b74910e1",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAGFBMVEUAAAADAwN5UAZUNwNiQARDLQaqEhP/Bwnrd21hAAAAAXRSTlMAQObYZgAAAEBJREFUeJxjYBgFgwEIQDEcCDIwMKIICBkbG6EICCspKaMIGAobCxogCxgrCiqjCBg5CzuhCrimogkIFgohCwAAfs8GNdILFkkAAAAASUVORK5CYII=",
+        "name": "Muzzlup",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28fb9cc9d1932b74910e2",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAFVBMVEUAAAAavP8mgqfg8eEdJR0VOkoAAADtvmMEAAAAB3RSTlMA//////+kWcYuhwAAADNJREFUeJxjYBgFQwQwCiiiCjA7maAKBAoKoPBZFV0cUQSCBJVQzQhSSxNF1RKUEIDMBwDjoARplIgaZwAAAABJRU5ErkJggg==",
+        "name": "Blue Frog",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28fbacc9d1932b74910e3",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAFVBMVEUAAAACEQUFNxAzQboA9SsRiiYAAACV8dWmAAAAAXRSTlMAQObYZgAAAD9JREFUeJxjYBgFgwIIKSmg8BkVBQVRBJiUBYVRlDAJCguiCDCKBLuimiGobIRuixKqQJKbEwo/LU1JLQGJDwA5/QUhol3sMAAAAABJRU5ErkJggg==",
+        "name": "Ogre",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28fbbcc9d1932b74910e4",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAe0lEQVR4nGNgGAWjYBSMglEwCkbBKBgFo2AUjHTACGOwlnL8R5f83f2DEV2M2oAJ2fJfXd8ZkGlsjqI2YIRZ5G7lgSG589gOuoQCg8/6gP9PLU3/////H4X2WR9A8xBgYGBgYPj///9/fPTwBwMZBfAEhs2yLYEbaJ4AAZ6dTfKX91P+AAAAAElFTkSuQmCC",
+        "name": "G4702",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28fbdcc9d1932b74910e5",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAIVBMVEUAAAAqHAYVDQH39O8FAwCnm4n/phqdbibHiCZNOBfd7N+ctORWAAAAAXRSTlMAQObYZgAAAENJREFUeJxjYBgFgwIICaLymYwUDVAEnIKUAlAE2Co6ClAE3Ga2ZaAIcHRNT2tAFqhI65qegCzQllHAhaIlrXwCCh8AMWgMNaPt9/wAAAAASUVORK5CYII=",
+        "name": "Kroarkle",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28fbecc9d1932b74910e6",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAHlBMVEUAAABkghDpraPp6aNfIRdJXQ5JGRJ9oBm+FgKeEQDwEYm8AAAAAXRSTlMAQObYZgAAAEBJREFUeJxjYBgFgxIwCjAIoggwGTAoowq4iqqgCIQkFroFIAsUipcLFiALlHfObEcRYCwvL0QxQzQ0NFQAiQ8AEcAJSHNm7iYAAAAASUVORK5CYII=",
+        "name": "Rongo",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28fbfcc9d1932b74910e7",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAA0UlEQVR4nO3TIQ7CMBTG8X8JCgwkCMIBOAcXADGSsaIx6y7BKcCgNyZmuACcgwOQCQQG7EMQCJBJOsz7ubZpvtfmPVBKKaWUUkr9mXlfxM7J5VwC0On1Wa9WpvLWDzWqwgEu55LYOamlgO/wOjWqwtO8IM2LWgowNgw+vjnNC47RgtPtymiXYYzx2gfN7/DDxAIwaLVxSeIzG3hMgdgwAGBpugAMt5vHoefXA2DDQGwYiIjIfhyJiEjs3GvPd/5rDA8Ty2iX4ZKEZ1POZ1Pf+dwBXUNQdUZjWLMAAAAASUVORK5CYII=",
+        "name": "Shaw The Shark",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28fc0cc9d1932b74910e8",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAmklEQVR4nO3TzQ3CMAwF4GdG6ASIDVJxSaWuk84E6yDBBcEGiAmywuMQtSoBjg6X913y44OdyAZEREREROTPbH1IMXB9Pl7uhlZSDKzVBXkiAJL8urpnn18PgKeue1u9c2/qbx5zxm67x5gzSk3OBcybaeiXhI/nFSRhZu5NaCQ5Df1ycTjfSqBBcqCMIVMMH4FmI/ir81tNwAvXPmbUIFJcxQAAAABJRU5ErkJggg==",
+        "name": "Lemar The Lemur",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28fc2cc9d1932b74910e9",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAD1BMVEUAAABrYFSSlIehsKvD2sNGQ1mTAAAAAXRSTlMAQObYZgAAAC1JREFUeJxjYBgFQwQwKjugCggZG6ApEBZBEzA2RtNhaIIugKpCUMjQWACJDwDUJgOZB+wj9AAAAABJRU5ErkJggg==",
+        "name": "Spectre",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28fc3cc9d1932b74910ea",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAG1BMVEUAAACz1zPE7TNtgx6DnSXekSLpqU3eItrt8OBmtZRRAAAAAXRSTlMAQObYZgAAADVJREFUeJxjYBgFgwIwMijgF2BmUlIQQBZgCQxSdEBRkp4ogsJnLxdEM1SiQwBVgNlYAK8KAFosBNOf3X19AAAAAElFTkSuQmCC",
+        "name": "Wrickshaw",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28fc4cc9d1932b74910eb",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAD1BMVEUAAAClshHX6Q+zwRNVWwvUDILPAAAAAXRSTlMAQObYZgAAADhJREFUeJxjYBgFgxMwKqIJMCmhCQgbC6AKuIg4oBohaCiIIsBsqGiMIiCkLKyEYoiKiomKAhIfAL5DA0tCcuetAAAAAElFTkSuQmCC",
+        "name": "Zigg-Rat",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28fc6cc9d1932b74910ec",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAElBMVEUAAAB+UkWrdWWZY1PXvLU8PDx3PhnRAAAAAXRSTlMAQObYZgAAADVJREFUeJxjYBgFgxMwMiihCQiroAowKbmgCigFKaDwWZWUHFAFXFwU0awRUhZAs8bIAIkHANU9Azc7fryZAAAAAElFTkSuQmCC",
+        "name": "Deer",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28fc7cc9d1932b74910ed",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAIVBMVEUAAAA9XIp8n9OEhIRGRkYoPl6ktNkaEOU2L8phYWEAAACHLqhrAAAAAXRSTlMAQObYZgAAAD9JREFUeJxjYBgFgwIIKSmg8BkVBQUNkAWYVARFUJQwCYoIoggEipVkoJghKqg5Cd0WJTSBrCRULaFKqgFIfACaZQXlsP3lIQAAAABJRU5ErkJggg==",
+        "name": "Frost Ogre",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28fc8cc9d1932b74910ee",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAaElEQVR4nO3SwQkAIQwEwPUKsJb7prk0e4XsfRQ0+BKinx2QxTxMCAIiIiIiInJZaclQi/c0T+bjuwNwUUsfoAAAvxdjInn9EVkrx+z19M5m1huuTqrpD7g7SE55hJmxbeG4aQM3hvgBcBAmay4+YekAAAAASUVORK5CYII=",
+        "name": "Mad Mouse",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28fc9cc9d1932b74910ef",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAe0lEQVR4nO3SsQ2AMAwEwDeipIVJPEtmYAKmzADsQEv/VEFEIKUhoeCvSl6OYlkGRERERETk7ywd6M4zjNGeyyuhO0kSADnPBMDSm7dYaiBLQ4AtS1ZTS3+9bPuOaV0NMaao+iS62+e56rvQlUsaNTAOwzcd0J23JWzoAPMBJADPbMeUAAAAAElFTkSuQmCC",
+        "name": "Mingo",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28fcbcc9d1932b74910f0",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAGFBMVEUAAAA5LyAAAADGu6pXSjeEfof/////mo5u7s9cAAAAAXRSTlMAQObYZgAAAD1JREFUeJxjYBgFgxMICgqi8BkVBRUFkAWYnZRcDZAF2NLU0hJQVKSWpqGoYDBLSw5AtcbYVABVgCEQWQAAuv4GZ1CKDNUAAAAASUVORK5CYII=",
+        "name": "Otter Lord",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28fcccc9d1932b74910f1",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAJ1BMVEUAAADHluqNXLJPktUXx2gi7YA1aqCFRLW/fPBwtflmP4IQKkfE1+qPTch2AAAAAXRSTlMAQObYZgAAAEFJREFUeJxjYBgFgwIIACEKYDJC5bOEmoagCLBVzChDEVidfDh7AbKAwu7dGxSQBRrYtjE0IAswMiQwojnEAIUHABfyClNyKDGfAAAAAElFTkSuQmCC",
+        "name": "Zilth",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28fcdcc9d1932b74910f2",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAJFBMVEUAAADawU7gp2Hp2pTj0XnLm1QAAADFqSnv5LDPmzD/rsmqgChv8Fe2AAAAAXRSTlMAQObYZgAAADxJREFUeJxjYBgFgw4IKqDymU0cUUVMg12EUASSzVjEUQRaIxjUUQQ4Ghg8UQS4GJik0ex1nI3KF5LcAACHrQYP1rjjvwAAAABJRU5ErkJggg==",
+        "name": "Hiss",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28fcfcc9d1932b74910f3",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAHlBMVEUAAAAzzEEfmSoXdR/bDcDbcs3IaLu9DKZR4l9xEWVALo86AAAAAXRSTlMAQObYZgAAAEBJREFUeJxjYBgFgwIICKDyGRkEGFEEmJgYFFAEmJmZGVA0OYomMaFqUVIyQBFwcW9EtYVzpqAxiqnMxsZGyAIA7ywEbUpzggIAAAAASUVORK5CYII=",
+        "name": "Tamborine",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28fd1cc9d1932b74910f5",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAHlBMVEUAAAD/bSL/jAD/yQD/9QAAAADv/wC50t4GXIUXn+FxoVIpAAAAAXRSTlMAQObYZgAAAD9JREFUeJxjYBgFgwMwovEFmNBEFJiYUBUYMqMKKBgxK6MIGBszGysgCzgHK5saIAuklJqEOyALpHW6dSYg8QEV+QaThCW/mwAAAABJRU5ErkJggg==",
+        "name": "Cindra",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28fd2cc9d1932b74910f6",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAHlBMVEUAAADUl5/Xu7zp0NDlqK//7e0AAAA9dy7lhI7gYj80Am3dAAAAAXRSTlMAQObYZgAAAD1JREFUeJxjYBgFgw0IMTAboAgwMRg7oAioBpugagkNRdXBFhqKqoA1NBVVoLQ11BhFgDM0yBjVkEnKxgYAm28HXTX6bX8AAAAASUVORK5CYII=",
+        "name": "Snowball The Rabbit",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28fd4cc9d1932b74910f7",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAMFBMVEUAAAAxFmDmJgfQwou6Igqvom5CHoFMI5U8G3YdDDolEEqNE6Lgmuw3GWvUyNa7sL2K42wlAAAAAXRSTlMAQObYZgAAAD1JREFUeJxjYBgFgwIIKgoKoAgIu5omIPPZy9PTUFSwpaUlogp0zEAVWDWjcxWKAPfZ2wfRzUAzdN17FAEArHMN4ISAgLEAAAAASUVORK5CYII=",
+        "name": "Booker",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28fd5cc9d1932b74910f8",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAY0lEQVR4nO3TMQ7AIAwDQKe7H1r+v7tDCKJS14bFJyGgiy2iAmZmZmZmZj1EUnXe79e5TimacvT1kWRTuqS5aZZZ6/cR3GMoIh+69uyROkbwev4KX6UaCtQIlgoHDvwFezgAPCRjIKzCg4XQAAAAAElFTkSuQmCC",
+        "name": "HellHound",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28fd6cc9d1932b74910f9",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAG1BMVEUAAAADAwMpG11BMIX7+v+up8pYLf9PMr3d7N/7VkQwAAAAAXRSTlMAQObYZgAAAEVJREFUeJxjYBgFgwEIKBkzCCALCDoKOqIIMAYaBqJoYTMuN0AVUEpLRxFgr1BOK0AWME+rUE5AFihLN+BA0ZJmrIDCBwCCkgixGOL2NwAAAABJRU5ErkJggg==",
+        "name": "Kroklyn",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28fd8cc9d1932b74910fa",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAG1BMVEUAAADZoGaaZjJ4JSwAAAD/uL6jOULwgIrZV2Ne4z7fAAAAAXRSTlMAQObYZgAAADhJREFUeJxjYBgFgxMIKaHymZSNBVAEGE1CFFAEBJNLDVAF0toDUAQUk81DUQXEMspRBJQEUa0FAJcgBijty24VAAAAAElFTkSuQmCC",
+        "name": "Parker The Proboscis",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28fd9cc9d1932b74910fb",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAHlBMVEUAAABPPCcwJRllRin2slundD7PmFCwgUT/kRYAAACEVOjUAAAAAXRSTlMAQObYZgAAAD9JREFUeJxjYBgFgwEIGbgaoAgwKqcLoCkRVkXhsxmaB6MIMElMr0QRYDVJm46qQthtKqqhiqYBqCqEhFDcAQActQaq0hlcZgAAAABJRU5ErkJggg==",
+        "name": "Lumos The Owl",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28fdacc9d1932b74910fc",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAjUlEQVR4nGNgGAWjYBSMglEwCkbBKBgFo2AUjHTASC+LXs9n+w9jiyb+gttLFwd8Wq8Ot/znh/sojmCihwNggC/wJgO7gCIDAwMiRFhoaeGjDI7/yPxP69Ux1NA0BORm/GC8+wHFDfAogIEBSQOs6jX0dQADAyLO2VxXwsX+P7pM2zSADJB9DQOMcroMACR5J84lVdfJAAAAAElFTkSuQmCC",
+        "name": "Miner the Canary",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28fdbcc9d1932b74910fd",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAD1BMVEUAAABjm/9fzeRbbuH///+eIpdjAAAAAXRSTlMAQObYZgAAADZJREFUeJxjYBgFgwEwKimhChgKKSmgCogoOaAKCKKpYEYXYMAQAJqKqkVIGFWJsaKioQASHwBJqwQkJbtnEwAAAABJRU5ErkJggg==",
+        "name": "Octopus",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28fddcc9d1932b74910fe",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAxUlEQVR4nO3SoQrCUBSA4X8WhUWDae0WEWH6EhafwWwZNqsrJoPv4AtoWbEIDotFQQyCisEFk8VZRI5B3BtsM5wv3XZ+zrmglFJKKaWU+ge1wUwA2vON5BZR7YxzGV74PV6LM8b4+WzAOJ5Mh02JAlcyj/gNX4ehABIFbqYByQmiZY8ocHkdtlz6yKWF7Gw79RjLOJ4AjLor3tcT3IEzPPclABo8qMexlVoAfM8AQLEMwPHoJwMndkU68S21gIRxvOw/IPABnyVEzvtcKs8AAAAASUVORK5CYII=",
+        "name": "Kevin The Snipe",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28fdecc9d1932b74910ff",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAh0lEQVR4nO3TIRKAIBQE0P1Em9li8gAewgOYzI7HsmvyQCaLV7B+iwyIRqG4r8BA2J0/ABARERER0d+J3bQFNLxcdncfiwGAOhe9AkOPUl+TOhctM5fjl2iL+FMwfrgN9dfYzNuhavTJuwLbcZ/wdgjWbkhXIAyfmh7VPCYrIPYHhG8BSPMNT4lkH7cFFoRMAAAAAElFTkSuQmCC",
+        "name": "Biff The Beaver",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28fdfcc9d1932b7491100",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAkUlEQVR4nO3TsQ3DMAxE0U9De3gcN95E82QTNx5Hexi4FIwSOBZShUnDVx4F6ERAkFJKKaWUUvozoxadktthz+HqM22vLN6jUL882gQgkEA7qJfQ7CXUs8gCAKMdax7nXy9gYDuw1HIt8YsCAAuYtfPQmpeLLOBP7j+hfToaY6IWWfPXajsuWwhna9H7lxtlUe5mrylNE/S60wAAAABJRU5ErkJggg==",
+        "name": "Manfried The Mantis",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28fe1cc9d1932b7491101",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAJFBMVEUAAAD/9T/z60by8drs69P29eH58U7o4E3i4MYAAAAWFhAcHBe9JE24AAAAAXRSTlMAQObYZgAAADxJREFUeJxjYBgFgwIIoPOZTAJQBNiKXUxRBNJNOp1R9bR0rEYVcDGNQhVoNTVA4XOEhKDa0tza6oDMBwB6sglBENJw2QAAAABJRU5ErkJggg==",
+        "name": "Elvis The Cockatoo",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28fe2cc9d1932b7491102",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAHlBMVEUAAABY0S7fcSZJqCgm32SQ/7WkURkZpEc0exs3GgbnmF5mAAAAAXRSTlMAQObYZgAAADpJREFUeJxjYBgFgwMwovOVlFEFmJSUDJD5LEGuaigK2N1K1BpQRNjSUFUwuJSloargnJaGqqIcVQUAwqUH8Mva1QsAAAAASUVORK5CYII=",
+        "name": "Wargle",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28fe3cc9d1932b7491103",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAJFBMVEUAAADZoGbfcSbLdyLVj0jgehP/wmP1r0KFlwDbjhZjQxJELg22ayJYAAAAAXRSTlMAQObYZgAAAEZJREFUeJxjYBgFgwIIGRg7IPNdnZIUURSwpJUpoQioZVQkBSALKGVWJhkgC5ilL09DMTQ4e3cSihmMZmVKKFoYTFRQzAQAlV0LfCCTaNAAAAAASUVORK5CYII=",
+        "name": "FluffyLion",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28fe4cc9d1932b7491104",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAJFBMVEUAAAADAAIQAg0gBx4yDTBbEQfvKQyaHQtjJh90KjD89Zh/LjplwvwIAAAAAXRSTlMAQObYZgAAAEFJREFUeJxjYBgFgwIIKqHymR2DnFEE2AoFy1AEWJSMFVAFOlxQtTDPEnIxQBZQdrESckAWMNmswIWixUVJAIUPACvuBzRaHZtEAAAAAElFTkSuQmCC",
+        "name": "Kramodo",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28fe6cc9d1932b7491105",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAJFBMVEUAAADjzXCzoFD333tnKx57MyONPCrBqoffj1vWu5T/5BH46awJ3KsbAAAAAXRSTlMAQObYZgAAADtJREFUeJxjYBgFgwIIKqDyGRWF0BQIGwugCLC4hqGqYK2oQBVwqZzigCpSOQHN0MpCAxSBVeLSxsh8AMMZBzXuKdlKAAAAAElFTkSuQmCC",
+        "name": "Ranger",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28fe7cc9d1932b7491106",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAHlBMVEUAAADI4EOT0yV9uRcAAAB2qxunJgPt5Mi9KgNhkQ/8d6vbAAAAAXRSTlMAQObYZgAAADlJREFUeJxjYBgFgwEwKjugCgiZGgmgCCgHO6uhCJialgo0IAsIB89ENYMTjc8ggMZnMEIXmYomAgAMEAYGSf0TPwAAAABJRU5ErkJggg==",
+        "name": "Ember The Snake",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28fe8cc9d1932b7491107",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAGFBMVEUAAAASdR4VlSUDAwPd7N+QwpYZ7DIX1S249K5IAAAAAXRSTlMAQObYZgAAAEBJREFUeJxjYBgFgwIIKqHyjZ2NnVEFgpWDUQTYlMoVUAUE09JRBNhLhNIKkAXU00qEEpAFytIVWFC0pCkJoPABaO8ILsnoHGEAAAAASUVORK5CYII=",
+        "name": "Lil Klapback",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28feacc9d1932b7491108",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAiklEQVR4nO3TsQ2DMBCF4d/IEqsEMQej0DNKRMsWtGxBA7uAdBQQxVJCuoub99WW3vP5DCIiIiIiklnIFbz1tQEU3kE2DXYXDhC9C9yJVQc4T+B1+3QKW19brDpC0/oX+MWmwb9AaNqvS74vz/cZzwIAtmIA4XFmpQs4j+UfClzvn04j1y/4+I4AB0K7KHaiiLz3AAAAAElFTkSuQmCC",
+        "name": "Fu",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28febcc9d1932b7491109",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAbElEQVR4nO3TQQrAIAwEwE1/4/8f43O2h5pgWq8JPeyAKChsSBAQEREREZEfYmfY9Q7n7C3CPBgAVvhzMT5vypBzLTLvE0RxN9IIzCztHWIEe/vjcqQ3JbwDts28LXwvIDrghXT/Bg/j4VzqBgOoLSl4LtbkAAAAAElFTkSuQmCC",
+        "name": "Star Main",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28feccc9d1932b749110a",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAM1BMVEUAAAD/kCQrJB7/o2awaCIiVeoi6rUAAACqv9xZd6SKptEyRF7BfE6ETRjZiVUfjIgVNJDVXbxMAAAAAXRSTlMAQObYZgAAAFZJREFUeJztjksOgDAQQjvMzzqt9f6n1bjnBPYlsIEEWttsfoi0hs8ZKgBEeW4mEDPagIelhYMVPI6wV84nop89+ERqVa/SpB/GzMw56IcLue6VuEj+AL/+AbJ/VjLpAAAAAElFTkSuQmCC",
+        "name": "Queezanth",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28fedcc9d1932b749110b",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAnklEQVR4nO3SwQ3DIAxA0R9mYARuHiIrcKiUAbpCx+i5ayQrZAdyqJQRmKH0UlKaXAOX+klItoxkywBKKaWUUkqpf9eVSd/fUo7n+d4dr5/P5EDEp7Kwz6sOIOLTskw/hX1elYhPn/Vvp3yOmoyIT9Y6YlwR8XkgYlxb9P/+AYAQRp7DlRDGJs0PAwC83NCsOYDJ67fWAXCZHgBbXtsbxIsrxlqChp4AAAAASUVORK5CYII=",
+        "name": "Wilbur The Walrus",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28fefcc9d1932b749110c",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAGFBMVEUAAACuLAnGMgoQEBASEhKjJwaQIwZtGQJR/8XBAAAAAXRSTlMAQObYZgAAADFJREFUeJxjYBgFgxMIMKEJGLAQUsGoEBCAwhdUQhVIFFRSRRFIEwtCFShLVApF5gMACG0FiM0px1kAAAAASUVORK5CYII=",
+        "name": "Snap The Crab",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28ff0cc9d1932b749110d",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAFVBMVEUAAAD///8bGxsAAADZ4fHZV2OsMjIg57oBAAAAAXRSTlMAQObYZgAAADVJREFUeJxjYBgFgxAwovCYlBlEUATCzIIcUQRSTZOMUQSUjJRRBYyBAEWA2ZgZVQCkCMMhAGbnBJ60LUC/AAAAAElFTkSuQmCC",
+        "name": "Buzz the Fly",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28ff1cc9d1932b749110e",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAIVBMVEUAAAB6F3oWIzoLERvZGdHg8eEAAACUAoECAwV1D20AAABXNBgtAAAAC3RSTlMA////////////pIHP9akAAAA0SURBVHicY2AYBUMEMCqYoAqwJoehChQpKaDw2Z3SElEEmpWMjVAFZq3SQBHgaF7QgMwHAHhOB3xkH+syAAAAAElFTkSuQmCC",
+        "name": "Purple Poison Dart Frog",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28ff2cc9d1932b749110f",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAMFBMVEUAAACAtyRrmR6U0ylWexjKOg/pQxHsYDYAAADvd1PfyMDxjnDn19G+5H6x32Sk2UoWiZi3AAAAAXRSTlMAQObYZgAAADpJREFUeJxjYBgFgxMICaPyGVXCClAEmMRbE1AEWDTLF6AIGHrPPIAiIHxvN6qh+vb3UAWcH/9F4QMAWXMKQ8+gT5AAAAAASUVORK5CYII=",
+        "name": "Romeo The Lovebird",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28ff4cc9d1932b7491110",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAbklEQVR4nO3TsRWAIBAD0JyjnEOdC7ibtO4jq8TChw/ogSa/gysIeQCIiIiIiIhMxnDW623l4dMCMJwkaSk3QRjO4QEYTjtv4NhBEn0ImxEAAHA9MDMwvJkPb8BS/i7ZNVD2hzdQ1A/wD7VC/xNe+N0w6FFBiD4AAAAASUVORK5CYII=",
+        "name": "N3m0",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28ff5cc9d1932b7491111",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAFVBMVEUAAADL2/z///+brbeEfocAAAD/mo4/x3nSAAAAAXRSTlMAQObYZgAAAD1JREFUeJxjYBgFgwIwKqEJGCkroAqICKHpUDV1QBFQclQSRBFQVFJSNUAWEBZSFEPRY8Kkgmqog5AwCh8ALpQEBRjqNaIAAAAASUVORK5CYII=",
+        "name": "Peta The Poodle",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28ff6cc9d1932b7491112",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAG1BMVEUAAABZVlJpamo8OzlzenoAAAD////ZV2PXe7rpE3XmAAAAAXRSTlMAQObYZgAAADZJREFUeJxjYBgFgxMICgqg8BmVlJRRRJhcXBwDUJSkl5UooBpSXo5fgCm9rQnVGiUlRQMkLgDhFwdpHdUfiwAAAABJRU5ErkJggg==",
+        "name": "Hugo The Hippo",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28ff8cc9d1932b7491113",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAj0lEQVR4nO3SvQ3CMBCG4dcoqzAC66WKlCISA9AyBTM4G5hRjL40WJgodMRpvqe7c3E/PjAzMzMzs6NJ0q98THnz7a9iyiq2ijdpYt1I3czeDZzqIIRQhwK4nLuv5G5W07f5f6ArxQHm5wuAoR9b1P4ok8eUpdtVkjT04zHHF1Nutn54H2FZPcDjPrU7PGABaq2A073w2dYAAAAASUVORK5CYII=",
+        "name": "Roger The Rabbit",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28ff9cc9d1932b7491114",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAD1BMVEUAAAC21sx0pLwpM5thiZ20oBTEAAAAAXRSTlMAQObYZgAAAD5JREFUeJxjYBgFgwIwMqIJKCkpoCpQVlZEERAAqhBAFlBgEGBA0aPipOSCagiTEqolCiwuqFpcjI1NHJD4ABX/BFn348ARAAAAAElFTkSuQmCC",
+        "name": "Robo",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28ffacc9d1932b7491115",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAIVBMVEUAAAD8xe//+/v27fv4osnpi7nPZpvs4fYYIznPz/ads+Ci++B3AAAAAXRSTlMAQObYZgAAAEFJREFUeJxjYBgFgwUIoPCYDBgdkPmMzsoiAcgCImFGpSg6XDPUp6EaYVS5FMUMlvBZbChmMMwKYEhAEUhgQ+ECAFDnCFdfQ+oCAAAAAElFTkSuQmCC",
+        "name": "Swishy The Oranda",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28ffccc9d1932b7491116",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAFVBMVEUAAADEvqje289cVT+mnH21rZPV0b/lyszFAAAAAXRSTlMAQObYZgAAAD5JREFUeJxjYBgFgwIICaLyGZWUFFAEmIyUlVBVKCuh6mFSVkJVwaSkZIwiwKyoYmyAIiAkiirAYJgYjCwAACMUBIgBRcahAAAAAElFTkSuQmCC",
+        "name": "Owl",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28ffdcc9d1932b7491117",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAJFBMVEUAAADJEBrXERv4x7avDhb5sLD629HW1tbx8fHn5+cidsExituWYPtbAAAAAXRSTlMAQObYZgAAADNJREFUeJxjYBgFgwQIoPGZ0AWU0AQYhdAEmA0dUAXCwtEEOqYvQOFzTJu5C1Vg5nQUAQBFBwd7AquzywAAAABJRU5ErkJggg==",
+        "name": "Gnome",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d28ffecc9d1932b7491118",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAElBMVEUAAAC6axTpwpzYllRxRi//yQ54H6MCAAAAAXRSTlMAQObYZgAAADxJREFUeJxjYBgFgxIwChkJoggIGhsbCiALCJmYGKEIMBs5GaNoYVZxUUY11UjJAFVAMBDFCAZmY2MUMwBUqwSVrBEokAAAAABJRU5ErkJggg==",
+        "name": "Dawg",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29000cc9d1932b7491119",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAHlBMVEUAAADh4UznI83nWtXzkubNHLVfXxHt7YCgE42LDnvDtSqYAAAAAXRSTlMAQObYZgAAADVJREFUeJxjYBgFgxIIgACygJKSsbMCsgBrWJEbqp4gI2c0AY0GVIHQADRrQieg8WfORFECAM4AB2AO+eU3AAAAAElFTkSuQmCC",
+        "name": "Rakket",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29001cc9d1932b749111a",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAdklEQVR4nO2QsQ3AIAwEHybK/lOYiT5FAKNAlCYmzZ9kIdvFHwaEEEIIIYQQP5NuPV/2oQIkCRQfpSNeIj+F1yEwXyVEACip/bi/O8hjQ7vCaS61Q4D11F2iseUSJEkDAS9aLd8FCnj45NVkQgUW4RiCV3KfcgLN20Qya9z5UgAAAABJRU5ErkJggg==",
+        "name": "Yellow Octopus Main",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29002cc9d1932b749111b",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAHlBMVEUAAACRXjh6TSmqknbTvaPl1sW3pI8fHx+6ooc6LSZG/EWxAAAAAXRSTlMAQObYZgAAADhJREFUeJxjYBgFgxIwCgmgCigJCaEKCBorogoou4omoKpwDg9DEWgSDo1EEfDoMEVV4eLSjMIHAFukBlY4Zeq8AAAAAElFTkSuQmCC",
+        "name": "Mama Dolly The Sheep",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29003cc9d1932b749111c",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAGFBMVEUAAAD8Fw+jQBkwymEbhT0PUCRw/8EiqU1dW8gOAAAAAXRSTlMAQObYZgAAADlJREFUeJxjYBgFgwIwMqLxmZTQRJSdFVAFXEIcUAVYQ9EMDQsLQOGzh4aGowiwmIaaoAo4G7sg8wFXvQVlXpLBagAAAABJRU5ErkJggg==",
+        "name": "Snazz-Trap",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29005cc9d1932b749111d",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAATklEQVR4nO3SMRIAEAxE0Y37XzQz7kCDwWiF4r/GqHYTJAAAAACQlN3LSUR2mi9mtpzhBfrQ8/DXN7Gvv2UO2f1ugePjR4V333zCF54XqHineVn9ytp9AAAAAElFTkSuQmCC",
+        "name": "Ghost",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29006cc9d1932b749111e",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAElBMVEUAAABpFA6kQgDViTaHNwByLgAx2iSrAAAAAXRSTlMAQObYZgAAAC5JREFUeJxjYBgFgw4ICKDyGQUFUQWUlBRRlQgpKhJQwWyEqoIl2MURvwqQgAAAzLsDgEtd87YAAAAASUVORK5CYII=",
+        "name": "Tiny Dino Fire",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29007cc9d1932b749111f",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAqklEQVR4nO3SMQ6CQBCF4X8UEwkXoQTKXQqP4JEtgMSGUHIOE4KJxVggChZ2S+N8zU7eFjs7GTDGGGOMMcb8OwGo00yXoe87mTPfdxK0gTrN1MXJKmzGAXc6TvXlHrSJnYsTaKtP0la4OIHrPtSbKxFthYjwuJ0BOIigqlCUmzSx+3XZjEPwHUBV9XXosv5ezFAiihJVRUTmhqbxb6VOM9Xcvyegud/s9wBPm4RPKHRErnsAAAAASUVORK5CYII=",
+        "name": "Gradito",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29009cc9d1932b7491120",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAG1BMVEUAAAD0mij7uqHThiQSERD//fxNCEhtDGgsAymnqJsrAAAAAXRSTlMAQObYZgAAADhJREFUeJxjYBgFgwQIoHEZFVH4jIroAsrMqALMzszOqAImJsaoAoKGwqhmhKUFoggYlrUVGiDxAf+SBS2O14YvAAAAAElFTkSuQmCC",
+        "name": "Geezo",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2900acc9d1932b7491121",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAGFBMVEUAAABjWUR+c1yRhWyMYQNNNQJwZU1gQwXV3YHOAAAAAXRSTlMAQObYZgAAADZJREFUeJxjYBgFgx4wMiigCjAboQqwBIu5FiALsBeLlaMIMDCrCaCawZaGJsBshibAICjAAAAicAQv8l6bTAAAAABJRU5ErkJggg==",
+        "name": "Tomok",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2900bcc9d1932b7491122",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAG1BMVEUAAACx1uKBoaviftz7jPXA+4zy++qBuk+dVJmAbEQkAAAAAXRSTlMAQObYZgAAAD9JREFUeJxjYBgFgwIIACEKYGJCU2HiYoDCD3MRcU1AFigtcSktQBZgN3Y2RzXD3BzVDIbW1gYUPotHhwsyHwAahQgmmTgiGQAAAABJRU5ErkJggg==",
+        "name": "Krimble",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2900dcc9d1932b7491123",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAGFBMVEUAAABKKiVmOTHZoGaHTUP///8AAADKk1yrXLXAAAAAAXRSTlMAQObYZgAAAEJJREFUeJxjYBgFgwEwCgoKoggIKikpCiALCCkbK6EKuJg4oQgohZkFKaCoMC42QlHBaOJiiGqva6gDqgCLiwEyFwDdrAZHcQ0/BAAAAABJRU5ErkJggg==",
+        "name": "Dude",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2900ecc9d1932b7491124",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAFVBMVEUAAAD/zXD/rBGm6bHKiQ8a/z8WsS8L2IAnAAAAAXRSTlMAQObYZgAAAERJREFUeJxjYBgFgwEwMggwoggwCSgIoQgYqKgoGKCIODo6oPBZQ1xCUQTY0tTSUM1gcmJAMYPJSckJRYWKi4uLAhIfAKRUBifjMjJ9AAAAAElFTkSuQmCC",
+        "name": "Chitzak",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2900fcc9d1932b7491125",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAFVBMVEUAAADXYRGdQAAAAAD/sXzZV2P///8swFmcAAAAAXRSTlMAQObYZgAAADBJREFUeJxjYBgFgxMIMKEJKAmiCQgLGqDwGYWcBVAFRJwc0ATCUAUUBV3QLUE1AgC8hgL77IAkbwAAAABJRU5ErkJggg==",
+        "name": "Sable The Squirrel",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29010cc9d1932b7491126",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAFVBMVEUAAADL2/zp7vkAAAD///+Yrt3/mo6RdeMoAAAAAXRSTlMAQObYZgAAADlJREFUeJxjYBgFgxMIKQmg8JmdlExQBIINFY1RdQgbK6EIKCkZKaIKKCeroggoKikFoKoQFEXhAwBOvASTTr9tFQAAAABJRU5ErkJggg==",
+        "name": "Seamus The Seal Pup",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29012cc9d1932b7491127",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAIVBMVEUAAAD/sRioRTDkw4MAAADPdSUuitawTy368+WoRTCESBJR++7UAAAAA3RSTlMA/45jUpeLAAAAR0lEQVR4nGNgGAWDAQhAMRwoMgoyKiALKAsKCqMIuIaVhTogCzBmVCSiGCoSGhqCYmiz5EzhBmQBE+PJJgbIAqssPKwWIPEBZ1wKIaYmWOwAAAAASUVORK5CYII=",
+        "name": "Lynx",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29013cc9d1932b7491128",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAIVBMVEUAAADgzbnDr505Hw5aNR1hOR/y4eENDQ29ERGxlHnKrI7EdeUVAAAAAXRSTlMAQObYZgAAADlJREFUeJxjYBgFgwEIMjAwoggwCjAIoQgYiIQKowgwm4YGoBrimo4uECqBLoBqKEto5AQ0BbNQ+ACZvwaPyzt7fgAAAABJRU5ErkJggg==",
+        "name": "Rudolph The Deer",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29014cc9d1932b7491129",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAJFBMVEUAAADi6elXYF99hoYUeJsTn8+N7fppbm06PDwZFxA6NicvLB7hKsmnAAAAAXRSTlMAQObYZgAAAD5JREFUeJxjYBgFgxMIACEyYFRgUEQRYDYWNkYRYHEUdEERYE0RCUMRKA0RCS1AFmiSXCnUgCzQqLhREVkAAGpuB7izblwAAAAAAElFTkSuQmCC",
+        "name": "Snowy Owl",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29016cc9d1932b749112a",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAIVBMVEUAAAAspL2Ap9AzzO0ed4r0rev0reuCsNoMDg8vss4olaswh7mkAAAABnRSTlMA/////2wTfyIAAAAAQElEQVR4nGNgGAWDDTAKogkoGwuwIPNZ040NXZAFOBSbjUVQjJhpPNkQRcDYcqYxsgCn5SpUAQYGr5VoAixekwEI9wkNvHFCsgAAAABJRU5ErkJggg==",
+        "name": "Dolph",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29017cc9d1932b749112b",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgAgMAAAAOFJJnAAAADFBMVEUAAAB5w/Ymcqr/6KQT24syAAAAAXRSTlMAQObYZgAAACtJREFUeJxjYBhmgBXGCHWA0IwwButUKEM0EsqwvwlliHDCGE4NUMWOEBEA3r8FyhM+rfwAAAAASUVORK5CYII=",
+        "name": "Lay Off the Elephant",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29018cc9d1932b749112c",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAD1BMVEUAAAAQIVgPVHcMOHCJ0Lc+qBANAAAAAXRSTlMAQObYZgAAAD1JREFUeJxjYBgFgwEwMjIIoIoICqKpUFI2QBFgUjY2RtWh7OiIIiCkpKSEIsCsZIxqBrOREqq1RqhGMgAADqwDuB8TClMAAAAASUVORK5CYII=",
+        "name": "Fishy",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29019cc9d1932b749112d",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAGFBMVEUAAAAxGVUjET1cOZJHKnFqRKV1TbP/9ghGZwPPAAAAAXRSTlMAQObYZgAAADdJREFUeJxjYBgFgwMIoPGZhNEEFF0NUPiMIqmhqCpK0lFVMAiGogkwKaPxTVyCUQSUHQVRrAEAUkoFCHM1GtMAAAAASUVORK5CYII=",
+        "name": "Kettle",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2901bcc9d1932b749112e",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAd0lEQVR4nO2TMQ6AIBAEV8OXaeUHNH6HzkdRUJyFCR6o7drsJCTkmlnuDkAIIYQQQgjxMwvRZW/elSVvtaDVghzTHIYiH06OyVghuszCFcQCzNcpIeC64MQGcHbga9GZHwDA/eqhC4Elb7VMpQSAM4KHfN+Ofj8BlARMzJRr+34AAAAASUVORK5CYII=",
+        "name": "Evil Sheep",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2901ccc9d1932b749112f",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAIVBMVEUAAAAofiwaVh0tjzLBixL1qg7x17BFjLf/47j/5BGAxYP1/ieMAAAAAXRSTlMAQObYZgAAADpJREFUeJxjYBgFgwIIKqDyGRWF0BQIGwugCLC4hqCqYElPRzM0owFNIKIVlW/o6miAIjBTTMoYmQ8AegoF5AZKxpAAAAAASUVORK5CYII=",
+        "name": "Forester",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2901dcc9d1932b7491130",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAFVBMVEUAAADNvaPc0Lnk2coaGhr28OXyv7+kKRWgAAAAAXRSTlMAQObYZgAAADpJREFUeJxjYBgFgxIwKimiCggpCqGKKAkpKaEKKAkbKiALKCq6hgigmhGaiiqgJBqIIhCoqiiIzAcAQX8FBbkl/oUAAAAASUVORK5CYII=",
+        "name": "Dolly The Sheep",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2901ecc9d1932b7491131",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAJFBMVEUAAACztdeHWRiZnMwjK6ug6aeOkLZmQxGz1zMZH3h7fagRFmYQgjwRAAAAAXRSTlMAQObYZgAAADtJREFUeJxjYBgFgwMIYPAV0ERMUAVYGExUA5AFXBJYShtQBBhSyiegCKxOmYkqsHuLK6qW1VtckQ0FAF9TC7pEP6ziAAAAAElFTkSuQmCC",
+        "name": "Yargle",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29020cc9d1932b7491132",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAM1BMVEUAAADh2Gvkv3OOkGweHwZpa0mJiFFrq5vntZ+Cg3STk0/WxY3n4VuzpqicnmPLtKyFWKIUfLDFAAAAAXRSTlMAQObYZgAAAFBJREFUeJztzccBwCAMBEGUydB/taaBowGz31FI6fX6Y0VEysUHtdZo4H3KzJwJ3ji+Y58JNCDEocEk8Ies3vvCflLVGyczNcM83Wut7hP4B/1EAZzPmz1BAAAAAElFTkSuQmCC",
+        "name": "Beholder",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29021cc9d1932b7491133",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAGFBMVEUAAAAbCgZNIRX39O+nm4mXQjVyLyXd7N//FqACAAAAAXRSTlMAQObYZgAAAEFJREFUeJxjYBgFgwIIKqHymRSFBFAEmB0FnVEEWIPSFFAFBEPDUATY0oVCE5AF1ELThQKQBVLDFNhRtIQqodoKAMskBpDUyWnHAAAAAElFTkSuQmCC",
+        "name": "Krivvle",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29022cc9d1932b7491134",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAD1BMVEUAAABgHA2NPSu+Lg3xOQ/0QCiaAAAAAXRSTlMAQObYZgAAAC9JREFUeJxjYBgFQw8IMDAooAgoGRuhCjAIixij8FlcnFEFGBiF0QQYBAXR7REAAJsSAnkCGeRrAAAAAElFTkSuQmCC",
+        "name": "Bull",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29024cc9d1932b7491135",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAD1BMVEUAAAAfISCKbzD/+OlSNjSbeXqvAAAAAXRSTlMAQObYZgAAADxJREFUeJxjYBgFgwEIMjAwCiALCAmAELIKRUFFFAFGQ0VDBlQBQTQBJSFFVGtEXARQBQQF0QSUjRWQuQD8EAM5KncxfAAAAABJRU5ErkJggg==",
+        "name": "Pancher the Dog",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29025cc9d1932b7491136",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAJ1BMVEUAAABkUz9DNyj/RLfyccGVIGj/+nt78f8YEwy1kvCgc+lsH09tXvAgkeuKAAAAAXRSTlMAQObYZgAAAEBJREFUeJxjYBgFgwIwCgqgCgiZOKIqUDU2QVEiZJrs7oAsoNRqubgBRUXr6khUMzXWnEIRUFQ6NQtNQGcRMh8At4cKftN9vnwAAAAASUVORK5CYII=",
+        "name": "Seer",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29026cc9d1932b7491137",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAIVBMVEUAAACoZBH/yQ73vwAAAAD/2VP0vQDpkifbghUAoujv5LDd+4TTAAAAAXRSTlMAQObYZgAAADhJREFUeJxjYBgFgwMICKAJKBmg8oWElFAFWEKSElAEKtQUUVWUK6EJcDKhCTBwKaPZy7FoARIPAFdoBP/R8Fv+AAAAAElFTkSuQmCC",
+        "name": "Giraf",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29028cc9d1932b7491138",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAkElEQVR4nO3SPwrCMBTH8W+kcezQ1bM4eK1epeQQuUOvUikIUuzWDM9BlOKiS0Khv8/4Ai/vH4iIiIiIyO4tIdgSgv2K5eIALEZLTQ2Avz9ITc3xfHElCuBdgJkZYBajAUW6h9UEvh/SNOGHAde2WSdxyJn8HxW8ul279T2nrityAxXAdZ7x4/gJlvocNrCCJ/shNyh/Rdm4AAAAAElFTkSuQmCC",
+        "name": "Piglet",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29029cc9d1932b7491139",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAALVBMVEUAAADD/xL/Ev7BdO2ErQzXCdZp/NSpbtZtjwefMZ8AAACBwrD6ePm6tbX37+/36ohEAAAAAXRSTlMAQObYZgAAAEZJREFUeJxjYBgFgwEwMhkxogg4BicHOiALsIiWiqCoYG2c2IoiwLY6ehmKAJPqUSVUa2LfBqDwRYKUQgSQBTxaQzuQrQUAKnULLZm+xEwAAAAASUVORK5CYII=",
+        "name": "Tsubaki",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2902acc9d1932b749113a",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAGFBMVEUAAAB1k3el0KjK/87Nqw85SDp3JyfNRES8hXPLAAAAAXRSTlMAQObYZgAAADdJREFUeJxjYBgFgxMwKqMJCCkZoCoQEUFVwqikhCoQGJYWjKInQLzcAFWAvZwBRSCQUZkRWQAASrkFrzH8px8AAAAASUVORK5CYII=",
+        "name": "CyclopsLizard",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2902bcc9d1932b749113b",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAG1BMVEUAAADc441RbWw/V1UdKSg5TUyf1tM6ko3EbljnDfLTAAAAAXRSTlMAQObYZgAAAD1JREFUeJxjYBgFgwIwMqLyFQQEBBSQBQygGA6cVEKdHFAE0l3SUQRYy13KUQxlDQ0NRbWmpaWBAU0JChcAGTwHwQ2uKtIAAAAASUVORK5CYII=",
+        "name": "Bruno",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2902dcc9d1932b749113c",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAbklEQVR4nO3Quw2AMAyE4QuDMESaNExDiaIsQhcxBotkHgY4KhCPpIyr+ypLLvzLgIiIiIiIiIGwJYYt8TsDgLM43tqVmLvfvwJIkpW5/wceET8lZmcSsHv/Cljn6Z5NAoD2F8wCxuWoBgxWAS0nwgspcMMkloYAAAAASUVORK5CYII=",
+        "name": "p3p3",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2902ecc9d1932b749113d",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAlElEQVR4nGNgGAWjYBSMglEwCkbBKBgFo2AUDDBgROa8e/z8P7oCIVlJRnQxagImfJbTA7Agc/a1daNIhkzvo6nvGRgQUYDP97SPgtuTSlAE12QW0dJOFMDIwMDwf01mEYO+JiQ5XLz+Dy5Jryj4z8DAwPDu8XOGt+t7USRV83ro6wAGBgYGIVlJmDhdANwBWMTpAgDxACJ38O/ALQAAAABJRU5ErkJggg==",
+        "name": "karl",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2902fcc9d1932b749113e",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAG1BMVEUAAAAAAADBkQoGJSgGExanJgPlrhS9KgPt5MgmisXqAAAAAXRSTlMAQObYZgAAADhJREFUeJxjYBgFgw4wKjug8FmUjE1QBIITlZ2R+exsGknGqGYkKaugmZrkgCbAwIbOV0bjG5kAAIalBLxcQtkqAAAAAElFTkSuQmCC",
+        "name": "Serpentrix The Snake",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29030cc9d1932b749113f",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAG1BMVEUAAAAge0Q1r2YWn02XVFSERkatYWEQCAgf02deON1vAAAAAXRSTlMAQObYZgAAAERJREFUeJxjYBgFgwIImRii8BmVRYMVkAVEDUNcUVSEpKSkBCALhJeXu6AIhLR4uKMIsLq4uaOYwR6SEo4qwOrKjswHAA+nCadZCQXKAAAAAElFTkSuQmCC",
+        "name": "Berto",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29032cc9d1932b7491140",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAFVBMVEUAAAAjdygdWCDg8eEdJR0JHwoAAAACYRgPAAAAB3RSTlMA//////+kWcYuhwAAADNJREFUeJxjYBgFQwQwCiiiCjA7maAKBAoKoPBZFV0cUQSCBJVQzQhSSxNF1RKUEIDMBwDjoARplIgaZwAAAABJRU5ErkJggg==",
+        "name": "Frog",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29033cc9d1932b7491141",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAG1BMVEUAAADsiyH2X1/s5yHw8PBfQ0M4LS0cGBgPDw++Z8lqAAAAAXRSTlMAQObYZgAAADZJREFUeJxjYBgFgwIIMaPyBVQwlDigcplZQ9EUpKUFoPDZS8rc0ATK0QQqOspRzejoaEDmAgCUDweAsllAvQAAAABJRU5ErkJggg==",
+        "name": "Buster",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29036cc9d1932b7491143",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAW0lEQVR4nO3QsQ2AMAxE0QtrMEeK7F9QMEfmOBoKsBQkpMhp/mscXXOOJQAAAAC49VbdW3V8p5X/yVPKlyxh+zUzyktc4mk/zhKz2bZR+Vc+fYHRTzMuIGntBS4JFS/W+UwqtAAAAABJRU5ErkJggg==",
+        "name": "c248",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29037cc9d1932b7491144",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAElBMVEUAAAD//vzs7OxFRUT/lBnthiTLOvrcAAAAAXRSTlMAQObYZgAAADZJREFUeJxjYBgFgw4ICqHyjY0NUQWYhQVRBVgc0QRcHAVQFbg4KjCiCaBZ4xIoqIRqCKOQMgAA4wQhjq9l+wAAAABJRU5ErkJggg==",
+        "name": "Pablo The Pelican",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29038cc9d1932b7491145",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAuElEQVR4nGNgGAWjYBSMglEwCkbBKBgFo2AUDDBghDE4lUT/o0t+v/eaEV2M2oAJl+X4xKnuAGTAZiJFaztRAAvc4kQ9hCN0RRgYGBgYfs2/RD+XcCqJ/re62fafv9n5P4xND3vhiYw/TP//qbTHcAmzWbIMH1ddpHkiRAH8Yfr/b+4R+s8fpk8X3zMwQEOAU0n0P5uJFMPvpx/hEqweygwfa/fSPhtis5yBgYGB4fIbBv5mZ5qHBACvjC9s+jl9MAAAAABJRU5ErkJggg==",
+        "name": "Kappa",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29039cc9d1932b7491146",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAFVBMVEUAAACEwlkzmTsfYyXg60A7iBELIg2LehKWAAAAAXRSTlMAQObYZgAAADlJREFUeJxjYBgFgwQIoHIZBVAFGBmY0DQIOzmg8AWFggNQBNhUBRhRBJKCxVAFFAwMElANTUDlAwDzeAQ4fSdrngAAAABJRU5ErkJggg==",
+        "name": "Mantid",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2903bcc9d1932b7491147",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAGFBMVEUAAABeLWh5PYTWjnY6LCfHqJ7SUzhmJRchyxxdAAAAAXRSTlMAQObYZgAAADtJREFUeJxjYBgFgwIwCqIJCCkJoCpQUkJVwmzIaIwiYBLM7GqALMDiwOiCaigbG5o1aWmJqALs5SgqACWPBHbPmzRmAAAAAElFTkSuQmCC",
+        "name": "Tilly",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2903ccc9d1932b7491148",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAKlBMVEUAAADVt1iIbh3/9gD09OpycH2WiXAPKaEoSdvtCf/WCeaCFIsUKo0VL6ZdaZ+cAAAAAnRSTlMArkf9Q9cAAABESURBVHicY2AYBYMBMAoyCqIICJkImQigCCgFKaEIsKWWpqFo4ZhZOQNFYNXKmasWIAtw75q1G9Xe3bs3oArw3EHhAgBKLAzPLB1GxwAAAABJRU5ErkJggg==",
+        "name": "Hostrich",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2903dcc9d1932b7491149",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAIVBMVEUAAAD////fcSb67e2XMRfvikXGUzYAAABtIQ3VbVP/JydXYyDDAAAAAXRSTlMAQObYZgAAAEJJREFUeJxjYBgFgxIIKikpCiALmAQphRggCwQFKwcFIAsoGQoKKSALKKeLJ6MIBCYWJqJo6Zi4cEYDikCHRAeyAACkHgutUk79VwAAAABJRU5ErkJggg==",
+        "name": "RadPanda",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2903fcc9d1932b749114a",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAJ1BMVEUAAACpiZ2AYHQ0arohVzv/mRhn254QPoBFlWw3JzEpVZVZwos7HIcJp7AWAAAAAXRSTlMAQObYZgAAADlJREFUeJxjYBgFgwQIoHIZBVAFmBiY0TSoBAeg8AXV3BtQBDiXJHCjCEw+no4qYFBQMAHV0AmofACfnwegrF7mPQAAAABJRU5ErkJggg==",
+        "name": "Rainbow Mantid",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29040cc9d1932b749114b",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAG1BMVEUAAAAoCASgMyal6FhomDD/tr7mPyx4sDcAAADmHkJ7AAAAAXRSTlMAQObYZgAAAD5JREFUeJxjYBgFgwIIKSmg8BkVBQVRBJiUBYVRlDAJmhiiCDCKpoShmiGoXoRuixKaQEQQCl9QUElRAIkPAFrsBJzdL7VTAAAAAElFTkSuQmCC",
+        "name": "Flame Ogre",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29041cc9d1932b749114c",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAoElEQVR4nO3SsQ3CMBCF4f8QM1jC62QFLLGEM8x5iUjJClknkbLEUUBQAhUSTsN9jS27eE9ng3POOeecc+7vqaqpqn179ysngBQD70GqaimGmtkAnNdNigE2JY4If1lHbWa7tfb44fkEADlnRIQUAyJCzrl29r5AKYV56Lhcb8xDRynluAJt2wpAPy2YGf20sD2vSeDxB5qm+bgcx7F6iTvIq0dTzuacZAAAAABJRU5ErkJggg==",
+        "name": "Roger the Mouse",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29043cc9d1932b749114d",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAJFBMVEUAAABSb8NgetxsieBIWqVbdtMJCQm2wei0uuUMDBOpstuYpMtBj1+oAAAAAXRSTlMAQObYZgAAADpJREFUeJxjYBgFgwMIGaDyWRyDUQUYQ5JQBVyEKiagCIg6VqHqcFRfjWqHVNUGFAEHNlQFQDABxUwARG4IO1B+0y8AAAAASUVORK5CYII=",
+        "name": "Amir The Mountain Bluebird",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29044cc9d1932b749114e",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAGFBMVEUAAAA4LyNZVlKEfoehn5vPzckAAAAiIDR677j7AAAAAXRSTlMAQObYZgAAADlJREFUeJxjYBgFgxMICgqg8BmFjBVRFZiEOqMICKW5pKGqUElzRFVhXl6EIqCobKyAIqAkpITCBwCGHQWURbXEqwAAAABJRU5ErkJggg==",
+        "name": "Slater The Sloth",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29045cc9d1932b749114f",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAKlBMVEUAAADLggDhqhDptx+qRwAJCQntrwD10Y/7zYAtFQTtxYDQqmrutBFGIAV3Lc25AAAAAXRSTlMAQObYZgAAADtJREFUeJxjYBgFgwMIGaDyWRyVUQUYVcJQBVzEKiagGuFYharDMX01ioCaVNUGFIEDvKgKgODCBWQeAD1lCSuuaJP7AAAAAElFTkSuQmCC",
+        "name": "Shakira The Yellow Warbler",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29046cc9d1932b7491150",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAKlBMVEUAAAC/Iyb/AASURnf6+voFBQXVfbT/mdnd3d2/v78W4O86hOpoOcxqJZP8Y2+aAAAAAXRSTlMAQObYZgAAAEhJREFUeJxjYBgFgwEwKhsroggIiZgICSALKLuaOisgC7ClqaWhaGErKSlDEWiu8ChuQBaoTDfPLEBRkm6egMJffZb39AIkPgAD8wxlaQvLUQAAAABJRU5ErkJggg==",
+        "name": "Clownshoes",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29048cc9d1932b7491151",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAJFBMVEUAAAA8Q7s5Q+Tw+h0pL5IfIBMsMpJpbB/Ll+0jKHuQT7tnF5sr+XmDAAAAAXRSTlMAQObYZgAAAENJREFUeJxjYBgFgwIwKqLyDRwVHQyQBVgdE11RVLAIGoqgCDiKpQk6IAs4mTcXoQhwZq3KRLVm9u4JKHy2aWnTkPkAh+0KK+LlR/0AAAAASUVORK5CYII=",
+        "name": "Farquat",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29049cc9d1932b7491152",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAFVBMVEUAAACEfociIDQAAAD////L2/xZVlKn0PShAAAAAXRSTlMAQObYZgAAAERJREFUeJxjYBgFgwEwKjAooAgwGSmhCii5OIWiCKgaGxknIAsIG7sKGyALGJu6GKIYomwUGoRihpGSMYoOBiVjYxQ+ABZnBti2RGnvAAAAAElFTkSuQmCC",
+        "name": "Robin The Racoon",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2904acc9d1932b7491153",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAkklEQVR4nGNgGAWjYBSMglEwCkbBKBgFo2AUDBaQ7G7yfyDsZYExunrVGRgYGP4zMDAwzN15hpFeDmB8eyUaq8+FdZbSxRFMwjpLGcuKbyJbzMDAwMCAy2FUdwC6wNsr0XD2lPwwmjsC7oDls3+jSKDzaQVY0AWWz/7NkDNxFd0SITwEIlNZUWh6AZQQoFewIwMAKeMhj6cR/k4AAAAASUVORK5CYII=",
+        "name": "Long Horse the Giraffe",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2904ccc9d1932b7491154",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAaklEQVR4nO2RMQ6AIBAE53ifvhb/txZiIBTaeFq4U7EcyWw4MMYYY4wxxvydEGhrYYV4u0AJYOlZFTS9mfPjCJC6fCyRLo9TouFimqdSLuTjKK/ALJe6s51TSwTH/u/+Om0VBWAD6gdygB2OWx/HPxrLkAAAAABJRU5ErkJggg==",
+        "name": "Lotti The Ladybird",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2904dcc9d1932b7491155",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgAgMAAAAOFJJnAAAADFBMVEUAAABZPh03JhALBwFOoo9kAAAAAXRSTlMAQObYZgAAACZJREFUeJxjYBjugNUBymAKgImEQBlcEVCG+looY2ooVPXSWRAaAG90BJCQ6CnHAAAAAElFTkSuQmCC",
+        "name": "Puuud",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2904fcc9d1932b7491156",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAG1BMVEUAAAAImCkWIzoLERsL7Dbg8eEAAAACAwUAAABCCQJtAAAACXRSTlMA/////////6TLuxOoAAAAM0lEQVR4nGNgGAVDBDAqmKAKsCaHoQo4KSmg8FmE0hJRBIqVjI1QBTw61FEE2IsbCpD5AERZBkMlcRrBAAAAAElFTkSuQmCC",
+        "name": "Green Poison Dart Frog",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29050cc9d1932b7491157",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAFVBMVEUAAAAcCwvjysrLDQ3jEBB1CAipDw+NrOetAAAAAXRSTlMAQObYZgAAAC1JREFUeJxjYBgFgw0wMggQEhBEE2ASQhNgdjEgIMAQiiYQmpbsgCIQlpZsAACYoASJ/eYUjgAAAABJRU5ErkJggg==",
+        "name": "Redrick",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29052cc9d1932b7491158",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAElBMVEUAAABqvjAAkwYNZgD///8AAAB72PFmAAAAAXRSTlMAQObYZgAAADZJREFUeJxjYBgFgxMIKhmg8BmVBZVRBVwFXVEEDAUNjVAEFBUFBVDNFA5Es0RIAVVAGdVSBgALvgNrPWNpRQAAAABJRU5ErkJggg==",
+        "name": "Tipu The Turtle",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29053cc9d1932b7491159",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAANlBMVEUAAABRdihRjzV8tDyTx27gjQAAAABmtEJDdivTehajx2pCYCA2YCN8d16YknO5sYzv5bvp37BrdWhEAAAAAXRSTlMAQObYZgAAAEdJREFUeJztjtsRwCAIBHkoqJCo/TebBoI2wP7uzs0BJEnyAxIAl4OvolwlDloX1n4IkFhZR+itoZsbhYHfFp53rr12fOHmP7tsAblEz5noAAAAAElFTkSuQmCC",
+        "name": "Pipi The Frog",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29054cc9d1932b749115a",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAIVBMVEUAAAB6enqHh4ejo6NPT09jY2MTs5UTsksTs0smJia6urrXrUyvAAAAAXRSTlMAQObYZgAAADNJREFUeJxjYBgFgxMIChmg8FkcBZVRBVxdXVEEWN1K0lHNiMichirgGjgBVYCLSwCvKwCl4wVnkL/cowAAAABJRU5ErkJggg==",
+        "name": "222",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29056cc9d1932b749115b",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAZUlEQVR4nO3QsQmAQAyF4XfgAC5yA7nNTeAa5xYidlq6hFs8GxEREZvT5v+ahDRJngQAAAAAkJRydMrR1/6z5evUWZLP/Vf7w5tvU7OEYhfsB9j2Uy3m9wQqSern+hgM7Vgu7hsbw584lfgyuBoAAAAASUVORK5CYII=",
+        "name": "Croco",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29057cc9d1932b749115c",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAHlBMVEUAAABrRR6bZCulcj6QmxS/zxPh56ZFKg8mIh5BPDcHDC11AAAAAXRSTlMAQObYZgAAAD1JREFUeJxjYBgFgxMIACEyYBRgEEQRYFIyUkIRYHE2dkERYE0xCUMRKA0xCS1AFii0mGGIIlAsPFkYWQAAcLAHrJ5N7B4AAAAASUVORK5CYII=",
+        "name": "Horned Owl",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29058cc9d1932b749115d",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAG1BMVEUAAABr1CVhiyXNREQ9VxcAAABCETw3CSabMzM7ekFVAAAAAXRSTlMAQObYZgAAADhJREFUeJxjYBgFgwIIACEKYGREU6GkpIDCN1EMVEERMEBXYWyWpuSAImJWjqrCybgDTYVaBYoKAGqKBgAqj2mcAAAAAElFTkSuQmCC",
+        "name": "Bacteria",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29059cc9d1932b749115e",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAJ1BMVEUAAAAsHBzl3dG/sKY0ISE7JycSERH///8XDg7UysqaYGDlmJi/eXnVJRbkAAAAAXRSTlMAQObYZgAAAD5JREFUeJxjYBgFgwEwMjAIoAooG6KqYFI2xhBwRRFgq5jsGoCqwiQUVcDYNcoBWWAzY+gRFBUMjAExC5C4AOi+CH6XyQKSAAAAAElFTkSuQmCC",
+        "name": "Gizmo The Possum",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2905dcc9d1932b7491161",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAGFBMVEUAAAA6OjoAAAAhISFiWEgPDw9JQTU6NCoZmJxYAAAAAXRSTlMAQObYZgAAADtJREFUeJxjYBgFgwIwMqIJCCkJoPCZDYWNUVUoOSmg8IXD3IJR9ASblhoHIAuEGhubogkIi6ILoKgAALVZBzdTJybiAAAAAElFTkSuQmCC",
+        "name": "The Wrench",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2905fcc9d1932b7491162",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAD1BMVEUAAACPVjtmOTFFKDxjm/8HVRYMAAAAAXRSTlMAQObYZgAAAChJREFUeJxjYBgFQxYIovMFBVAFhJRQBRiFjBTRFBijKhEyMTFCFgAAWeoCQ9u9FBYAAAAASUVORK5CYII=",
+        "name": "Hood Guy",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29060cc9d1932b7491163",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAJFBMVEUAAADPz897e3tlZWWVlZWrq6vBwcG0tLQAAAA+PDwoKCgaGhoV8GinAAAAAXRSTlMAQObYZgAAAEVJREFUeJxjYBgFgw0IGTC4IvMZg8VKwpAFWBXTw1WRBZjMSkOLkQWYNWZ5iKMYargqsARFgG13qROKAKNTujKqQ9KdDAC2lAocxcSX0AAAAABJRU5ErkJggg==",
+        "name": "Mabel The Koala",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29061cc9d1932b7491164",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAFVBMVEUAAAALCxzQ0OcUErcbGd0LCl0PDoY2Gp86AAAAAXRSTlMAQObYZgAAACxJREFUeJxjYBgFgxMwCgqg8QXRRRQVULUwuzgQEghF5bOYpaGKMJulpSLzAdUFBAiO2EMHAAAAAElFTkSuQmCC",
+        "name": "Blume",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29062cc9d1932b7491165",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAFVBMVEUAAABBQUHGxsb09PRUVFRubm54eHheBbGjAAAAAXRSTlMAQObYZgAAADRJREFUeJxjYBgFgwIwCqIJKCkpoCpQdlZEEzBGFcDQohriEooiYhAqGmCAoiRMLIABnwAAcIQFn85aeJYAAAAASUVORK5CYII=",
+        "name": "CyclopsRobo",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29064cc9d1932b7491166",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAFVBMVEUAAAAlKC/8/0Toqi7nmS3SUiTplzD1+0lqAAAAAXRSTlMAQObYZgAAAC9JREFUeJxjYBgFQwQICqDyGYWUDVAFlISNDVAFXENRNAkqKaGZmaSGJiCWiMIHAMexA2RqQT1IAAAAAElFTkSuQmCC",
+        "name": "Tuki the Toucan",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29065cc9d1932b7491167",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAGFBMVEUAAABFLgQGBAI3JQRONAUWDwf///+0s7Cze17WAAAAAXRSTlMAQObYZgAAAEBJREFUeJxjYBgFgwIwCqEJmLgqoPBVRYSNUQSUQ0KDDZAFjBNVEwNQBASNXVAMEQorE0TRwiRoHIRqrbExig4AEtAG/dxxAfwAAAAASUVORK5CYII=",
+        "name": "Choco",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29066cc9d1932b7491168",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAJFBMVEUAAADy6oz/+/vt7e3lzzzPqh3GiSrV2ekVHSyyvNOIlbDlnjB1RzwwAAAAAXRSTlMAQObYZgAAAEFJREFUeJxjYBgFgwUIoPCYDBgdkPmMzsoiAcgCImFGpSg6XDPUp6EaYVS5FMUM7vRZbChmMMwKYEhAEUhgQ+ECAFVVCG6rB/uEAAAAAElFTkSuQmCC",
+        "name": "Blueberry The Oranda",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29068cc9d1932b7491169",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAG1BMVEUAAADR1/12Y8b///+ssvzmZyT/chZ1t9r59PJmyz7eAAAAAXRSTlMAQObYZgAAADZJREFUeJxjYBgFgwIwMjKiCggpKREQUDIyQhNQcUIVCELTwhbe3o4ikBZeXp6AIpAaGoYsAAB56weghYD0vAAAAABJRU5ErkJggg==",
+        "name": "What",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29069cc9d1932b749116a",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAFVBMVEUAAADRjV+ba0r/sXzzcHwAAAD////VhXbpAAAAAXRSTlMAQObYZgAAAD1JREFUeJxjYBgFgwEwKjAooQgwCzEJoSpxFBRA4TMJBgaiCCgKmxqjCAgaG6ELuDmjaTE2RBFQEjRGsQUATgwEpM0ZV00AAAAASUVORK5CYII=",
+        "name": "Hyde The Hamster",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2906acc9d1932b749116b",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAElBMVEUAAAAAAAAcGiosKUj/AB0lIjtmj4rcAAAAAXRSTlMAQObYZgAAADZJREFUeJxjYBgFgwIIACEyYAIjZAFmZlQBRhUTRVQVwspCaALGaAKipqgCDKqhCqgCzMwoXACd9wJLyH289AAAAABJRU5ErkJggg==",
+        "name": "Bram The Bat",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2906bcc9d1932b749116c",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAIVBMVEUAAADXe7qjTogAAAAXFSRgKk8iIDTZV2N+Mjnuw5rZoGYMoy01AAAAAXRSTlMAQObYZgAAADlJREFUeJxjYBgFgxQIKqBwmR0DA1AETFyUHFAEnNNcUE1wS0NVwJCW3oAqMCvFeSWqwBTjWROQ+AABTAmMz6znLQAAAABJRU5ErkJggg==",
+        "name": "Monty The Mole",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2906dcc9d1932b749116d",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAGFBMVEUAAAAfbMJRoPmvxNv//iD/AOwAAAD///+Xb6K/AAAAAXRSTlMAQObYZgAAADZJREFUeJxjYBgFgxIwghESYBJgEEIVUGRUQhEwMRQ0MUAWcHUWdnXAq4JRSEkQ1dD09CRkPgD/ugS58Ts5qwAAAABJRU5ErkJggg==",
+        "name": "Shrizzy",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2906ecc9d1932b749116e",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAJ1BMVEUAAABZwt12zeKZ2eqhoaGAgICRkZH///8Aouitra3/rsn/gKntHCQQhSG8AAAAAXRSTlMAQObYZgAAADlJREFUeJxjYBgFgwMwCqAJCBmh8l2ZGVH4LAFoGljC3BJQBULKU9EE2tNQdHG6eG1DNeaMWyiyIQCmbgggAF7hwAAAAABJRU5ErkJggg==",
+        "name": "Terry the Elephant",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2906fcc9d1932b749116f",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAFVBMVEUAAADRjV+ba0r/sXz/mo4AAAD////SQJekAAAAAXRSTlMAQObYZgAAADpJREFUeJxjYBgFgwEIMTApoAgYKiiiCogICqHpURVF5TMKGpuiCCgKmySgCAgKGqALCKCaIaiIygcAIMEDkN4ixAsAAAAASUVORK5CYII=",
+        "name": "Mac The Mouse",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29071cc9d1932b7491170",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAgUlEQVR4nO3QwQnDMBBE0S+RJtTCuLPU48pCUoObMB4fFAU5900u+0AwrASzCFJKKaWUUkrpwu7nT+UGY366RAWQZIBicOkXYxatAFORp/HlTZgKFEn42JEWpOWdFV4O9K/2sVuSvTZ7bZ5n0f23EV7PB9u29Xxv0b0fdYRR/p2jnR8sOhTBBpWIAAAAAElFTkSuQmCC",
+        "name": "Penguin Thong Logo",
+        "rarity": 5,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29072cc9d1932b7491171",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAkklEQVR4nO3SMQ4CIRQE0JnE1sIbEKw3seBMHsr72G1hQu3GG1hwgLGAJRobCzEW8xIS+BQMHwAzMzMzM7M/oQ9rX8fnA1Vacfu2NzaAJAEAyZakXp5rYaBNT0Kid4DsIYaLIQlZUoFQ373OsxRD+kGKdrgKdEYd6xp5fBsYQ9I1z7hfTi8bu8MR+ylhuc1D/8EDrilAVZ/iNysAAAAASUVORK5CYII=",
+        "name": "Penguin Balapa",
+        "rarity": 2,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29073cc9d1932b7491172",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAaklEQVR4nO3RwQnDQAxE0a/gJtyCWks9qdDsbhOLx4fAEoLBp3UOmXfSgEADAjMzMzMzs38XCF1sxMwCDwCp83nmO08v8EsLQMQCAr1WAOL5zrfITGnv0t5Vy6ZatpEzc3qN8YLWGmfzbAfwOivBw3YD4QAAAABJRU5ErkJggg==",
+        "name": "Penguin Nouns 1337",
+        "rarity": 22,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29074cc9d1932b7491173",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAFVBMVEUAAAAqKioMI///GRn//vz/lBnm5eMJgHhPAAAAAXRSTlMAQObYZgAAACtJREFUeJxjYBgFQxUIGaLyGZUFBVAFnExQBURUAx1RjTBLQRUQTktDEQAAp7gD6IBVJ7IAAAAASUVORK5CYII=",
+        "name": "Penguin Bowie",
+        "rarity": 2,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29076cc9d1932b7491174",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAgElEQVR4nO3QsQ3CQAyF4T+IJVLSvjnSZZfUWYOWTVgDwS2AYAqEU6CDSIQOV3mfZMnynfR8B2ZmZmZmZmvX1EZSzA9KKc339f/bLIX/mqUtAHA5n1jq00mKeD5CUgz9q+az7PxtbbodjIcjAPu2zc79qK+9367vGnpFQASk/8AEIPo27y8xO/kAAAAASUVORK5CYII=",
+        "name": "Penguin Choco",
+        "rarity": 26,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29077cc9d1932b7491175",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAVklEQVR4nO3ROQ6AMAxE0T+I+195KIBgRVDGDfOaWE7hDSIiIiIiIv5OT2hPX6LB9l78K7esAcB1GS3Dj2o2+H5r3LGFfbSB0FXOPecHyglUZlXL9U8His8c+VzUSAUAAAAASUVORK5CYII=",
+        "name": "Penguin Logo",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29078cc9d1932b7491176",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAG1BMVEUAAAACCMAAAP//AAAA/wD//vwqKir/lBnm5eNuirVAAAAAAXRSTlMAQObYZgAAADdJREFUeJxjYBgFgxMIKaLyGZWdBFAVqBihKlESFFRCEVAMSxVCEVBNLwtCVRHRiqpCSFAQxVAAS5MFQPadqv8AAAAASUVORK5CYII=",
+        "name": "Penguin Logo Hood",
+        "rarity": 6,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2907acc9d1932b7491177",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAdUlEQVR4nO3SvRGAIBQD4OC5BCuEzZzHyTydgSXUWPjH2cNZ5GvIvSYpAMzMzMzMzP5Bet8y19eVI4QAKDQr/wwAgq7+hjoAIBO0b2AiEnlmpjYLSEr7KpLSGKUxqrzV7u/vsMwTcs5nHmLt3sfzB+7yb67tAEXJNx2AobpEAAAAAElFTkSuQmCC",
+        "name": "Penguin Logo Crown",
+        "rarity": 5,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2907bcc9d1932b7491178",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAElBMVEUAAADrMyQqKir//vz/lBnm5eMCGk01AAAAAXRSTlMAQObYZgAAAC5JREFUeJxjYBgFQxUICqLyGRWVBFAEmAyVFVAEFFWchFAElA2DDVFVhIaiCAAAjf0DWlcB1EkAAAAASUVORK5CYII=",
+        "name": "Penguin Bloody",
+        "rarity": 4,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2907ccc9d1932b7491179",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAALVBMVEUAAABYNxtySytoQyVJKQ88WFdeORtVp6JoSC5eSjuxeQzGiRFyX1CsrKy2trZp+S52AAAAAXRSTlMAQObYZgAAADtJREFUeJxjYBgFgwMICaDyGZUU0RQoMRigKBBSUkBRICiohCrCEpLegKLC02vbCVSBuW/QBO6+QxEAAN+sCmyt6b93AAAAAElFTkSuQmCC",
+        "name": "Penguin The Brown",
+        "rarity": 2,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2907dcc9d1932b749117a",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAD1BMVEUAAABJLJWQddiQcZZvRYnk18kkAAAAAXRSTlMAQObYZgAAAClJREFUeJxjYBgFQxUICqLyGQUFBVAFFIVQBYSEDRVRBVSc0ARcXFAEAGScAmW73hP8AAAAAElFTkSuQmCC",
+        "name": "Penguin Lofi",
+        "rarity": 4,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2907fcc9d1932b749117b",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAJ1BMVEUAAADg4OD////q4uJFko0fHx8qKipw1c+2trbGiRHvpxjl5eWSkpJq2m1aAAAAAXRSTlMAQObYZgAAADlJREFUeJxjYBgFgwMICaDyGZUU0RQoMaAoYRRSUkBRICiohCrC7JqOqsIictkmVIGebjSBMx0oAgCSaQh90c5sEwAAAABJRU5ErkJggg==",
+        "name": "Penguin The White",
+        "rarity": 5,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29080cc9d1932b749117c",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAFVBMVEUAAABmevmnoPMqKir//vz/lBnm5ePTwlENAAAAAXRSTlMAQObYZgAAADNJREFUeJxjYBgFgxMICqLyGYUEBVAVKKIJMAqiCTA7mxigCJiYBjujCriloAmkpaEIAADtIATqE2K0bgAAAABJRU5ErkJggg==",
+        "name": "Penguin Perwinkle Cap",
+        "rarity": 6,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29081cc9d1932b749117d",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAaUlEQVR4nO3QQQqAIBAF0K8HUChwGdHSdfc/RJTXmVbGUNOuWfUfiOM48EWAiIiIiIjo70Ivaq2iL1pr4Tn+vWiFv/XcHgAAx77Bqt3lVASALPMqOZVrAei7q6gP4zB555nk/gu65x1+Aqo9Hq8dN2ioAAAAAElFTkSuQmCC",
+        "name": "Penguin Ninja",
+        "rarity": 6,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29083cc9d1932b749117e",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAmklEQVR4nO3SsQ3DMAwEQAbwAkyQwqUKNZxEA3qHrOAZsoKLFIbdcgHDn0pChADppCZ/FYEv+CAoQkRERERE/+7yMeNH1rwAVLUK3L1LiSEvjyFVwSKzuDtalxhERGJIsrzmKoghydMfLXcXUFXgPGBmMDPgPKCqkO+/aFMgL8c0AtNYSnQrkC+wbyv2be16gfID19u9Cnr9wBuc+EsJTwvM6QAAAABJRU5ErkJggg==",
+        "name": "Penguin Hood",
+        "rarity": 27,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29084cc9d1932b749117f",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAIVBMVEUAAAAqKipEREQfHx88WFdVp6JTU1PGiRF9fX2srKy2trY7fUeYAAAAAXRSTlMAQObYZgAAADpJREFUeJxjYBgFgwMICaDyGZUU0RQoMSigKBBSQuEzCAoqoYowO4smoKgwMy9sQxXIXIEmMHMVigAAcYUHgYbNr6YAAAAASUVORK5CYII=",
+        "name": "Penguin The Grey",
+        "rarity": 5,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29085cc9d1932b7491180",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAHlBMVEUAAAAAQgABhw8AqxkA2iM6Agj/ACONAA//7VvOABxwTMz0AAAAAXRSTlMAQObYZgAAADVJREFUeJxjYBgFgwIIGaLyGVWcBfCrYAhLReWzpqUFoCooS0dVEp7RVooqUDkdTWDmTBQBAD6pCgdIOaRsAAAAAElFTkSuQmCC",
+        "name": "Penguin Strawberry",
+        "rarity": 2,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29086cc9d1932b7491181",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAa0lEQVR4nO3RsQ3DMBBD0S8nU2SEmzcbCpaWcMQUClQYBtxEcGG+6ghcQYBgZmZmZmZ2dwmkk5c0s8ACoPbpXX72eXqBKz0B0vIAhN4vei7AyTL/EhFS26S2qaxZZc0jR8T0FmOCWitH92xfmOosOi+7r98AAAAASUVORK5CYII=",
+        "name": "Penguin Nouns",
+        "rarity": 28,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29088cc9d1932b7491182",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAIVBMVEUAAAAfGxttDQ1jCgpOBQU5Nzfb29vV1dUfHx//sz22trZ51u0CAAAAAXRSTlMAQObYZgAAADZJREFUeJxjYBgFgwMIonKZlI0FUAWUjA3xC7C4uDigCLCmhgWgCIR3zihFFejoQBNY0YUiAADvVQktdWUZWAAAAABJRU5ErkJggg==",
+        "name": "Penguin Fezzy",
+        "rarity": 3,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29089cc9d1932b7491183",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAFVBMVEUAAACW+TQ+Pj4qKir/lBn//vzm5eMMiCuNAAAAAXRSTlMAQObYZgAAADdJREFUeJxjYBgFQwMIMDAwCiALKBobC6EIKAkbKqEICCkKKaKYYSjiKIwiYBqWGowqkJaGIgAA9TIE+aDgagYAAAAASUVORK5CYII=",
+        "name": "Penguin Alien Glasses",
+        "rarity": 4,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2908acc9d1932b7491184",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAGFBMVEUAAADlO0SeKDYqKipjx03//vz/lBnm5eOKnaGHAAAAAXRSTlMAQObYZgAAADJJREFUeJxjYBgFgxMwKqAJKCqi8pkVFQ1QBFyAAFVFsCmqClOz5GBUgfBSNIHychQBAFr5Bo953ctqAAAAAElFTkSuQmCC",
+        "name": "Penguin Thong Rose",
+        "rarity": 24,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2908bcc9d1932b7491185",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAu0lEQVR4nGNgGAWjYBSMglEwCkbBKBgFo2AUDDBghDHspDj+K4gKMjx4/Z7h0LMfjPg0URMwwRgC3NwMDAwMDAqiggx+qsL/6eUARgYGBgY/VeH/z7/8RJGQ5GFn2HT7Lc1Dggmb5QwMDAzPv/ykS0iwwCx///0XioQgJxsDNodR3QEwy+98QHWACtQRtAZMDAwMDHc+/GJ4USwMF3xRLIzhIFoBFhhDovctw/JQBJtegAWZE7mabvbCAQDCrzTanzB/EQAAAABJRU5ErkJggg==",
+        "name": "Penguin Jawa",
+        "rarity": 3,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2908dcc9d1932b7491186",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAXElEQVR4nO3QsQqAMBCD4T/Ovv+LdnBMF7WidfMm80HhSAs5ChEREREREX+nYzD4dqHn8+8ts/K3rGwBAHljNpcz2A0bbLyfkVX3nz9AA1nIglZdO1lA6wivc7UO+4MhytlVC8IAAAAASUVORK5CYII=",
+        "name": "Penguin Predator",
+        "rarity": 2,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2908ecc9d1932b7491187",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAApElEQVR4nO3RMQrCQBCF4T8h10gRSJHNTVKLRcAmwTQ5kM2CHkCCxbIE9hLp1EKw8CBrIREF7Uwa56veDAwzMCCEEEIIIYQQ/y4Yg+56fz4dAchUTrMogq9TPxSOy501ZConUznOGnTX+9kOANhvN3zKU4viJPUAy7pl7QoAXN0CECepv10vk74iei0Oq+ERdnrKnW9CAGcNZdU8m2XV4KyZ5YA7Ac4pCVpj+nMAAAAASUVORK5CYII=",
+        "name": "Penguin Bot",
+        "rarity": 4,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2908fcc9d1932b7491188",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAG1BMVEUAAAAqKirs7OwMI///DAzy8vL/lBn//vzm5eOkKqvfAAAAAXRSTlMAQObYZgAAACxJREFUeJxjYBgFQxUICqLylYAARUDZSMUJRUA0LDUQRUC8or0QVaCjA0UAAOdeBaZpF74UAAAAAElFTkSuQmCC",
+        "name": "Penguin 3d",
+        "rarity": 12,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29091cc9d1932b7491189",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAFVBMVEUAAACD3ObmzwQqKir//vz/lBnm5ePr6s0EAAAAAXRSTlMAQObYZgAAADRJREFUeJxjYBgFgxMwCqAJKAqh8pmFFA1QBISUlBRRVTiboKowMQ12RhVwS0ETSEtDEQAAAOsFLxBLJ5gAAAAASUVORK5CYII=",
+        "name": "Penguin Thong GM",
+        "rarity": 3,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29092cc9d1932b749118a",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAGFBMVEUAAAAqKiqeKDZjx03//vzlO0T/lBnm5eNOI5jOAAAAAXRSTlMAQObYZgAAADFJREFUeJxjYBgFQxUICqLyGQUFhRSQBZgdRVQDkAWMzZKVUFSImJegqhApL3dCVgEAyTYE6ygKBAUAAAAASUVORK5CYII=",
+        "name": "Penguin Rose",
+        "rarity": 18,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29093cc9d1932b749118b",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAATElEQVR4nO3RoRUAIQwE0eX6rwDK4eq5K2HRROAIiPkmApF5QQIAAACAwLYz9z1x+f+29IjYYElpASUGLN62mL7g63WaGe66wAnHAwbiLRrdwY7J9wAAAABJRU5ErkJggg==",
+        "name": "Watcher Nun",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29094cc9d1932b749118c",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAVUlEQVR4nO3SQQqAMAxE0RnvfwI9jp5HjzBuXLTYpTQu/oMQCoGEJhIAAAAA/M25r5nZb2kfSdLmGTwaQJJs+13+ve4HrmPrcoU8UdO84gbaFbhiBTcekSN4wTuyNAAAAABJRU5ErkJggg==",
+        "name": "Watcher Karate",
+        "rarity": 4,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29096cc9d1932b749118d",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAaElEQVR4nGNgGAWjYBSMglEwCkbBKBgFo2AUjILBBp4ek/tPT/sYkTn///+HW87IyMiIqZz6gAmZ8+y4PApNdwcwMDAwJC+6RTfLMRxQe3s3Ck13BzAwMDDMi1enS9xjd8DxdlSaDgAAPu0UMmQrrEcAAAAASUVORK5CYII=",
+        "name": "Watcher Doh",
+        "rarity": 3,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29097cc9d1932b749118e",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAFVBMVEUAAAAkLG0NFzccQZEEWKwaZpx3MTjd9UwlAAAAAXRSTlMAQObYZgAAACdJREFUeJxjYBgFQwUIoPGZTNAEmIPQBBid0c1QQOOzMqKbwYbCBQBSBgEPoP9IdwAAAABJRU5ErkJggg==",
+        "name": "Watcher Bleu",
+        "rarity": 2,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29098cc9d1932b749118f",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAD1BMVEUAAACufU/78jbzYwD5AAARETM/AAAAAXRSTlMAQObYZgAAAChJREFUeJxjYBgFQwUIoPGZlNAEGBXRBAzRBJiZHdBUmLCgm8GIwgUAS3gBKVd0OTUAAAAASUVORK5CYII=",
+        "name": "Watcher Lifeguard",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2909acc9d1932b7491190",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAUElEQVR4nO3RsQ2AQAxDUQt2vaVobq2r6FjDNAgh0jvNf02kNI5iCQAAAAAqJ8O2/2LNkcwv7EtW+AuvNYcl+ZkRpYJ2+3H2vP8bnjyivYIbmYkV9jph2NkAAAAASUVORK5CYII=",
+        "name": "Watcher HRN",
+        "rarity": 4,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2909bcc9d1932b7491191",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAGFBMVEUAAADs7OyXl5fp1ijmy6MaGhm7LSKGUxJX2yxCAAAAAXRSTlMAQObYZgAAACtJREFUeJxjYBgFgxMwMqKLKKDxmZ3RBFhD0QRYQtDNSEDjs7GhCbCzo3ABdDoBla69GXUAAAAASUVORK5CYII=",
+        "name": "Watcher Galic",
+        "rarity": 3,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2909ccc9d1932b7491192",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAATUlEQVR4nO3SMQrAMAxDUbn0sL3/BdQ1SueIDv8tJnj4YCIBAAAAwO9YbuYm2kt8Jnen3PF6GsmUF9ByAXUu8GG5+gf2vHOed2V/mwUvtT4QZhlFZ5MAAAAASUVORK5CYII=",
+        "name": "Watcher Spectrum",
+        "rarity": 5,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2909fcc9d1932b7491194",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAS0lEQVR4nO3SsQkAIBAEwcMy7MQ67L+WNxFeMDA7RXYSE+EWVAIAAADwnKpwzpVtvPkjcrwrFPO0Rqzj4Y0o5yufB6Rn/oA54voTDE6aJikwgV6TAAAAAElFTkSuQmCC",
+        "name": "Watcher 1337",
+        "rarity": 17,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d290a0cc9d1932b7491195",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAV0lEQVR4nO3TsQ2AMAxE0TP7T5B1sk8YwZRRjJBoclD817q4UxxLAAAAAH4onWGHM+xNgRy9WQtELZBzUGdb3FeQ1i+wFhi9SRE6zWuovE/wEG4r8fkZXgVSD+mRb09YAAAAAElFTkSuQmCC",
+        "name": "Watcher Grenadier",
+        "rarity": 2,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d290a1cc9d1932b7491196",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAZElEQVR4nO3SsQ2AMAwEwH/EAjAPjANDhXHCPMkIpkqEnBa54a/6pHnLMiAiIiIiIjKyyLLJl5ecQodgCyWnoXTdT/q/r/kNhJvfj2U7eq73FT4MAMDMQo+wb6DdAEm2/IsbeAAoahei1nLuVQAAAABJRU5ErkJggg==",
+        "name": "Watcher Sumo",
+        "rarity": 2,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d290a3cc9d1932b7491197",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgAgMAAAAOFJJnAAAADFBMVEUAAAB+PCjZoGbuw5orkmfLAAAAAXRSTlMAQObYZgAAAB1JREFUeJxjYBgxgFEAxmqAiVyAMpgewKQc0BQDAFBkApZMSby+AAAAAElFTkSuQmCC",
+        "name": "Watcher Teddy",
+        "rarity": 6,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d290a4cc9d1932b7491198",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAX0lEQVR4nO3SsQmAQAyF4ZyL2Di1TuEM2jmCQ7iA8KyERFtJLP6vyR05eIGcGQAAAAD8zdDPKgmWmWSmbT91nzNy23MI12jv59/r/OVYxlBLSKr5Az48c4i4gnUKNcMFHkYkuiTK6UwAAAAASUVORK5CYII=",
+        "name": "Watcher QB",
+        "rarity": 2,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d290a5cc9d1932b7491199",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAD1BMVEUAAAD/5gDuw5r////VoW/qBKDYAAAAAXRSTlMAQObYZgAAADFJREFUeJxjYBgFgxQIoPEZFdEEmJ3R+ExGDAYoAkZGxqhKjI0NUAVYWNAMZWJC4QIAmgwCHHAMf4cAAAAASUVORK5CYII=",
+        "name": "Watcher Monroe",
+        "rarity": 29,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d290a6cc9d1932b749119a",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAaElEQVR4nGNgGAWjYBSMglEwCkbBKBgFo2AUDDbQH2b9n572MWGznN6OQAHvDs8aOMvFfDf+/8/A8F/MdyPdHMGIzImY/B9u8YpcRkZM5dQHKGlgmsFsFHpAAD2DHwMMRC5gIqyEtgAA+mQc5h2ouRUAAAAASUVORK5CYII=",
+        "name": "Watcher Cowboy",
+        "rarity": 3,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d290a8cc9d1932b749119b",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgAgMAAAAOFJJnAAAADFBMVEUAAAB6PDHh1ppUezgKPkvYAAAAAXRSTlMAQObYZgAAACNJREFUeJxjYBimgDEAxpgAZTBvgDE+QBlMD2CqD8CkDNAYALxpBJG8cCLgAAAAAElFTkSuQmCC",
+        "name": "Watcher Helga",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d290a9cc9d1932b749119c",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAATUlEQVR4nO3SMRUAIQwE0dyZ5TSBBmoE4AcLcwLoCcX8Ms3uSxIhSZIkSbdZs5IWTgkAKHGsxLtNvudU9m7NSuuD9DOkh6f+QOvj6AZ+La4gPSL5ztcAAAAASUVORK5CYII=",
+        "name": "Watcher Convict",
+        "rarity": 2,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d290aacc9d1932b749119d",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAWUlEQVR4nO3QsRGAMAxDUZueGbIEa1BnKwZhDgbILFlAtDED6Cj+a3TnRj5FAAAAAMDfzAg5+7bvQc/l7K9mhFofcq5QFtilkvYHMjPXtGt9aE27+zy0psMLzvYXbEQrAk4AAAAASUVORK5CYII=",
+        "name": "Watcher Yahoo",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d290accc9d1932b749119e",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAXUlEQVR4nO3RsQ2AMBBD0R8KpmEV5mAgRmGnMManSAFKD6Hwa6yrbOkgIiIiIiKi44ZDy1W/HDE9j7LMcJaWI1iRfdY66A2q1hZDBgDID8q/HFEADu6fr1D6+80BF47rK7AKR9QlAAAAAElFTkSuQmCC",
+        "name": "Watcher Clown",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d290aecc9d1932b74911a0",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAV0lEQVR4nO3SsQkAIQxAUeNiDnOruIXTiFNpk6uUiO1dsPivkUAgFj8EAAAAALhNz1k974kdtNZ1XFKSc/170Q6jte11/8AVnqKuDWxmgN4hLjNCG+PfXoDuHAKwdMvxAAAAAElFTkSuQmCC",
+        "name": "Watcher Sunburned",
+        "rarity": 17,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d290afcc9d1932b74911a1",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAOklEQVR4nO3SwQkAIAwDwOL+qzhjHcCCvyJ69w4kj0QAAADcJufMzr5RlXeOGOfI4wM23R8oy7/6wAJ+fhQZv0QkNwAAAABJRU5ErkJggg==",
+        "name": "Watcher Naked",
+        "rarity": 2,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d290b1cc9d1932b74911a2",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAdklEQVR4nO3SIQ6AMAwF0NIQLoDjEByTE01yCsSOgKtCDbGiIGwD2ar/TLMs2f9NRgQAAAAAANBSzzCuw1MMriWKAsJM576RcN3LmDArEVGKQYVZUwxa31np/4Lu85hzZ1ngefxrU+vwxrEu+p4eit82THMxPVzyUCfoXfKSugAAAABJRU5ErkJggg==",
+        "name": "Watcher Betty",
+        "rarity": 3,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d290b2cc9d1932b74911a3",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAZElEQVR4nO3QMRXAIBADUA4flcDIBlsdsVRFBaCnBioCAVWQrkeXbmHJX/LuvRvyEoKIiIiIiMhH7hVLCzzXSS0Q/ZF7RTkGdYX4/0IEAKk0AFizgJmZT7pUGnwyTAvs2z0lwwvd+Rr6tebf5QAAAABJRU5ErkJggg==",
+        "name": "Watcher Yahoo Bro",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d290b5cc9d1932b74911a5",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAeklEQVR4nO3SMQqAMAwF0B837+CFHD27k1WEOjvUxU3iIGgr6tYs/jeVpJBPCEBERERERH8n0Vtf6iYBVPWaLyJmIYokzTEY6zgA6UaySTbQTwuqbUbZtUezbuI/+QOcRZF7P5vio2d2A+p8sJj1zPmgMeeDwugAAWAH3Vovr+iTH9EAAAAASUVORK5CYII=",
+        "name": "Birb Dove",
+        "rarity": 32,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d290b7cc9d1932b74911a6",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAIVBMVEUAAAAAAAB9cQDo0QD/5gBciNjuw5pUT//ZoGYNZgAAkwaZ9ZzSAAAAAXRSTlMAQObYZgAAADlJREFUeJxjYBgFgxMICqLyGZVdBFAEhIxcDFEElFVEAlEEjJxMElFVKJc0ogjMmu6MaujKVahmAgCPsQdMlV9AmAAAAABJRU5ErkJggg==",
+        "name": "Birb Budgie",
+        "rarity": 13,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d290b9cc9d1932b74911a7",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAdUlEQVR4nO3RvQmAQAyG4ddDtHAZh3AOG2tLp7B0HdtzFHfwB2KhCIKW3jXf0wSOwJfkQEREREREJLLkqvbyFmwAy5sCgKXcoF2/+n5jDJkBlla98bxGAENmrvaRwsEBuHliHzsI/P/nBLWPsvmd7+YpVjYAB/DtG6j/eamZAAAAAElFTkSuQmCC",
+        "name": "Birb Humming",
+        "rarity": 14,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d290bbcc9d1932b74911a8",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAgElEQVR4nO3SsRGAIAyF4cDpFG7GHk5B6wzu4hAUtKxAEQsBaTgtTGzeVwmnlx8PIgAAAAAA+JnpnnmwrxLA2fm2Oe+rWoTth5fBxMxE1x/h0YdfBjTZeUohtoguRMzUL+pwY9SuwB2QQqTl2OpydDnlAspwvaMX9vkV2ag3AaJOMQYi1+2xCGsAAAAASUVORK5CYII=",
+        "name": "Birb Flamingo",
+        "rarity": 36,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d290bdcc9d1932b74911a9",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAgUlEQVR4nGNgGAWjYBSMglEwCkbBKBgFo2AUjIIBBoxI7P945GjugP8OGhIMaoKScIlZx8/TxRFM6JbPOn6eIUP6AoODhgQDA2ao0MQBKOBcCCODofB/hgM3XjAw0CMEkH2fIX2BwVD4P9whDPQIAZjlqYtOwy2nJ2CCWY4O6OUYACwhHMdIWIy9AAAAAElFTkSuQmCC",
+        "name": "Birb Robin",
+        "rarity": 12,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d290bfcc9d1932b74911aa",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAcklEQVR4nGNgGAWjYBSMglEwCkbBKBgFo2AUjHTAiMT+j0OcLg74f3NBGlxQPWEW3RzChGw5zOL/U+0Z/k+1Z2BADRWaAEYGNN/DANQxdAmBAQVMDAwMDPdffBhYB6A7gp4OgueCHR1hcEGPilXIcjQFAH0vHdYTvnxSAAAAAElFTkSuQmCC",
+        "name": "Birb Egg",
+        "rarity": 13,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d290c2cc9d1932b74911ab",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgAgMAAAAOFJJnAAAADFBMVEUAAAAAAAA2HxtOLSd9RkylAAAAAXRSTlMAQObYZgAAAChJREFUeJxjYBimgNUBypC+AGXIfoUK5U+AiuyDqdkPE/n/BcZ4AqEBLkgJpVL9mKYAAAAASUVORK5CYII=",
+        "name": "Birb Kiwi",
+        "rarity": 12,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d290c4cc9d1932b74911ac",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAbklEQVR4nO3USwqAMAwE0BnxXnofz6P36cnGRWutSJfxA/Ogu8AkIRQwMzMzM7OPUHmPIwBJOZtkryauAUkiCUnANt8LlhTaBOv4eGcDYxuudbom5+lDDeEJv2qgXXn08dWc4wjLARLnfxAeDgA7kVUda8FRdU8AAAAASUVORK5CYII=",
+        "name": "Birb Pelican",
+        "rarity": 14,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d290c7cc9d1932b74911ad",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAn0lEQVR4nO3SMQpCMQyA4b/Fu7xZN71ID1BQ8EYO7wDvBi7FzUVwL85degYhDn0Piri+4JAPOqQdkiYBY4wxxhhjzJ+R+ahxffIcIgDDNP56X4Xvky+Jc4iICCh0w/dBDpFUC8M04tzqnwdg0wepFs63Kyi0vie0EagvIICfZ/1dkF4Bp8MOESHVAsDj9VYtwh33WwG43J/toi2f2g58AK9MMSCQZMJRAAAAAElFTkSuQmCC",
+        "name": "Birb Vulture",
+        "rarity": 16,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d290cacc9d1932b74911ae",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAArklEQVR4nGNgGAWjYBSMglEwCkbBKBgFo2AUjHTAiMT+j0OcLg74HxkWBBdcvmod3RzBBGO8e/ceZjHDt3t3GBhQQ4RmAB4C7i6ODAwMDAy2Vm4Mh4/tYmBgYGDYuWc/shqaABZkjpCQIMPVG6dhFtPccgYGpCgQEhJkOCj3GlmObmngf2RYEMNBudcM9o9E0R1Bewd0zV/NIPb6C4P9I1EGsddfGHQvsBDWRUUAANJyKiru53L9AAAAAElFTkSuQmCC",
+        "name": "Birb Pigeon",
+        "rarity": 13,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d290cccc9d1932b74911af",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAkUlEQVR4nO3RsQ2DMBQE0PvMQIeUHZgAZvBuMAaLBIkBkipSuowQdBQIxw4oVX7FveZbsqX7OgMiIiIiInJ2lpz54859AZJ5vpl9v3FRpOFJKNg1YNcA+2b+vsAndGuhbz0zM4aD+oG8DTh+Q2xgvM/Z9A5OkSRDBV5v7zjh/PcbC9UaVF5qvB5TnMNzvfdeYAHxUTPh3T2hUQAAAABJRU5ErkJggg==",
+        "name": "Birb Eagle",
+        "rarity": 58,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d290cfcc9d1932b74911b0",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAeklEQVR4nO3TsRGAIBAEwIPYDizG2FpILMXELmyCFqgBOyDHhGFeHUMv8TaCT/54ABARERERkb9zZl1f6pQA9RiWXhzLSgvh7aY1Rt0m4DoRToA+hRBpIfy9kEoGALgQAcI1eJj7TyVjxv51z0eArjV37dj8R2jQvuEJWGQZr3p48IUAAAAASUVORK5CYII=",
+        "name": "Birb Gobbler",
+        "rarity": 14,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d290d1cc9d1932b74911b1",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAn0lEQVR4nGNgGAWjYBSMglEwCkbBKBgFo2AUjHTACKX/45GjuQP+p1kaMjz/+BkuuOnqbQZGRka6OIIJZrkkPy/ccgYGBob///8zMGAPGeo6gIGBgUGSn5fh+cfPcJ+fufOX1vaiOgAZQH1OPwcgxz3M5yYqzAwM0xzo4gBGXy2V/wwMiGio23iDwUSFmX6JEMaAJcQmfw26Wc7AwMAAAH1ZLuEENgxOAAAAAElFTkSuQmCC",
+        "name": "Birb Barnie",
+        "rarity": 15,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d290d3cc9d1932b74911b2",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAZklEQVR4nO3O0QmAMBAD0Iu4l+7jPLqPk8WfpiKHn1c/zIOjpRxNIszMzMzM7O/QTr68l5sigiSjz76okKYUVABAkC3vWO+F7dReiVmXHv4MLg3X50zhQHmwTKnRwPBUYHR4KvCFC4INIQk421gZAAAAAElFTkSuQmCC",
+        "name": "Birb Goose",
+        "rarity": 13,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d290d6cc9d1932b74911b3",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAhElEQVR4nO3OMQrCQBRF0WuwcxPDrGEKN5A1WEpqscwCbSWlpYq4j/AsEgOBgNWPzTswTPGKf8HMzMzMzOzPNuOvH3togHIqADza3Xw8XcIjtjkVnq+OnArv23U2ariu0IiciiSpOZ413lx6cb4BkuKPLagAunsPwNCwbkQFcKj3U8TaPhRULx4qXlAEAAAAAElFTkSuQmCC",
+        "name": "Birb Toucan",
+        "rarity": 16,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d290d8cc9d1932b74911b4",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAe0lEQVR4nO3TzQnAIAwF4Fi6hcO4g2u4gXs4ht3BYTpHeogUFaSn5NL3QZCI4MMfIgAAAAAA+DvXR97MmwTg6KWpOchkamZh3gA1B3KpEZcwL5AwaiGOsVk3t8LRS3EJTPIe1lJzjs3muFUDTFfQH6PpjziIyF33Zwg1D7r4IB9ZIQCFAAAAAElFTkSuQmCC",
+        "name": "Birb Dodo",
+        "rarity": 14,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d290dacc9d1932b74911b5",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAkklEQVR4nGNgGAWjYBSMglEwCkbBKBgFo2AUjHTAiMT+j0OcLg74z1DrjBBt3ks3RzCh8CAWM/x/BnUUaqjQwQHQUHj5GuIIJIfQyQFQIDHZlIFRioGBUYqBgYHGUcGCIfL8EwPDnNM0txgZ/D99+89/GDh9+w9d4h4GGL00lP7LCPLDBZ68/8iw7cY9BgY6hQAA0fEtHiHOhXoAAAAASUVORK5CYII=",
+        "name": "Birb Duck",
+        "rarity": 23,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d290dccc9d1932b74911b6",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAXklEQVR4nGNgGAWjYBSMglEwCkbBKBgFo2AUjIIBBoxI7P84xOnigP+/PwXABVn5NtDNEUzIHKjFdAWMDGi+/7PoLAMDAwMDZ85jmDxtHfD7U8B/dMEBi4KBAAPuAAAW0RDOLyv4qAAAAABJRU5ErkJggg==",
+        "name": "Birb Chick",
+        "rarity": 22,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d290dfcc9d1932b74911b7",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAlUlEQVR4nGNgGAWjYBSMglEwCkbBKBgFo2AUjIIBBoxQ+j8Ocbo44P/stdvhAuf2bmaYPm0a3RzBBLP83N7NDKnBngxGzr6w4EAPFZoAxv/pCIuMr1oynD18jIGBEeJ5aBDQNCSYkDnmeoYIl9HBcgYGBgamOW6QKMhizmIwcvZlyMrOppvlDAzQEIBZTu8EyMDAwAAAt+wgsXQGoSMAAAAASUVORK5CYII=",
+        "name": "Birb Finch",
+        "rarity": 17,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d290e2cc9d1932b74911b8",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAGFBMVEUAAAAAAAAERIsCXsW9VhEyPDn/ZwD///+jOaqiAAAAAXRSTlMAQObYZgAAAC5JREFUeJxjYBgFQwMwCgqgCggZGaIKCCu6oqpRSitEVVFijmaGsiKaLUZuqCoA5WkDshAmfzEAAAAASUVORK5CYII=",
+        "name": "Birb Kingfisher",
+        "rarity": 35,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d290e4cc9d1932b74911b9",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAaElEQVR4nGNgGAWjYBSMglEwCkbBKBgFo2AUjHTAiMT+j0eO5g74LyqigiLx+s0dujiECd1ymMVKCiYMSgomDAyYIUNVwIjuAHSHMNA6BLBZjgRong6YsAlCfU+XRIjhAHpajtUB9AYAKRkUrgzPGhcAAAAASUVORK5CYII=",
+        "name": "Birb Crow",
+        "rarity": 47,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d290e6cc9d1932b74911ba",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAg0lEQVR4nO3SOwqEMBSF4f8GbG1mBbOJrMm9uAO3Yzedu5jKwlYhFjFgBEsvFudrQkjgnDxAREREREReIF1GV+E/5fB1iaWEaxED0lGCzzcC0LS/suYmna1LdL2JKrzM53FwKWFHIHT5xre+eoay5zEhH7rm+QcsXRqYmVs4QPAKurMDFINDB3hj2ToAAAAASUVORK5CYII=",
+        "name": "Birb Cockatiel",
+        "rarity": 16,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d290e8cc9d1932b74911bb",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAmUlEQVR4nGNgGAWjYBSMglEwCkbBKBgFo2AUDALwn8ly4X9kekAccfr2nwGzHO6IgXAAE8xyJsuFDEyWC2EOoasD/jNZLmT4dzweIqBZAnMEXRzCBGdALGY4uamD4fTtPwynb/+BOYSmgAXOEtBlYPhwmcFUlQVZnpHWDoCHALfjDXSLaW453AHcjjcYvq7/zfDveg/McroBAHC3K0A6QiNMAAAAAElFTkSuQmCC",
+        "name": "Birb Peacock",
+        "rarity": 13,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d290ebcc9d1932b74911bc",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAc0lEQVR4nO3SsRGAIBBE0Q+x7VsNBVCHCSGWsAYwI4kaQeK+mZsLCLg9ADMzMzMz+7vQu17OpoqA2AVJSK1qfhxqgl1SQZIEdx9qrprbpaOlA3yknz5ABAghQFLrtyWfsD1B6WmT1qx9EAHOA1SgbmtCjy4x5lWmnrZtSgAAAABJRU5ErkJggg==",
+        "name": "Birb Parrot",
+        "rarity": 12,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d290edcc9d1932b74911bd",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAaUlEQVR4nO3RvQ2AIBRG0YsjsIEJNXu4IAM4iaWxtnQWsMJAgiXQfKfip7gvACIiIiIiIpOZYp1+zrtaGvHWvvsABOdHNSsGSGV8JwJwPne+7ztAcL567s1a1usYEofiC3J8tG+AGXGAF+2iDsyasM8kAAAAAElFTkSuQmCC",
+        "name": "Birb Chessbirby",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d290efcc9d1932b74911be",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAeUlEQVR4nO3PsQ2AMAxE0U9Ey0hswAAMABUjQQ89LIComIcBQkFAUSTKuLrXWLaLs0FEREREROThf2p2DvBnCPVJtToAgHCE3etB8eZ2bfMNp2WLd1m5uAnBpgqS78f6ehbD/u6zcumgPyqzcIAybsZ5BWBaTLIBuAFgphwsahkp5gAAAABJRU5ErkJggg==",
+        "name": "Birb Imposter",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d290f0cc9d1932b74911bf",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAc0lEQVR4nO3SwRGAIBADwJxjxRZiY9gBloLGBzKC+uX4ZD/M8Ek4DhARERERkcHsPvlz51aA5JNv9snvWmiug0mCy9Smryd7lhg+gSlnGrb9AHKbOth1HxhiYoF2Mf1KIH8JQ0wuJcoSEmjG74pvXq8HgAutj0dyjwLPZgAAAABJRU5ErkJggg==",
+        "name": "Birb Stork",
+        "rarity": 14,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d290f3cc9d1932b74911c0",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAaElEQVR4nO3SwQnAIBSD4b/do+DQHTBO0WN6qfIWUHrIB6LgIeEpRERERERE/IjLouxLnSNMEpKwDeDnvraVGIEGbHuet4VL8lDC9xSo4bXErikc/h4doPcOQGtt3q8uMD7hDC+WhwO8oBRR5sLggHoAAAAASUVORK5CYII=",
+        "name": "Birb Seagull",
+        "rarity": 13,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d290f5cc9d1932b74911c1",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAFVBMVEUAAAAAAAAJPrAjYOX////SvQD/5gCxssZZAAAAAXRSTlMAQObYZgAAADBJREFUeJxjYBgFQwQICqLyGZWUBVAEhFxEUJUomTihqlBWTUUVcDJLRDVUJQxVAQDMsgO8w9HgWAAAAABJRU5ErkJggg==",
+        "name": "Birb BlueTit",
+        "rarity": 15,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d290fccc9d1932b74911c2",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAbklEQVR4nO3RQQqAIBQE0NFdh4ju2EG6o9kdbNW0CMnCaPUTYh4IIh9mVEBERERERBpzxZ4P56Z8DicJkkgx3MuYcjkcAJyrXtz0NS4F1mVG1w/g6M+BaTMvwVKKgTi+IC9ztfBPNQ337yM/L7ADrupEy8x0JR4AAAAASUVORK5CYII=",
+        "name": "Birb Swan",
+        "rarity": 30,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d290fecc9d1932b74911c3",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAaElEQVR4nO3SQRKAIAwDwJSP+Uq/6DfiQSoVHG/txexJlJmEIiAiIiIiIn9n4Zkf39I0DycJkrHJXCitAD3YzEaJfSsp0eLCw3Fkxw6Gfso7HNckpj35BV7el1iuoE+i5Ad8FIhXUOkEREomrJfVvQ4AAAAASUVORK5CYII=",
+        "name": "Birb Puffin",
+        "rarity": 48,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29100cc9d1932b74911c4",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAApUlEQVR4nO3QsQ3CMBCF4T8RM7hwcexAixgDMQUjsAFdJqCMIjFCmihVChZASEmRIkuYIjIySFARu7mvOlln+fmBUkoppZRSKrEsmN2X8ygBXN+WAAzjxG5/jBYi94+vtwcAxBqaqoC5Effj7l9kBL8HkLp7Xzid/d4iVjDXLtYgdcft/mBzuX6GXJzr29I1VRGl9lDuB99CbK8AYg3DOKULkKqBJ386MFouhfPLAAAAAElFTkSuQmCC",
+        "name": "Birb Ostrich",
+        "rarity": 14,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29102cc9d1932b74911c5",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAGFBMVEUAAAAcQZENFzd3MTgEWKwgJ10aZpwkLG0tAcuFAAAAAXRSTlMAQObYZgAAADpJREFUeJxjYBgFgx4wKqAJmASniqIICBuJOaEIsBWg6mBjYBBNQBZgcmALckRRosqYoIoiIMYUIAYAF1QEtV8nyU0AAAAASUVORK5CYII=",
+        "name": "Worm Bleu",
+        "rarity": 2,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29104cc9d1932b74911c6",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAk0lEQVR4nO3RoQ6DMBSF4dMFEuQMggpkHwzHE+Fwe4w6ngI5g5iAZBkhQVwMkI6AvKjzqaYV508KEBERERER3cB5K85bOXuLlLePo7IG7RdGOQDOW+nqAQCQFU9M7aw9eR5x9QXqw8e7vEolDHpoBkzt/BeRV6kkLkZXD/ubasC7/Jgwom9+AIDvazTbWTUgHL2yAMTSOgecUEWoAAAAAElFTkSuQmCC",
+        "name": "Worm Say What",
+        "rarity": 3,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29107cc9d1932b74911c7",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgAgMAAAAOFJJnAAAADFBMVEUAAADL2/z///8iIDSIjrjMAAAAAXRSTlMAQObYZgAAACZJREFUeJxjYBjOgDHTAcp6vQrK2AdjaEBpJoYVUEYTTGpRF5wBAAMaCAA3sUCoAAAAAElFTkSuQmCC",
+        "name": "Worm The Guy",
+        "rarity": 12,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29108cc9d1932b74911c8",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgAgMAAAAOFJJnAAAADFBMVEUAAAAA/wD/AAAKAP/X8/DnAAAAAXRSTlMAQObYZgAAACdJREFUeJxjYBjWQATGmFYJZWQ+R5NiZHgCYTA3z4MKFXlCGQ+PAwC6UAb0ZK5DFAAAAABJRU5ErkJggg==",
+        "name": "Worm Logo",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2910bcc9d1932b74911c9",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAD1BMVEUAAAD/hNlFKDz5Ycr/PMOMR0KtAAAAAXRSTlMAQObYZgAAADZJREFUeJxjYBgFgx4wCqAJKAoJC6MICCmamODVwszAYGiALMAiwCxiiKLEmcXAGUXAkFnAEACYyAMGkFKj8AAAAABJRU5ErkJggg==",
+        "name": "Worm Wormy",
+        "rarity": 5,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2910ccc9d1932b74911ca",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAElBMVEUAAACC3PtAQEDzq0XuhzI7ZnUNUpm3AAAAAXRSTlMAQObYZgAAADZJREFUeJxjYBgFgx4wCqAJKAoZGqIICCm6uuLVwsjAYGiALMDqwCrqjKIkkMUgEEXAmVXAGQDIxAPqAkpWkQAAAABJRU5ErkJggg==",
+        "name": "Worm Funky",
+        "rarity": 3,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2910ecc9d1932b74911cb",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAD1BMVEUAAADgWsFZMp6J/GuzwpVK9LAWAAAAAXRSTlMAQObYZgAAADVJREFUeJxjYBgFgx4wCqAJKAoZGqIICCk6OeHVwsjAYGiALMDkwCTkjGooi4EiioAzk4AzAL4UA3hkC8mzAAAAAElFTkSuQmCC",
+        "name": "Worm Illuminate",
+        "rarity": 2,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29110cc9d1932b74911cc",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAQAAADZc7J/AAAAYUlEQVR4nO2PsRGAMAzEFI452IhpMgeFZ0nLElkhi5jC4Uj7R2tVdvF6G5IkSZLkF+bm37bL+Qi7zbXo/Q04GXLzolhfkMPvVD1EmyYYU1H9oDEwFwVXCUUH7tKRL4joygMTKh/G2muyBwAAAABJRU5ErkJggg==",
+        "name": "Worm Greyscale",
+        "rarity": 6,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29112cc9d1932b74911cd",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgAgMAAAAOFJJnAAAADFBMVEUAAAD///8iIDTL2/x3CkiGAAAAAXRSTlMAQObYZgAAACRJREFUeJxjYBgZgDUCyrD9BmVIToUyVFOhDCmYCGsolMEUCgCF/AQpXQdp+QAAAABJRU5ErkJggg==",
+        "name": "The Guy",
+        "rarity": 269,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29114cc9d1932b74911ce",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAQAAADZc7J/AAAARklEQVR4nO2QMQ7AIBDDnKr//7K7IMQKdIynWxxZB6WUUsqP5MhSggTy3OiC77YNUx8VNwXZHxDMuIJs/yAQp35QsIQQ5AO3nxoFljpVZwAAAABJRU5ErkJggg==",
+        "name": "The Guy Dithered",
+        "rarity": 2,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29115cc9d1932b74911cf",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAG1BMVEUAAAAfISA8PDWCZE4AAACrikP/+OiASEJ7Yys0INhIAAAAAXRSTlMAQObYZgAAAD1JREFUeJxjYBgFgw0wKjAoogoYMRmiKhEWdkDhswaGiqAIsDm6CaIIsAeGN6JqKS9FFWAIjUDVwsDSKAgAbjMGYitwA1QAAAAASUVORK5CYII=",
+        "name": "The Guy Pancher",
+        "rarity": 2,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29117cc9d1932b74911d0",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAbElEQVR4nO3SywmAQAyE4V+whVQSi7ASq9VKUkS8+FoRb8bLfLAE9pJhCIiIiIiIiFRJEieb+evyshDTy3KvCOBkRCTc5haiqwjAAhFxfJkZJDB8vp2mgf1dG+gLAmCjNQ0AMFPUAJyH+HCQK4BbVYzwBBo3AAAAAElFTkSuQmCC",
+        "name": "The Guy n30n 5c4nh00d",
+        "rarity": 16,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29119cc9d1932b74911d1",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAZUlEQVR4nO3ROw7DMAyD4Z9Fziqdyb6sMrQ20NcYLeE3mfYgwgIzMzMzM7O7qA8RUQDqGD7GKICIYM7JOmfm9QUK6v9j9fwAzw3sIImVj6bpSHrLu0xHgdfQn6t4dBWQpMz8uj8BbY8whwEVx0sAAAAASUVORK5CYII=",
+        "name": "The Guy Censored",
+        "rarity": 16,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2911bcc9d1932b74911d2",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAmklEQVR4nO3RsQ3CMBSE4R/EDJ4ASyxhd5TIJQ0TuGaM1N6B0qJMZ5aIgAnYgMppMIol6tfwviqX5k7PoJRSSimllPo37/upLvNauvxyfXYjxAa08uNhy3LESqJ8tz9XAGMdr8eN9l1SkLmAsY5pHACYxgFjHQA+ZpkLANXH/A0lBVreSLT7mCkpdLmRugA+5vrrv9iAj+4pAGbimDNMVhzi4AAAAABJRU5ErkJggg==",
+        "name": "The Guy Chip",
+        "rarity": 3,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2911dcc9d1932b74911d3",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAG1BMVEUAAAAAAAD0wEHbpinKXyL////xwU7sfDC9GSwAN1U9AAAAAXRSTlMAQObYZgAAADtJREFUeJxjYBgFgw4ICKIJMAqgCSgpO6AqEBQ0QRFgFRNVRhFgCg9SQxHg6OhoQhFgUVJSQrXF2dgYAPSNBOBhlyHdAAAAAElFTkSuQmCC",
+        "name": "The Guy Blas",
+        "rarity": 2,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2911fcc9d1932b74911d4",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAkklEQVR4nO3RsQ1CMQyE4R/EAi6ySIrMkTbrULAKrUtmoGABCgZw8UY4Kp6EHi2hwJ+UxinuZENKKaWUUkrp3+0mZulT/qwCMrPNcFmWKRtQq2MzvD8uE6KBVofcXYAiQoDcXa0OmZn2M0r03okIACKC3vv6N6WAu1NKWd+rDMDh2+HX25nTkbfQX1CrY3N/M9MTPi03tOZ5m1cAAAAASUVORK5CYII=",
+        "name": "The Guy Hood",
+        "rarity": 22,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29121cc9d1932b74911d5",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAG1BMVEUAAABqvjAAawS5IAX/8wD/JgDJtrMAAADz9PVI56CxAAAAAXRSTlMAQObYZgAAADxJREFUeJxjYBgFgw4wKqAJGBsboPCZnY2dUQRMQ0ONUQTCKsqCUQTcO9pRBcLKK0JQzejoQFXBHJ5qDAApJQnp2t8xXwAAAABJRU5ErkJggg==",
+        "name": "The Guy Strawberry",
+        "rarity": 4,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29125cc9d1932b74911d6",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgAgMAAAAOFJJnAAAADFBMVEUAAABI3QATRxNy/n0TeITVAAAAAXRSTlMAQObYZgAAACRJREFUeJxjYBgZgDUCyrD9BmVIToUyVFOhDCmYCGsolMEUCgCF/AQpXQdp+QAAAABJRU5ErkJggg==",
+        "name": "The Guy 1337",
+        "rarity": 7,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29127cc9d1932b74911d7",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAmElEQVR4nO3TPQ6CQBDF8f/AegW5AAleQA7AAT2MiZ7Aks4LSOwobUl4VsCa2DqN86tms8V72Q8IIYQQQggh/DtzzNK3/MIrXNIysMyAkkf647hnaCskMbTVWsTMcDmBsumo+xGAuh8pm24r4VEgGZrm7QnsCiNf/5wkve4HJUPJUM7lCszMbs8T0yzOl+vnnkeBjLIfAMAbYw5EOtU7lF0AAAAASUVORK5CYII=",
+        "name": "The Guy Bit",
+        "rarity": 3,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2912acc9d1932b74911d8",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAJFBMVEUAAADgM7ExZmiYM4yR8rvfLWoxYXWf8rgAAADEI1owYnVgJE/EzTRWAAAAAXRSTlMAQObYZgAAADlJREFUeJxjYBgFgw8I4OUCgbKyAwqfNSxUGUUgvLM9CEWAc+pMFRQBro4uFC3cDEpKSigqGJmVjQCI9waXh22orgAAAABJRU5ErkJggg==",
+        "name": "The Guy Max Pain",
+        "rarity": 2,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2912ccc9d1932b74911d9",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAGFBMVEUAAADgNRYiRhds4PAAAACz8FzJtrPz9PU1kze9AAAAAXRSTlMAQObYZgAAADlJREFUeJxjYBgFgx8ICRmg8BldHYNRBJiUlEJRBNTc3VRRBELKS5RRBMJc3FFVqJaXowowhSQFAwB8DQdNcKWwTQAAAABJRU5ErkJggg==",
+        "name": "The Guy Dino",
+        "rarity": 4,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2912ecc9d1932b74911da",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAaUlEQVR4nO3Tuw2AMBADUBuxCQX7bwMSjAKmIegiUZsCvyafxtZFASIiIiIi4odUDzQnP+G8s50F9HJHS4FjWwQAwzTj3Fe0PUnPBCSJJCShrY3rCdSFlhKjKR0sr/3FBPoRFNZv+NbjArWeKfcQezi6AAAAAElFTkSuQmCC",
+        "name": "The Guy TopKnot",
+        "rarity": 6,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29130cc9d1932b74911db",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAJ1BMVEUAAAD999xJSUnMx7JmYFkiIDQeCwv///8AAACKioje1shAjGkA/q0P+dGIAAAAAXRSTlMAQObYZgAAAD5JREFUeJxjYBgFgw0IGRoJoAiICIugCjAqKgagCLAlpamiCLAnpSuhCHAoaaAKcHZ0aqHaO3P2IVQB1jWbAKvtCFoaddItAAAAAElFTkSuQmCC",
+        "name": "The Guy HyperLoot",
+        "rarity": 2,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29133cc9d1932b74911dc",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAZElEQVR4nO3QMQ7AMAwCQPBr6/8/gA6pqyrKanfhlkgZAgEwMzMzMzP7GTsflySSBAABOgQzOguUK6iMFZlBZLDaqHWBoidIWD//TtG6gKQ3S9tZRhfY7uYKVInT/ViB6rG3uAG0iRuobMxf9gAAAABJRU5ErkJggg==",
+        "name": "The Guy Mad",
+        "rarity": 5,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29135cc9d1932b74911dd",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAgUlEQVR4nO3RsRHCMAyF4V90GYAlTMEYzhLZKetkBVruMkPuGMDpHgU4BVCr4X2NdXKhdxKYmZmZmZn9C82TWqnq7+18Vd7wbp6OsoeIjACtVA3rgiQiglbq8ZcSQJIAIoJ3yX4ZAThlBOjDPodD0gbgdYZf/ZQNAAzrEvfH9tV/AmzMQU+ryRl4AAAAAElFTkSuQmCC",
+        "name": "The Guy Drudis",
+        "rarity": 2,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29137cc9d1932b74911de",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAlUlEQVR4nO3SIQ7CQBCF4X8bHKkhpApugOQUhGB6gXVciwSNreEKe4tWNaWmqR5Ms4EEPZj3mcmoN9l9ICIiIiIi8mfBKyimzj73qTcep31wOeBXeFkFpt4oPA6Yx4Hz9ZJnsXrlI9xeYB6HvK83W27HHXXTesQDYMs35Fk3rcXUmVsJga8exNT5dWARDvdnDgcoq8AbGFg9MeNamjQAAAAASUVORK5CYII=",
+        "name": "The Guy Skull",
+        "rarity": 2,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2913acc9d1932b74911df",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAD1BMVEUAAAD4+AH/owCISAMAAAA0FVSHAAAAAXRSTlMAQObYZgAAADFJREFUeJxjYBgFQxAIChmg8JkNjYVRBJgcHZVQVQgKC6GqMDZEFWBQElREFWBWEgQAnkwCr0SyLOYAAAAASUVORK5CYII=",
+        "name": "The Guy Ordinal",
+        "rarity": 3,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2913ccc9d1932b74911e0",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAG1BMVEUAAAD/DT5tCx+7rGnl/ycQfrvv3Ib/AADc71Vlee2AAAAAAXRSTlMAQObYZgAAADhJREFUeJxjYBgFgw4wCqIJCAoKoCpQUkRVImRshCqgEhaiiCqQlo4qoFFegSoglJaGKsCoaCQIADB2Bb/6vL03AAAAAElFTkSuQmCC",
+        "name": "The Guy RidingHood",
+        "rarity": 2,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2913ecc9d1932b74911e1",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAdElEQVR4nO3SsQ3DMAxE0S8iG7lx6X0yR+bxCDLgOivlUkiChaRn43uAQIDNESLBzMzMzMzsLgSaXwUBlIzwEbYBR+9tPTxlAIFKq4w6RMYAxxQqrl/I83yo9r3Xn1tIWQEAa2g/X3/tvAEasQYsAe8PLMEXKRUneFfE+k8AAAAASUVORK5CYII=",
+        "name": "The Guy Melony",
+        "rarity": 2,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29141cc9d1932b74911e2",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAD1BMVEUAAADE2lIAAAB/pi378jZLV8r+AAAAAXRSTlMAQObYZgAAADJJREFUeJxjYBgFQxAICiqg8JkNjYVQBJgcVQRRBBiNjQxRtSgpC6MaamyIqoWBSdAQAJx7At+I2Iv0AAAAAElFTkSuQmCC",
+        "name": "The Guy Toad",
+        "rarity": 3,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29142cc9d1932b74911e3",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgAgMAAAAOFJJnAAAADFBMVEUAAAD/mf//AP//AABaBkfnAAAAAXRSTlMAQObYZgAAACRJREFUeJxjYBgZgDUCyvj7D8qQnAplqKZCGVIwEdZQKIMpFACqrATxO+HLqgAAAABJRU5ErkJggg==",
+        "name": "The Guy Long Brow",
+        "rarity": 4,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29145cc9d1932b74911e4",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAs0lEQVR4nO3SsQ2CQBTG8T/GysbCirCAExiMtbas4DUswADEAVyARlaglZpAboJbwFhZ2NCejRiI/aN5v+buq9679w6UUkoppZRSMwskijwOR39/vTlt1oxP42ywkGggauq/hxpnAxCaAEDaJX6c86wnaupApIHbducB2jJkf34y3POsR2QFbRlinAXAOEtbhgBcriuxFfi0S36hiCuGvJSonnYJRVxN8mC2TyjewNdkFQAfeHA2Ip4NQ00AAAAASUVORK5CYII=",
+        "name": "The Guy Rose",
+        "rarity": 5,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29147cc9d1932b74911e5",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAGFBMVEUAAAB6OzFJJBxiMSfg1pn/AAAAAAAgMMKQAxLwAAAAAXRSTlMAQObYZgAAADxJREFUeJxjYBgFgw4ICaLyGQ2NBVAEhJUVDVEEjFycUAVMQkKUUQTMXNxQBUTSUlC1CLi4mKHay+ZWDgCAcgaM/UvlIQAAAABJRU5ErkJggg==",
+        "name": "The Guy Helga",
+        "rarity": 2,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29149cc9d1932b74911e6",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAlElEQVR4nO3TsQ0CMRBE0b+ICg7paIU+KAZaIKEIcmiCBBogJD8Ln0QFQ3Cy5Ao2YV5iO5rVjgxmZmZmZvbvIivofT+r3UuZ2O1PAbDKDgcYxy2P60GQtIFaPwIYhg3zXAH4vi6UMuUMIEkRgSTaCfC8HXMq6EPbELBUsc4YoA9t7yZlgIgI9amdlApg6bvfAizf8QdyZDozIKMimQAAAABJRU5ErkJggg==",
+        "name": "The Guy Mullet",
+        "rarity": 28,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2914acc9d1932b74911e7",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAiUlEQVR4nO3SsQ3CMBSE4T+IXVIwAhtkAOpUXoc+lQegziYUnsN2fTQJwhItTsF9lZ+bO/kZzMzMzMzsj+jb5enoEkOv5BRDEz7OC8DQpcD9dhXANF1Y1yf7eSvxe7lU8ZByqRIol6pcqlIM6rUCpRjewzgv7PO5R3qKoXnuzzKHfcLuBTbNKgBePwk0dPwoHmIAAAAASUVORK5CYII=",
+        "name": "The Guy Punk",
+        "rarity": 4,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2914dcc9d1932b74911e8",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAElBMVEUAAADxwU4AAADYlTf+/9Xz45hkrc7VAAAAAXRSTlMAQObYZgAAADJJREFUeJxjYBgFQxAICiqg8JkdnYVQBBgVFQVRBZwcUQVYlVSFUQSYQoNRVTCoChoCAKOLA0bxyh5wAAAAAElFTkSuQmCC",
+        "name": "The Guy Doge",
+        "rarity": 3,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2914ecc9d1932b74911e9",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAgUlEQVR4nO3TsQ2AIBQE0NPKHZiENW1cySEsbD4VhRucxZdEDS1YeC8xBJv7uR8AERERERH5u6FjFmv541fhJAGAXQa4wh73lFKPaGdmpE/BAt5KbS1N8P2ZWfsB5hh90SRLC+UsLTR/BXOM3I8DW87+Y5qwrCtCCK2jn+4N4LaKEzaOXZd0mw7fAAAAAElFTkSuQmCC",
+        "name": "The Guy Venom",
+        "rarity": 4,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29150cc9d1932b74911ea",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAHlBMVEUAAADM/8xShVJruGuy/7JHlEcA/wAAmQAAMwAATQB0o/VvAAAAAXRSTlMAQObYZgAAADNJREFUeJxjYBgFQxAICiqg8JlNjF1RBNLKyhJRBDhSMl1QBBg7GgVRDXVxQVXBwCQoCABCMAXJfqvCWQAAAABJRU5ErkJggg==",
+        "name": "The Guy Green Scan",
+        "rarity": 6,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29151cc9d1932b74911eb",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAo0lEQVR4nGNgGAWjYBSMglEwCkbBKBgFo2AUDDBgpJM9/3HZzUQP218bKTOU//Jh4Ff8SshRtAHlv3z+vzZS/s+v+PU/1GIYpm0UKCuYwn1598FpbErokwQ6Szj///sv/B+ZvryR4/+Pcxz/6eKCyxs5UOJbVRZC335MD9sh4P+Pcxz/kWm6hgDMEcicH+c4GG4/plM2hALGzhJOuOUMDJCoAABg5j/nQTftMQAAAABJRU5ErkJggg==",
+        "name": "The Guy SkullKnav",
+        "rarity": 5,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29153cc9d1932b74911ec",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAWUlEQVR4nO3SMQ6AQAwDwTX///NSkAIQdWg80tVOcoaqqqqqqqqfZS1JfCUH4FhKl0x+vN4MtDOAwTm2BJzDiysDGB4H8PbxOx0QH6G3NvxXwrFUQiDEj3VPxF8aBE3SW9YAAAAASUVORK5CYII=",
+        "name": "The Guy RGB",
+        "rarity": 6,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29156cc9d1932b74911ed",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAiklEQVR4nO3SsQ0CMRBE0b/YdEByAW2Q0MMllGFau4QeoJFLLqAFNASWjJCIl2ReYo+TXY0MZmZmZmZmfxZpk+air3x7AcQuY3acimIDjkFsEBswFwClNCBJEYEkxnndwypSGnhME7Tah7baM/RGMhagVd2Xw4jny3Pc8z5hq/r1nLdAJ1r9pFW8AfX5IUaPPlLDAAAAAElFTkSuQmCC",
+        "name": "The Guy Pepe",
+        "rarity": 17,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29158cc9d1932b74911ee",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAHlBMVEUAAAD78Onz6Stjvr/miB/06StfaV8OFRkOExrW2rZAtDfbAAAAAXRSTlMAQObYZgAAADdJREFUeJxjYBgFgw4wogsoK6DyWZxdHFAEWMNC01EF2lrTUATY0tJQBTgrK1EFGNBVMLCnpQEAxK0IOzwoOQ8AAAAASUVORK5CYII=",
+        "name": "The Guy Odd",
+        "rarity": 3,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29159cc9d1932b74911ef",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAD1BMVEUAAAAzMzMcHByWlpbGxsaovBDNAAAAAXRSTlMAQObYZgAAAC5JREFUeJxjYBgFQxAICiqg8JkdnYVQBBiVFQVRVTg5owowOjmiCjBgCDAJCgIAqR4DGKedfy4AAAAASUVORK5CYII=",
+        "name": "The Guy D00med",
+        "rarity": 6,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2915bcc9d1932b74911f0",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAlklEQVR4nO3SoQ3DQAyF4T9VNwjKDJEMSzLEgcBIodWt0A1Kj4RXKrwxOkJnKLoZrqBq1KTc6H3IZ2KfbRAREREREXGSgtUUrO7jo2cT0zwA1GkeuFwfADROtes+kYLxfMHBo3oKBkDJcfPuO6cJlBz/JnC/fVbgdgPtuPw2tMYuK2jHpfkWLTmuvwe/IwTgfLLad9vcG0xuJlLiOelsAAAAAElFTkSuQmCC",
+        "name": "The Guy Teddy",
+        "rarity": 3,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2915dcc9d1932b74911f1",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgAgMAAAAOFJJnAAAADFBMVEUAAAAcHh/f4Oehp8HSMbY2AAAAAXRSTlMAQObYZgAAAChJREFUeJxjYBjWgFUEyuBaAmWIRUIZarOhDM31UIZqLkzxViiDMRQAh38Ed/PV9joAAAAASUVORK5CYII=",
+        "name": "The Guy Cryptoteddy Panda",
+        "rarity": 2,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2915ecc9d1932b74911f2",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAIVBMVEUAAADLzzi/xCUbKVikpbE0Mz7eo4wiIDQbKGXk6eHXeEQyoXbRAAAAAXRSTlMAQObYZgAAAD1JREFUeJxjYBgFgw0IKSopoggwCgoKoQgwuzqjqRATNEIRKCsrq0ARYE9Lz0BVUV5WiWpvWtoqVAH2zlUA5KoJVJvXftcAAAAASUVORK5CYII=",
+        "name": "The Guy Anime",
+        "rarity": 2,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29160cc9d1932b74911f3",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAc0lEQVR4nO3SOw6DMBBF0WvDcuizDlbqdSBaOpaSwKMAC6OknjTvSNZMNz+DmZmZmZlZkFykX3n/ryYAASlFFJ7XjwBeS8c0bNR8H0PKn5O/06421hfTAdRij5iLFLKDXKR23bncgwcd4esDxjdwUTs9wAF94j44u9dWbwAAAABJRU5ErkJggg==",
+        "name": "The Guy Gato",
+        "rarity": 2,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29163cc9d1932b74911f4",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAGFBMVEUAAAD6vX/7/wD/6QAAMdAAAADlp2n/eaKimWbFAAAAAXRSTlMAQObYZgAAADlJREFUeJxjYBgFgw4ICqLymQSFFVAEmAUFDdBUCKKqYHR0FEUVUFJENZXN3DARRYDV0BDN3jBBMQDRxAOzAh2qfwAAAABJRU5ErkJggg==",
+        "name": "The Guy Brother",
+        "rarity": 7,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29164cc9d1932b74911f5",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAG1BMVEUAAADR0dH10NAiIDSnpKL///99Qj7sop3hPymgUh5nAAAAAXRSTlMAQObYZgAAAD1JREFUeJxjYBgFgw0IghECMCoJMCqhCggKoggwCBsai6AIGJqaGqIIsImLCaKqSEtEVcEgKCiBKsDS0QgADZAE66eUMX0AAAAASUVORK5CYII=",
+        "name": "The Guy Anony",
+        "rarity": 4,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29166cc9d1932b74911f6",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAhUlEQVR4nO3SQQrCMBSE4X+kJ3jkEJ7Ho7jsAVz2bLrzEKVXeC7aItaCG59u5oOQEEhmIAEzMzMzM7M/U+XlE2Ou68jhua9zZex+ke3gesrPJ78YDrzMa4muukDQtIQSOTBpJGiQPXCkvAAA2RNqJInQEj4r/YSbErtvfvhZAV3E7f62/QAUNzqj2TPRvAAAAABJRU5ErkJggg==",
+        "name": "The Guy 0",
+        "rarity": 6,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29167cc9d1932b74911f7",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAJFBMVEUAAAD67Wb65yL/6QDv3y3VyDO2qBOhlAjbkB4qHw3QwBXbRkbttjaqAAAAAXRSTlMAQObYZgAAADtJREFUeJxjYBgFgw4ICAig8JlMlIVRBZSC1VAE2DPSlFAEODo6GlEFZszoQhUIjehAtba7FU2ALaMDAPyoCVcSAmlDAAAAAElFTkSuQmCC",
+        "name": "The Guy Fieri",
+        "rarity": 3,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29169cc9d1932b74911f8",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAaElEQVR4nO3SMQ6DMBBE0T8SFQfOCXJouk9BkIyU1qaZ16y7Ga0Xqqqqqqqq3iICbNNzxISoEkDIASSzo4cSXxRU/aD79RRwSQ3VJKjc87ZqDz5ChxLTb+CXToY/f2MDzxUMFp7i/x4nawg74i/TAIAAAAAASUVORK5CYII=",
+        "name": "The Guy Squiggle",
+        "rarity": 7,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2916acc9d1932b74911f9",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAbElEQVR4nO3SoRGAMBBE0X/lYamBNlCUARYJNuUtIpMhmUEfZp9K1G32AmZmZmZmZj+LrEECfQyOlAD7VQSw3BPHXGjnOJMakFAESPXJ6rrIWoHWbugW0O45ASQN2+4qSPuEY/GvxAAtxZjjAYcYH3feg9zGAAAAAElFTkSuQmCC",
+        "name": "The Guy Spectrum",
+        "rarity": 16,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2916ccc9d1932b74911fa",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAApElEQVR4nO3SsQ3CQAyF4R/KSGlvgfTUqRBCSlbICEyRNjswAhIbpIEUbHELpA/tSwGcghAlbvDX2K78zjpwzjnnnHPO/Ytpf9B0PGtZAVZWy9PQVHDqU11bBKCp3pdDCmFygVueKwuB+ziShcAQI9uiYIjRYj10agWoVilAnVrVKl+zibR0GebZ/1553QiQpI8LmPwBHi8GYEfFhT71VgG+hpgBw7ddHXuT8zYAAAAASUVORK5CYII=",
+        "name": "The Guy Optimist Brains",
+        "rarity": 2,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2916dcc9d1932b74911fb",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAxklEQVR4nO3ToQ0CMRTG8X/JSQSCnEKUsgDiWIAhQGGY4AZAMgAsgL0pwCGACyE4BEdvBTTJwzWQkKAo5v1UXyu+l9cWlFJKKaWUUn9mImbJp+xGrHARQeStBwld/DL4y7n59QQMYJzNcDZjtxjxugYkyhUUuaPyJQCVLylyB4CzWZxHuG23JZkNQ/2Yb5g0LUXu4jTgbCbX2yHUve4gTCHWL2C/HNPrDtgvx2EvrU8kMcIrX5q0vsvl3AI86/pOZ+o5rvo8AX36N9RWzerzAAAAAElFTkSuQmCC",
+        "name": "The Guy HRN",
+        "rarity": 7,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2916fcc9d1932b74911fc",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgAgMAAAAOFJJnAAAADFBMVEUAAADlrLO6c5Pp6enzuEncAAAAAXRSTlMAQObYZgAAACRJREFUeJxjYBgZgDUCyrD9BmVIToUyVFOhDCmYCGsolMEUCgCF/AQpXQdp+QAAAABJRU5ErkJggg==",
+        "name": "The Guy Soft",
+        "rarity": 2,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29170cc9d1932b74911fd",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAiUlEQVR4nO3SoRXEIBAE0MlVtS7izNWAoAQaIAJBBSnhRGrAIHiYdLVR5CUXv+bmmwXMDgsAERERERH9u8myWRbRsV72fTIN0ErV676neIYwae6DUwDqg9NWqrZSNYvoyyQBgO+63epgFsAHd6s9RQBGf+D3/Yeeos0E5s/7cVHTCVwoAGSR8+AATPktE9sWDosAAAAASUVORK5CYII=",
+        "name": "The Guy Eye",
+        "rarity": 2,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29172cc9d1932b74911fe",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAiUlEQVR4nO3TwQ2DMBBE0dl04F7SjQ8URQWRkvq2hJ+DAW0krvYl8yQLYw4z2CCZmZmZmdk/oAsBAjbEhpBAkmJ6+BGkPqLijbYj9hnoMbtAdYa/gmttfoEeY3z4Wa4lpstMJFGvmcl+Hs8CZCbclJj+EUpjB1pr9f6aLymg8ca3D1b9BVF3oPoCfxlO/+M8B44AAAAASUVORK5CYII=",
+        "name": "The Guy Clown",
+        "rarity": 25,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29174cc9d1932b74911ff",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAq0lEQVR4nO2TOxKCQBBE31jmxpJAzgn0UgIXYU/FDcglwRiqjNuALVwPsCTOi3Zmgu6dDziO4ziO4ziO8w9oRjtLq7R2zi4uibWDl22Jq9CCAOzSm2U3MG9iPMNvoWqwgvwGAPa2jyXUE/u7ao6Qj2MAaQiKoTQEaWl1OsSBGRrCZmYIWNL4/Eu4tGIs4d58c9HMIQaAbdaJKAC3B6wdxyxhvAQrkt/XE7x7PjgGUPcoOoLEAAAAAElFTkSuQmCC",
+        "name": "The Guy Monroe",
+        "rarity": 31,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29177cc9d1932b7491200",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAJFBMVEUAAADs+P96gIT2/P////8iIDTL2/zc6v2krbSKj51ianFQgdzh/bE8AAAAAXRSTlMAQObYZgAAAD9JREFUeJxjYBgFgw0wCgoKoAgIMCkwoihgMDEORBFgS0m3QBFgCQlGFWB18fRAVRE6BUWAQcDFpQvVHRLdqwCKlgePmuI28QAAAABJRU5ErkJggg==",
+        "name": "The Guy Astro",
+        "rarity": 3,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29179cc9d1932b7491201",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAIVBMVEUAAAC7AAD3R0b/kUf2zkFaFBTr5NrhQkn8oTYAAADXaBwjziS6AAAAAXRSTlMAQObYZgAAAD5JREFUeJxjYBgFgw0wKigYoQgIOSsroggwu5gEoAiwpaeVoghwtHWkowhwts1AFWBbtawc1d6sdDQB1vJyAGBxCjPFeILTAAAAAElFTkSuQmCC",
+        "name": "The Guy Moonbird",
+        "rarity": 2,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2917acc9d1932b7491202",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAHlBMVEUAAAAOFhn06SvmiSCRkHxoWVlpZdrY2bcOFRnfOBwGPyuuAAAAAXRSTlMAQObYZgAAADtJREFUeJxjYBgFgw4IMaHymZUU0FQoqQSg8NlS0lxRBNhb2l1QBFhmTAlBFehsQdXC4OKKqoWB1SUEALfWB59hDxOGAAAAAElFTkSuQmCC",
+        "name": "The Guy Odduck",
+        "rarity": 2,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2917ccc9d1932b7491203",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAYElEQVR4nO3SsQ2AMAxE0W+UkiUQM2QPKoakYjh6UyUiUmjt5l4TK82d4oCIiIiIiEgyiwpydx+CzQxgyQj/3oUUANi3OpytRMgKZi/QlIgCAM9x9nm9rz6nfcLwAn9FXn9HH+dWPl/LAAAAAElFTkSuQmCC",
+        "name": "The Guy Fluffi",
+        "rarity": 12,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2917dcc9d1932b7491204",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAl0lEQVR4nO3SrQ0CQRCG4XfJtoBD0cShKAJBQg1Ljl7IUQOeEnA0gaIMkhcBx0EDo+Zxs+bb+YGUUkoppZRSCiQq+Ps2C0tvVYTSKt3Qy+cjJSJ7t90IcF8vWF4fAJznFzg9I+JBFXDsXJVW7YbekBWUUqDVd9Hqu470s/NpEq2qxkzgtj8WlW7op0kAq9MhIv7Pt/PxBl7lfEJdzCvZyAAAAABJRU5ErkJggg==",
+        "name": "The Guy Cactus",
+        "rarity": 2,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2917fcc9d1932b7491205",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAkUlEQVR4nO3TMQoCMRSE4T+WJgGPIJ5hwc7WG8jezQuIYC22dsKeYbHXQtjENlaBhfTPZr4meUkxQyAgIiIiIiLyZ84qaEq5zOcYPIAzKXC8XAtAv99xut2p+xi8zQtMKZcYPFPK1LUyKbDtDgXg9R6bu4VFAYD8/TRn43OwKfAYzs4vV004GP4CgM26K/NwgB8z7CesnMmwBAAAAABJRU5ErkJggg==",
+        "name": "The Guy Ninja",
+        "rarity": 17,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29183cc9d1932b7491206",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAGFBMVEUAAABmOTGPVjvZV2MAAABSGwAIAa3/5gDfHVdLAAAAAXRSTlMAQObYZgAAADZJREFUeJxjYBgFgx8IMKIJKCo7oPBZg0JFUASYnJwUUQRCVFSCUFU4OymhGqqkJIYqwFaWCAAA4gTL0aPxLQAAAABJRU5ErkJggg==",
+        "name": "The Guy Cat",
+        "rarity": 2,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29184cc9d1932b7491207",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAc0lEQVR4nO3SsQ2AMAxE0W/EYmQKNkgPc4SeZcJooSEoIEpkCu41TmHJzskgIiIiIiJ/Z827hBQByPNqz+3v6+7DAUKKxXsBA8jTQK1eS5wJAIRlo60e+qMaUGoC2Oh3A0fU1wQcb8DagV8kcKpLeP4eYAfwnyPbV8ZVNAAAAABJRU5ErkJggg==",
+        "name": "Tiny Dino Watcher",
+        "rarity": 12,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29186cc9d1932b7491208",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAHlBMVEUAAABcpcR+ojF5wd8AAAD26D2ESRiT2PXh4NzgOBt9aJnrAAAAAXRSTlMAQObYZgAAADBJREFUeJxjYBgFgx8wCqAJKAmiijC7GqIqYDNGU8GQXoimQlwQTYS9EFULWycjAwC2mgO38Nms2wAAAABJRU5ErkJggg==",
+        "name": "Tiny Dino Choco",
+        "rarity": 2,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29187cc9d1932b7491209",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAm0lEQVR4nO3SsQ3CMBQE0EtiegagsNywgEfINp6HbSiRaGCANBFFBkgP6CiCE4EoaL6huNdYcoq7/x1ARERERET+AUl+c2deIvjI4CNLhlcAEHzkerN6+TAOV/SXU2VdoAYwB50PR+TzvZCVacK2IbYfht3dzDewBCRHdM+n39/Ng7MayRFtMyXnLSRX9iecA3+wgUUuUXB6AHgAbTE1dezx4XAAAAAASUVORK5CYII=",
+        "name": "Tiny Dino Oni Mask",
+        "rarity": 54,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29189cc9d1932b749120a",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAg0lEQVR4nGNgGAWjYBSMglEwCkbBKBgFo2AUDDBgpKdlVTaG/2HstiPnGRkYGBiYBsJyZD7dHJA+KxOrOF0c8PDarP/yWmlYHUG3EHh4bRa9rMINQqot/odUW/x/eG0WPD3QMwT+MzAwMPRGJ6E4hq7ZMKTaAiUnrGk9QVf74aGAHAUAxYorn4Zti6cAAAAASUVORK5CYII=",
+        "name": "Tiny Dino Helga",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2918bcc9d1932b749120b",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAV0lEQVR4nO3TsRXAIAxDQSn776wUwcDLAKr+0dFY2EYCAAAAgC3RnKLnFPeVpRdiBbAl7QxxL8TpgCSvkq4OYUTJl6S8A1H+HWjugO+CswOe+6p5dfkbvnOEJu6Ewf3yAAAAAElFTkSuQmCC",
+        "name": "Tiny Dino Logo",
+        "rarity": 4,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2918ccc9d1932b749120c",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAf0lEQVR4nO3QoRHDMAyF4b/hWaYsK9g7GBp3gcLyXGBgZiks8ygZQAG1fbnwCL2P6E7kPQlERERERESqMWMlRFuek3nmDi3885v6soToWgKAerld5u36BwBKiJynq/c32ZixVsbL0IIBXin1Ml4FHufAedsA2Nf/3lUr4Xk9wAFO7DAMmS918gAAAABJRU5ErkJggg==",
+        "name": "Tiny Dino Rose",
+        "rarity": 2,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2918fcc9d1932b749120e",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAj0lEQVR4nO3SQQrCMBCF4X/Uo+gN6t0KQkWotHfoGbruIfQGehRlXNjUKLjT2fR9EBISwpsMARERERERmTtLi9Pl5gDFesn5egdgu1nZl3u/1fWDu7sD0xwSTNaBMfx1YPZ5/j95B9J4qyZCXTWeROYu6qrxrh8c4Lhvp2KiCrA8cHcon5vjBwiVioh8PcAD2F5DF3xgurgAAAAASUVORK5CYII=",
+        "name": "Tiny Dino Guy",
+        "rarity": 6,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29191cc9d1932b749120f",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAgElEQVR4nO3SMQ7CMBBE0W/uAaJZCw4Mh3OKJE4FlxiaEEFEy1bzmpWmWWs9YGZmZmZmligiFBH6zErm8n02DEPOfklah/ZXOGQ84Hm/8rhdAGitAb8v8nd9HtXn8esCaR2QpKVPHE9nAGqtQNIXAJRSCsDSpy1LK+HbWsZtArwAix03UsuYmYAAAAAASUVORK5CYII=",
+        "name": "Tiny Dino Penguin",
+        "rarity": 2,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29193cc9d1932b7491210",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAc0lEQVR4nO3SMQ7AIAwDQIelb+MP/VD/Qbc+MEzuUEiZOlWZfBNCSA4GQEREREREJBGHda+khTdEMEketfDr/O/h7iBblBDhaQ1s11icBgBIbWByf5uYe2kNzBvPJo5ayAZa1gDA8/l6txjCdqTmRwvrE9z64D64Lwgv+gAAAABJRU5ErkJggg==",
+        "name": "Tiny Dino Ord",
+        "rarity": 21,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29195cc9d1932b7491211",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAeUlEQVR4nO3QsQ2AIBSE4R8KOoZgANdiIaxcywEYws4GC0BMrMXmvoRAQnHvHYiIiIiIiDQ+UkIZ55dweN2fM/3RA7OB0KKzGf9fsVAbyKvrg0wLh0cDJFf8fgJwbHPCASzJFR9r/cfi7mFmDWCegX80MPStJ24PcAFUgS6IpwxV9AAAAABJRU5ErkJggg==",
+        "name": "Tiny Dino Skull",
+        "rarity": 23,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29197cc9d1932b7491212",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAElBMVEUAAAAoRRJMcjIAAACnXTxejT9pCYdEAAAAAXRSTlMAQObYZgAAADBJREFUeJxjYBgFgx8wCqAJCAqiijAZCaIqYHFSRNPDGohmhqqSEJqKIAVUASYmBgB+FgIqMNmG0AAAAABJRU5ErkJggg==",
+        "name": "Tiny Dino Frog",
+        "rarity": 3,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2919acc9d1932b7491214",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAFVBMVEUAAACRcFBIffv+/v4NDQ3AmXBZQy1c8GjWAAAAAXRSTlMAQObYZgAAAC9JREFUeJxjYBgFQwQICimg8JmUlJ1QBQSVjVAEGAWDVNAEAgVQBUTDEtAEQlEEANHFA8c0PT2FAAAAAElFTkSuQmCC",
+        "name": "Hedgehog Googly",
+        "rarity": 2,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2919dcc9d1932b7491216",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAHlBMVEUAAACLi5f19PbExMkAAADW8/w4APppZdqjnpLX2bh8YLABAAAAAXRSTlMAQObYZgAAADVJREFUeJxjYBgFgwEwKgqgCSiboAkYmzqgCAgbCyagChiWFKALtKAJVDSgCVROQDNUHEUAAP94B8VH4E3jAAAAAElFTkSuQmCC",
+        "name": "Hedgehog Tubby Hood",
+        "rarity": 17,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d2919ecc9d1932b7491217",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAElBMVEUAAADWVvpNkXbq/VZz0bIAAAZcjdfTAAAAAXRSTlMAQObYZgAAADlJREFUeJxjYBgFgwIICAig8gUFBVEEGJWUUFUIKasoogoouTqiC5gKoAo4G6IKqDihmaHiooisAgBBdgS33pPqpQAAAABJRU5ErkJggg==",
+        "name": "Hedgehog Acid",
+        "rarity": 4,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d291a0cc9d1932b7491218",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAmElEQVR4nGNgGAWjYBSMglEwCkbBKBgFo2AUjIIBBowwRo5H739kiSk7ihkxldPIATDLv3z9zHDh02645IWLR2nuCBZkzoVPuxk2Z5owMDAwMHzYfJVB9yKtrWdgYMIm+GHzVSiL7T82eWoClBCwkQxi8J2+DknkF32joNDhGUMhgwXD87fvIQ66eJTW9mOPAklhQZpbDAMA+K4jGdudwK8AAAAASUVORK5CYII=",
+        "name": "Hedgehog Gorivisor",
+        "rarity": 2,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d291a1cc9d1932b7491219",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAJFBMVEUAAABf2C83fRpyGxTgNSf581zneYJTTjLh1poAAAB9dU+qoXHX6KVRAAAAAXRSTlMAQObYZgAAADtJREFUeJxjYBgFgwIwKqAJGBuj8pldUw1QBEzSjAtQBYI7G1AFkjtXogo4dy1AETB17t6AqsLVAkUAALSwCrBDBCdtAAAAAElFTkSuQmCC",
+        "name": "Hedgehog Strawberry",
+        "rarity": 3,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d291a2cc9d1932b749121a",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAkklEQVR4nO3SsQ2DMBSE4T9RJmABkIvQULIEfQagos8GZA0qFsgkkegpIrqscakSaEJnp7lPsiz5FWedDWZmZmZmZittlySlCD1swvfm0Rz3hqGoFYo6ahMngPvt8j2o8oyyHZjHjrId/tsAv58m7gXmsaPpJ0j9B6o8A6DpJ57LI3b2armepRf67KGopQT1A7wBW28pB/PodMIAAAAASUVORK5CYII=",
+        "name": "Hedgehog HRN",
+        "rarity": 5,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d291a4cc9d1932b749121b",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAj0lEQVR4nO3SsQ3CMBSE4d9WEB070KWhZgOWcWAWIrlgHiqoGYAd6IDiUViOLKXmpbmvsf1c3MkyiIiIiIiINAwzA1skfJ9PRuqsrl65EaANvKUR+lgKeRWw/J0Gh+sZjh82u61HfikQhtXs4vV4gsN/iO1heonU1VFwLRDyumz6yN0u/86eF6hseLuEA/wAQVUkbpr0HkIAAAAASUVORK5CYII=",
+        "name": "Hedgehog Cactus",
+        "rarity": 2,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d291a5cc9d1932b749121c",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAaUlEQVR4nO3SzQqAIBAE4FnpEvT+L7qB3aaDKJV2a+0yH4jrD+wgAiIiIiIiIj+zWhDg48D6699L1+bGXHa9DxSKANtwkCDpcwKktwPbMgiGhxgGMB5lhoX/g+W28lqs0X2b4Qtwn9YfJxyAILhRzSoUAAAAAElFTkSuQmCC",
+        "name": "Hedgehog Predator",
+        "rarity": 3,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d291a7cc9d1932b749121d",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAApklEQVR4nGNgGAWjYBSMglEwCkbBKBgFo2AUjHTACGPY25f8R5Y4eLCHEVM59QETNst1dLwwxGjmAGyWX7myjR52MzAwQKPAQF4B7ogzRx8wMDAwMHzlfMXALyxG82hgwibIIsPAMKOthcHY2Jjm0YDhgK+crxg6i/MYGBgYGM6ePUvzEECJgoPnTjEwMDAwPHn2goGBgYFBW1dvYKJARkqC1vbCAQA3WiPlqZsbmwAAAABJRU5ErkJggg==",
+        "name": "Hedgehog Purple Cap",
+        "rarity": 32,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d291a9cc9d1932b749121f",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAHlBMVEUAAADgNRZs4PCz8FwAAAAiRhdTTjLh1pp9dU+qoXH8yAhbAAAAAXRSTlMAQObYZgAAADZJREFUeJxjYBgFgwMwovGVRVD5qsbGASgCwcahCag6TEsKUFWYlrSgqahoQFNROQHN0HAUAQBIawlZZx3GMwAAAABJRU5ErkJggg==",
+        "name": "Hedgehog Dino",
+        "rarity": 6,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d291abcc9d1932b7491220",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAU0lEQVR4nO3SOw7AIAwEUW/uf+dNA4hfuhiaeRUSlhgBEQAAAABwmerCEZ42tI7/7+kPV0mQ16DUgMoqEXKLORqwkZ6xD3B7/vR/MAScuvbPgBte3pgPCkPdkuEAAAAASUVORK5CYII=",
+        "name": "Hedgehog Logo",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d291afcc9d1932b7491223",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAG1BMVEUAAADYhB/opCWL6/8rZBJIfDUAAAanXTyDQybxVBAOAAAAAXRSTlMAQObYZgAAADBJREFUeJxjYBgFgxMICqLyGZWUDFAFBNGUsLiEBaALlKEJhDegCriGOKAJhKIIAABLvwWoj4z33wAAAABJRU5ErkJggg==",
+        "name": "Hedgehog Worker",
+        "rarity": 3,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d291b0cc9d1932b7491224",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAh0lEQVR4nO3RMQ6DMAwF0P9Reot0DnfmDJ1ZurFxApjhFiC5Q6EyitQJwvLfklhxZMcBREREREREbsZ9M0yL+YP6+WCefr7KF08xYF+bV2t/7p0m+GCcV3T9G11fovQXgeP4UwwgCTMDyV/OVaqso624b/BKhy9IMfiXF5FNAADMDMO0FGngAxULJNzIv26fAAAAAElFTkSuQmCC",
+        "name": "Hedgehog The Guy",
+        "rarity": 3,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d291b2cc9d1932b7491225",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAgElEQVR4nO3RMQ7CMBBE0R8bibPFHXUOQUfOEHc5hDskSs7mJkthJUIobZYU8yRry5ldg4iIiIiInJWZmUdO+Gc4wMU78FcAyCmSU4TSkVOk1jbdCqxyCdxfC/OtTfcC365PmPpw+NfsFngMbfvxvXSuBbazD9aeg90L1Hr44psPQ7Yljj/4nD0AAAAASUVORK5CYII=",
+        "name": "Hedgehog Ord",
+        "rarity": 17,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d291b3cc9d1932b7491226",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAGFBMVEUAAAC/Ukzm4dNPmoZGOCq408gAAADw1GI5gT22AAAAAXRSTlMAQObYZgAAADNJREFUeJxjYBgFQwQICqHymVUEA1AFjMQEUASYjNTUUARYlcpRtbCGKBWgCDCGOiog8wHXdQQXLGiLIwAAAABJRU5ErkJggg==",
+        "name": "Hedgehog Hedgdenza",
+        "rarity": 13,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d291b4cc9d1932b7491227",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAo0lEQVR4nGNgGAWjYBSMglEwCkbBKBgFo2AUDDBgZGBgYBAVl/yPTfL1y+eMtHYAEzJnurQkCk0PgBEC06UlGTKfPmdgYKBPCDAyMjFhDX4Y+P/vH00dwfT/3z9Ga1dDBhiumB7H8P/fPxhN3zQAA/dNxRgOr7vMwMDAgDd0aOaAWCFZGJPmIcCCzLEN0mVgYGBgEFfko7W9cIA1BNQM5enmAAB4oyT6J6LGjQAAAABJRU5ErkJggg==",
+        "name": "Hedgehog Zombie",
+        "rarity": 4,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d291b7cc9d1932b7491229",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAs0lEQVR4nO3TMQrCQBCF4X+D2Ka10zaKImzrBbxEvIx4BksjeAZrwUpIStNZiQRFISeIlSGuQRtHm/mqZaaYxzIDSimllFJKqT8zj0cQ+oXbTJe5cWsiAYLQL8bRqCxm8Z6VPWCMeQopwfswXJxXV6wMF09RGwCa5Nez9Ox3AWA+m2KtfVnMb2u4hZbtEoQ3FpeINP7hFQBUlxFgPdmKn6IBGLY7BcAm2ZWN4ymj1x+I/8Ad3X8syC9KjosAAAAASUVORK5CYII=",
+        "name": "Hedgehog Helmet",
+        "rarity": 3,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d291b8cc9d1932b749122a",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAm0lEQVR4nGNgGAWjYBSMglEwCkbBKBgFo2AUDFbw//////SwhwXGEBISglv49u1betiNcAC9fIvTAcLCwnABOTFbCOP7Rfq4QEhI6D8MG2j4///49tV/BgY2KE17wIRLYkZbC4OxsTHNHYHVAZ3FGQwMDAwMZ8+eZRwQB/gkpDD4JKTQ2m5MBzx6dZjB3jqVQUZKgi6WMzAwMAAA1XgpNY1N1ZIAAAAASUVORK5CYII=",
+        "name": "Hedgehog Thong Hood",
+        "rarity": 46,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d291bacc9d1932b749122b",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAFVBMVEUAAADZoGavfUndsaD1xLEAAADTk3uYSnS8AAAAAXRSTlMAQObYZgAAADFJREFUeJxjYBgFgxQwCqDyBQUVUeWFRQRRBYRcHdAFTNEEnA1QBVTcElAtUXFBEQAA0JMD3S1ZbUoAAAAASUVORK5CYII=",
+        "name": "Hedgehog Mullet",
+        "rarity": 6,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d291bccc9d1932b749122d",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAElBMVEUAAAAmQtkZJ4vxv5zx7eoAAAYcXaXyAAAAAXRSTlMAQObYZgAAADVJREFUeJxjYBgFgxMIMqHyGYUF0RQIuwigCAgJujqgCDAJmpqiqTA2QBFQUhRENYNJCVUFAM3GA0dqFt9wAAAAAElFTkSuQmCC",
+        "name": "Hedgehog Mascot",
+        "rarity": 9,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d291bdcc9d1932b749122e",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAJFBMVEUAAAAuJBn//85mfXTZ0MNGIheVKRn/wJr///9jm//QjWRzGw6GrNsJAAAAAXRSTlMAQObYZgAAADRJREFUeJxjYBgFgxMICaPyGUUEDVAEWENDA1AE2NIqEtAEKlejCVQtQBVIr96AJlCOIgAA/C0JAdAGuqMAAAAASUVORK5CYII=",
+        "name": "Hedgehog Viking",
+        "rarity": 2,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d291bfcc9d1932b749122f",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAGFBMVEUAAAD4+ADhOkf2//6b0/gAAAZ7d/aQofgA4QhFAAAAAXRSTlMAQObYZgAAADBJREFUeJxjYBgFgxIwMgoIoAoICiqgC6CqYDZ2dUAXSEUTcEtAFTBxL0ATcEERAAAMwwTp7I4fmwAAAABJRU5ErkJggg==",
+        "name": "Hedgehog Ice King",
+        "rarity": 7,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d291c0cc9d1932b7491230",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAG1BMVEUAAAAoRRLY2M4aFhxMcjKPWTcAAABpamqjnpJeADjVAAAAAXRSTlMAQObYZgAAADNJREFUeJxjYBgFgwMIovOVUfmMrsoCqAIuoQEoAmxpZQXoAm1oAhUNqALpZQloAuUoAgD8AAhOt4z4vAAAAABJRU5ErkJggg==",
+        "name": "Hedgehog Frog Cap",
+        "rarity": 6,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d291c1cc9d1932b7491231",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAApklEQVR4nO3SMQrCQBCF4T9LbpBCMLsQIYKCZ/A+HkQ8wuIVrOwET2Eh2NiJWHmDmLFaURKwGhvna3bYGdjHsGCMMcYYY4z5d1kq6jLKe+N8XWTdcaUAdRkld8VHo2nvPwmRT8JGvo8pq8soVfBSBS+H+VCAdKpzAI1bdhq72wNAPYTru1yNB6lU/wMZQBW8AGxHLQBhOgOgWO/VA/Ru4HI6ar/78gS7NiQ9CXehWAAAAABJRU5ErkJggg==",
+        "name": "Hedgehog Magma",
+        "rarity": 5,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d291c3cc9d1932b7491232",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAgklEQVR4nGNgGAWjYBSMglEwCkbBKBgFo2AUjHTACGNIy+v/h7Fv7vvNwKN8jRG7FhoAaXn9//////+PTtPDbkaYA3ApePrwIl1C4j8Mp1kaItM0B0y4JJ6//wBzGP0d4KuhCGPSPPhZkDlploYMDAwMDJtv3Ke1vXCANQRgDqEHAACHzyk5eQhN4AAAAABJRU5ErkJggg==",
+        "name": "Hedgehog Police",
+        "rarity": 3,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d291c5cc9d1932b7491234",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAHlBMVEUAAAAmAO/NQieT/U/fAPs9cMFSmfwAAAb25ixFfORxd+h8AAAAAXRSTlMAQObYZgAAADRJREFUeJxjYBgFgxMIChmg8BkFhRXQBAQFBZAFWFzTExjQBNrRBDIaUAXCMiegCaShCAAAgGQG+OAv8M4AAAAASUVORK5CYII=",
+        "name": "Hedgehog Gatcap",
+        "rarity": 5,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d291c7cc9d1932b7491235",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAFVBMVEUAAAAAAADiwk39/9HDkzfr2Jjt5JHzomY5AAAAAXRSTlMAQObYZgAAADlJREFUeJxjYBgFgxMwCgqgCggZK6IqcAwRFUBVYGhsgCygYigoiCLgJGxsjKrFUQ3VUCUhNSVkFQA7AQS1Lh09GgAAAABJRU5ErkJggg==",
+        "name": "Toadz Doge",
+        "rarity": 2,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d291c8cc9d1932b7491236",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAnUlEQVR4nO3TMQoCMRAF0D/gKcQj6LW2s1lSp7CWHCDXigewkO08w7dwjTG77SwW/0GYQAYymSGAiIiIiIj8AT7vZzYRAPq4XRHdcmdtESWGn8PT5drnuGGJgQTICWROde99saF5+fGwXyYM4yfPxa693IYRJGFmNXqzEgOB97yZ0zLBuQPAPP+5EDKnuscGP2G1A7fHBOA7Fjh24AUxe1TG4JoSsgAAAABJRU5ErkJggg==",
+        "name": "Toadz Crazy Blonde",
+        "rarity": 3,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d291c9cc9d1932b7491237",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAFVBMVEUAAABNW1Gu6K43cnX26D338vDg1y6RBUwJAAAAAXRSTlMAQObYZgAAADpJREFUeJxjYBgFgxIwArEAioigoCCqCmUjYxQVQopOIigCSkFKSqgCoqmBKGYIKSopoggoAUWQtQAAA4oEKRm7udUAAAAASUVORK5CYII=",
+        "name": "Toadz Alien",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d291cbcc9d1932b7491238",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAM1BMVEUAAAAKDg9j0NV1R3/AZlB0R3732tgiFRTeh3OkTS53NB2+Zk/z3tujhGzVzrhmiK+ihGqoLODjAAAAAXRSTlMAQObYZgAAAEtJREFUeJztzEESgCAIQFEMktCg7n/a1IU76AI8ZtjwB4CU0lam6H6s/XMPigI4RAHRSYRBUPmqjCBe0PqCzQuE7zEd3Q9qj7ymah9hQwGEHV+ovAAAAABJRU5ErkJggg==",
+        "name": "Toadz Explorer",
+        "rarity": 2,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d291cccc9d1932b7491239",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAtElEQVR4nO3SoQoCQRQF0Msi+AHbzCbbA5tfYBOLH/CazSa8bDRYLMuCVYs2g8ViE2SLdf7BH7iGhYVV6wyGd2B4d5hwB2YA55xzzjnn3L8r8iNTlvBjJcWAigEVRa3JScsBcHlb/8rRdABQ1IASCKiAETDVA0JZ5+g2rwtFjaLGbq//NRH5L2S7xbXZDMYzPM/71kyBRX6kqBH1c7Rm7PJM1LCd3PEoVxA1zE/D5lDUEPsSb7V4XhnZ+ruXAAAAAElFTkSuQmCC",
+        "name": "Toadz Max Pain",
+        "rarity": 3,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d291cdcc9d1932b749123a",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAqUlEQVR4nO2SsQ3CMBBFfxAbeAQmsFAKT4OE5KvSZ4b0qZwqe9CnzCTM8CmIkS1AVBeae9Wd/pfu23eAYRiGYRiGYRh/pilq/tBVA1CCfxPTsu4SAgBIkgRIgEMnVa85uMH2+tO5/Wjox5R9ugHS9fbdFZ1agEO1++iA6EDOIOdnr8yxGj7dART/PV12CUEJnhI8sR1grqF8gECxgrSsGDp5CRJ87lVDPABXlD6HRTdW0wAAAABJRU5ErkJggg==",
+        "name": "Toadz Ribbit",
+        "rarity": 15,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d291cecc9d1932b749123b",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAo0lEQVR4nO2SsQ2DMBREz1HGcBGJEbyACxpaxAyUFDTMQJMBMkOG8ALewnt8GmMJg5QmP03uVT59S3e6/wFCCCGEEELIv2MqLR/mqgHEO3sYhph+EmI3FwAiIrIuU3nj3MpXMdkcXdujaR6Xn4ZxVmvhXtc+jPNBv19PLW8AgMnVI8R0aZYDqd6BeGfLDXhnZV2mojWNAeC2ryDEhHodWauG2ACxwjRIZXefnwAAAABJRU5ErkJggg==",
+        "name": "Toadz Ape",
+        "rarity": 2,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d291d0cc9d1932b749123c",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgAgMAAAAOFJJnAAAACVBMVEUAAAA8t6QlkpFqzLsBAAAAAXRSTlMAQObYZgAAAC5JREFUeJxjYBhewGFCA4QxaYUDhMEZBpVSmwVlTA2FqglbBWVEwkSmRTGgigAAsuAKINC00toAAAAASUVORK5CYII=",
+        "name": "Toadz Gummy Tropical",
+        "rarity": 3,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d291d1cc9d1932b749123d",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAlklEQVR4nO3SsRmDIBCG4c9soi6RLbKCusdfsQcyTNZQd8gCl0Z51BRpgk3ubTig4PgBnHPOOeecc/+uOs3ty37RBkzSYTOEcEkTADbGZPbCno+7Scr1ZYdLsq3ej3w+y0/dxpiYlwmAMSb6oTuMpVXrzQkhcP4D2zqF/4FJypHvawrHD2sCTd3SD11OoKlbAOZlKp7AGwoCUcXYIz9bAAAAAElFTkSuQmCC",
+        "name": "Toadz Bot",
+        "rarity": 6,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d291d2cc9d1932b749123e",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAqUlEQVR4nO2SsQ3DIBBFP1H2QEqRHehSsgOR2MCjuKB0h+TswATxHEzy0xiUxERpTJTiXnXokO7xOUAQBEEQBEEQhH+B00hOIz+de6HePb70uwrQ2PjSXJL/iUQZTgAkSTfkWmObyq6odTjuyeM65M2FOWiojimo9eU4nS+Yg24aoqPAsRS3oIFGAmhI7Q2NjXUH3JBrjc7/DwCHsvlL8nBPCRgby7mrxAMmpkY0V5hDwQAAAABJRU5ErkJggg==",
+        "name": "Toadz Buns",
+        "rarity": 3,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d291d4cc9d1932b749123f",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAG1BMVEUAAAAAAABooEZ9qdKYwu6MvF777uqMvFx9qNO3ofp7AAAAAXRSTlMAQObYZgAAADpJREFUeJxjYBgFgxMwCgqgCgiZBKIqcEtPQ1Gi0tHR0YAsUNIoiGqIswaaChFHR0cUQ52FHIuRtQAAUx0JLKnoTaAAAAAASUVORK5CYII=",
+        "name": "Toadz Toxic",
+        "rarity": 6,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d291d5cc9d1932b7491240",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAGFBMVEUAAAAAAADldiTEeiv////ijzXA21L28/CNRTdQAAAAAXRSTlMAQObYZgAAADxJREFUeJxjYBgFgxMwCgqgCggpK6EqMHQVQREQTUtLS0AWME4sLEQRCBZLS0MxVTgwWBDFjGDRYFNkFQDTBAePWG4+IgAAAABJRU5ErkJggg==",
+        "name": "Toadz Lasagna",
+        "rarity": 2,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d291d6cc9d1932b7491241",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAdUlEQVR4nO3SzQnAIAwF4BcnEWdw/wXsBtKfQYT0UCwaeo2Xvg/E5PQiESAiIiIior+TsUkx69gf1yZYJcWslh3IPbzUpqW2qXYfwr4cwHR7DxD2s7yNiODJBlQVIv5fIIxND+2nD+NqXIFdx5JP+BVua8/8G+IYjDYE6nV1AAAAAElFTkSuQmCC",
+        "name": "Toadz The Guy",
+        "rarity": 5,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d291d8cc9d1932b7491242",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgAgMAAAAOFJJnAAAACVBMVEUAAAB4sx+x4yy4GAuKAAAAAXRSTlMAQObYZgAAACtJREFUeJxjYBimgDEEymBbCWVIpTlAGFmroIxVoVDGMphI5kyo4mWzICIAD/QIak3B1soAAAAASUVORK5CYII=",
+        "name": "Toadz Gummy",
+        "rarity": 6,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d291ddcc9d1932b7491246",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAqUlEQVR4nO3TsQ2DMBAF0H+ULEDjDdKFltKS14CGkh4GYAdomCipkgmSPX4KZAQCRSlySXOvsS1Z+ndnGTDGGGOMMcb8mawP55Nj3F/vT9lf/77kKPzorCV2+S5MdRLySaeaz5GkLkNoPELjcbk9NmtoPFKXaWXPBcRNX08QmRsVEfT1pBq8K2BdyM8VIWc7lCRJACTJdihZhFz9J2wm0I0VSKIbK+3cxQsuvjIuh+O5+wAAAABJRU5ErkJggg==",
+        "name": "Drudis Fedora",
+        "rarity": 6,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d291decc9d1932b7491247",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAfElEQVR4nO3Suw3DMAyE4d9KAM7m3rNkB2cOp9OAUuNLIRvIq5WQ4r6GIpsTQIKZmZmZmdm/WOekX3VYuCStc1Ip6LUfFl4K0sZ7HfCJBFDrRGS4PxLQauQ27y19DiJ3z/x27l7bsf9jBSNu4Ho+IkRdJm7s1KX1cOmdzxPEQVCMIkytRwAAAABJRU5ErkJggg==",
+        "name": "Drudis Ord",
+        "rarity": 17,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d291dfcc9d1932b7491248",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAQAAADZc7J/AAAAV0lEQVR4nO3QsQnEQAwEwDmX8YnchvsH1+HIbewnb3B6x4caEIq0C6K11lr7u7xm0oYcpH57PiDlFh9xq+mIDS4DwzVb/wTAuXD8SCWRpLLyA7CLfan9C3ZiGrGYMrxpAAAAAElFTkSuQmCC",
+        "name": "Drudis Dark",
+        "rarity": 3,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d291e1cc9d1932b7491249",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAG1BMVEUAAADCkTniwk3jwk39/9HDkjf///8AAADs5ZH+Se9oAAAAAXRSTlMAQObYZgAAADdJREFUeJxjYBgFQwQICAig8BmVlQ1RBIRcQpxQlJimh6cqIAtYpJVloAgwtZc3oZjB1NGBIgAAiQQHz58m+JUAAAAASUVORK5CYII=",
+        "name": "Drudis Doge",
+        "rarity": 2,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d291e5cc9d1932b749124c",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAiElEQVR4nGNgGAWjYBSMglEwCkbBKBgFo2AUjILBAjRchf5jo2kNWGCWqegqMDAwMGDQN3a/Y6SpCzRchf77FBn9hwF0Nq1DggmZw8jIiELTAzChC0S/5qKb5QwMDAyMDAyQaKiX0GK48+wVXEJFSoyh8cU1BlqnARYYo/HFNYZ6KS0GZD49AADz4TYoRDW3iAAAAABJRU5ErkJggg==",
+        "name": "Drudis Pepis",
+        "rarity": 3,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d291e6cc9d1932b749124d",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAcElEQVR4nO3SsQ3DMAwEwGeQJeQRfhvvZi+VAbSCpzDehWFBMYKkopDiryFVPSESMDMzMzMz+xck9almi19htdZInYCkSOpy77N/4tk/IgKSWh3hMSTl2wBtx9qhpQDrdFbtAPJv4G0F2/xqfclM7Rw0CDUGgtiZHgAAAABJRU5ErkJggg==",
+        "name": "Drudis Penguin",
+        "rarity": 2,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d291e7cc9d1932b749124e",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAG1BMVEUAAABrAKqcS9QAAAAsIhJbTjh1Z06YhWIBAwFFhH4KAAAAAXRSTlMAQObYZgAAADpJREFUeJxjYBgFgxMICgqg8BkFBRXRBVCVmISmhhggC7hUZJQ4oKgoLi5BUcHsbu6MYihzWlkyMh8AwJ0HyXG7QPwAAAAASUVORK5CYII=",
+        "name": "Drudis Purple Cap",
+        "rarity": 3,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d291e9cc9d1932b749124f",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAD1BMVEUAAADW3Pn///9eX18iIDR48YbDAAAAAXRSTlMAQObYZgAAADRJREFUeJxjYBgFQwQICAig8BmVlRVRBISNlY1RlAipqCihCjgpOaEIMKq4oJrBqKSEIgAA1qIDiUmSrEYAAAAASUVORK5CYII=",
+        "name": "Drudis The Guy",
+        "rarity": 3,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d291eacc9d1932b7491250",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAm0lEQVR4nO3RsRHCMAyF4Ud2oCNT0GcIWgaJJ/CxCGXceQt7gPQ0Pob4KXIpkuPSiQZ9jU928SRZcs4555xzzv27067m4M1Etw8HNrW1dcqjMNNNdJLUYlaLWcDmbDFbZi9azJRphGX3lGlEEgBlGmkxm35Ft7+43h6Wed8b6OdBNQUBul/OAlRTUD8Pv2lgVVPQ8/VWTcE8ePUBJOxE+rdNe3cAAAAASUVORK5CYII=",
+        "name": "Drudis Pink Hair",
+        "rarity": 4,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d291ebcc9d1932b7491251",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAY0lEQVR4nO3QOxKAIBAE0Vnvf1usMmwDFwLQcCmDeQmfZBskMzMzMzOzv0Diba129GFBH8p0Lg4YQwOpSUFILQsyprQACQQ0IS7Es9LyvjjgWILOynEf5l/Y9fo1ICPGfkPADVo1XTi0EsoyAAAAAElFTkSuQmCC",
+        "name": "Drudis Predator",
+        "rarity": 2,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d291eccc9d1932b7491252",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAFVBMVEUAAAAoHR15aWPu6+cAAAAtLS3PzcyFyMVMAAAAAXRSTlMAQObYZgAAADJJREFUeJxjYBgFQwQICAig8BkFBQVRBISMhY1QlAiamBiiCaigCjAaBRmiGmqmhiIAAMpTA6eWMSatAAAAAElFTkSuQmCC",
+        "name": "Drudis Hedgehog",
+        "rarity": 3,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d291eecc9d1932b7491253",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgAgMAAAAOFJJnAAAADFBMVEUAAADgNRZx/yoiAPplyJ2uAAAAAXRSTlMAQObYZgAAACdJREFUeJxjYBjugMUFypCcCWVk73KAMHLnwRj3oAzpSqgasacQGgDV4AbFVoxc+wAAAABJRU5ErkJggg==",
+        "name": "Drudis Logo",
+        "rarity": 1,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d291efcc9d1932b7491254",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAG1BMVEUAAADMbtbrf/fJ+P0lJS/ExMl7fIj///8AAADYtuDQAAAAAXRSTlMAQObYZgAAAD5JREFUeJxjYBgFgwIwCqIJCCkJoPAFjI0NUEQEhZQEUQRc08NTHZAF3CoiytAEKlAFWNLbU1BsYUkrQxEAAD5MCW3YpRcCAAAAAElFTkSuQmCC",
+        "name": "Drudis Cowboy",
+        "rarity": 3,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d291f0cc9d1932b7491255",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAG1BMVEUAAAD77+rm1vGsnLFvMZoAAAClcXb38vDk3C1ddAauAAAAAXRSTlMAQObYZgAAADlJREFUeJxjYBgFQwQIKAig8JmNlY1RBBRdVBwVkAWMA02FDZAFxNLS0lAMYauoKEMxgyktLQmZDwBd6Aan6LhbKQAAAABJRU5ErkJggg==",
+        "name": "Drudis Creep",
+        "rarity": 2,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d291f2cc9d1932b7491256",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAkElEQVR4nO3OsQ3CQAyF4d+IBW6HiOZmYIFUFNdlDyZKmYIme1C4QswQRng0CQoS7Z0o/EmW7eo9CCGEEEIIIYR/0VHk7p/pKGqZL0Du/rXXqerYUXRKFwByzrg7OWf6NALweN30ZLJaBQ7bMS8DZsb1fMfMmJehVubvAvsizUlSn0ZJ0vru/zYF9qHbblHgDeQdWSv2y87yAAAAAElFTkSuQmCC",
+        "name": "Drudis Doctor",
+        "rarity": 2,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d291f3cc9d1932b7491257",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAApUlEQVR4nO3RIQ6DQBCF4bccoGJFTZNqAoYLVIPjEDU9VA/BHXoAJL6pqsCC+ysaCKWhisV0PrObGfEmM5IxxhhjjDHm37nh471n3mzb1s1ra4uWwn/V1+SmIcf9aWzcn7fxH3IT0TS8birVl53qpvoYJijvPVlcAiAJzof3C2RxSegzRF+V6yNk3vIAfVoIkHNOgPq02G6K4QxdkgPQJfkm65ekF1jXP0MW1vRoAAAAAElFTkSuQmCC",
+        "name": "Drudis Hood",
+        "rarity": 17,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d291f4cc9d1932b7491258",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAq0lEQVR4nO3SOw6CYBAE4PF1BwxaSOURbIw1lsaSK9hDj/EAXEEPQkLCJQyPiIkXwM6M1W+ksPyJxXzNTrHJbLGAiIiIiIjIH+GPadXQlEVp2ZnBJevliMFXacetuWM+c3HaLMyeFWMTJvUOAFCMEnivAzwARZPY6u1glJYEwOdjzdh3Pjm4ZERPv8DYd0iSJvdVbp4QbZjjuJ2CJNowx/K8R11dUa1cq0e8ATAGSFrvUmUOAAAAAElFTkSuQmCC",
+        "name": "Drudis Chocolate",
+        "rarity": 4,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d291f6cc9d1932b7491259",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAc0lEQVR4nO3RTQqEMAyG4W9krtiz6J2CnkTXOc7rQhTnR3CTYRbfA6WQliZpJDMzMzMzsz/CxV7qsSeLiI/D1tr5ThkiAm0dv6xTvExX+fgdT0nKTH0bQWb+rBDmsQdAEgDz2Jd/v/Q2gmUaBGiZhuq8hxXwGDLBNdsEUAAAAABJRU5ErkJggg==",
+        "name": "Drudis Vr",
+        "rarity": 3,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d291f7cc9d1932b749125a",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAGFBMVEUAAAAiRhfgNRYAAACz8Fxs4PD///9bbuE0i1M8AAAAAXRSTlMAQObYZgAAAD5JREFUeJxjYBgFgxMIMQmg8BmVnRVRBEQcBV1QlIiKlYmiCDgmFyc6IAsEJicnBqCoKDMrRFERIp4ugqwCAOJbCIFl1nPdAAAAAElFTkSuQmCC",
+        "name": "Drudis Dino Hood",
+        "rarity": 6,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d291f8cc9d1932b749125b",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAFVBMVEUAAAAAAAD+//+Hlh/A21L25jz////PcQnAAAAAAXRSTlMAQObYZgAAAEBJREFUeJxjYBgFgwEIMTAwoggoAJECioiAgAAKn9HQ0RFFQNjFxARFiUioawiKgHBgYjCKAKOZGKoZjC7JKAIAd/EF2GlyX0kAAAAASUVORK5CYII=",
+        "name": "Drudis Flies",
+        "rarity": 2,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d291f9cc9d1932b749125c",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAFVBMVEUAAAD4+ADfcSagVfvZoGb///8AAAA5jzb7AAAAAXRSTlMAQObYZgAAADdJREFUeJxjYBgFgxQIoPEVBRVQ+IyChoIoAiquri4oSlTC3ELQBMJQBZhcU51QzGBSCVFC5gMAWGIFy6QkfBEAAAAASUVORK5CYII=",
+        "name": "Drudis Golden Thong",
+        "rarity": 5,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d291fbcc9d1932b749125d",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAArElEQVR4nO3RMQqDQBCF4WcQJFamjMTCTkihSLDQM+w5JCfyADmC17AN2FkIpoyVYPVSiBBiUg6kmK8Zdln4BxZQSimllFJKqX9hopDfpjRrjR0PHh7PEZ+zbjtLdAEThewd/+eDYB5El7B7x0d9vWCs7/DMeTNN1QDopPqw3w9LDEDV4Hbai0U3krhgEhckSQAkyfVOur0Dln/O3AllnoIkyjxF5k4I5kG6jxdKcETsrojmNgAAAABJRU5ErkJggg==",
+        "name": "Drudis Visor",
+        "rarity": 3,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d291fccc9d1932b749125e",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAqklEQVR4nO3RMQrCMBQG4L/FK9QjdAgUBEEy6FncUhcP5BYv4CWyuBeECHoIV4e/Q6HEonXx1eV928sL/C95gFJKKaWUUurPskHNkZ6IPAnloPfp/OcDjIWIhgPALFjz9dLmfJGbIFjDYA2jd2TTMHpHdC9n9I6mmGAF890a5XKPrKoks94PUN9ev7fcHiYfAqbovpskAfD5WKWrEJWnxfVYgyTup4V0bq8F8iQ5kGupLboAAAAASUVORK5CYII=",
+        "name": "Drudis Pirate",
+        "rarity": 2,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d291fecc9d1932b749125f",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAtUlEQVR4nO3SsQnCQBSA4f/gcANzkAGCWcA+rUUcITZOoaVOYaUj2CpYaOUCSgYQY8QBJPAslBBByxOL98GDu8fBe+/uQCmllFJKKaX+RZYGAjAdhtLc+2aaxSJnyYuKyFkA8qJivrwYrw1kaSCRs2wOdwCSuPW2BhjNTt6asPCcdLUtMcaQxCHr3RURYdB3vurWTJYGUnaPXw+09x3vz0BvchNAzuNFHYC88l7Vn/DTLfxi+gefL0Pxbapf4wAAAABJRU5ErkJggg==",
+        "name": "Drudis Ribbit",
+        "rarity": 4,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d291ffcc9d1932b7491260",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAD1BMVEUAAAABsgEA/wCQ+ZABZQGRiAHwAAAAAXRSTlMAQObYZgAAADJJREFUeJxjYBgFQwQICAig8JmEhIRQBISEhYVQlAiZiBihCZigCjAJO6OawSRkhCIAAKb8At0QsLY1AAAAAElFTkSuQmCC",
+        "name": "Drudis Scan",
+        "rarity": 17,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29200cc9d1932b7491261",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAG1BMVEUAAADm4dNPmoa/Ukzw1GK408gAAAD///9GOCowp1OrAAAAAXRSTlMAQObYZgAAADhJREFUeJxjYBgFQwQICAig8JkMHY1QBIKMnY0CkAUC1cwUUQREy8pKUQxhbE9vRDGD1aLCFJkPAI0eBx/qWtkZAAAAAElFTkSuQmCC",
+        "name": "Drudis Drudenza",
+        "rarity": 5,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29201cc9d1932b7491262",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAnklEQVR4nO3SrQ3DMBCG4TdR17CMyrNCjDpCSHF49kiWMMkIRs4K5UZVB7mC/ChtSYmN7iG+syx9J/lAKaWUUkoppX5JybB6L0xj5RQuW59dtQf+8SbPAKaxcr3fAIhDi5uW4wRIPvB6PLMNcXxBHFqoum2sbu0LqL8vSgV/MI0VN/aCzOsiyixu7Iss4mUvkg84IMqMmxaSD7mzAXgDuXovEiM103gAAAAASUVORK5CYII=",
+        "name": "Drudis Watcher",
+        "rarity": 3,
+        "subtype": "critter",
+        "type": "special"
+    },
+    {
+        "_id": "64d29203cc9d1932b7491263",
+        "img_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAElBMVEUAAAByMy/9p22hSjD///8AAAA4ccWoAAAAAXRSTlMAQObYZgAAADVJREFUeJxjYBgFQwMICggICiALCBkaGqEIMJqYGKJoEXY1dRZAFVBFFWA0CkLVwmisjCIAAByHBJFRYp5RAAAAAElFTkSuQmCC",
+        "name": "Drudis Dogis",
+        "rarity": 2,
+        "subtype": "critter",
+        "type": "special"
+    }
+]
