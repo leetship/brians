@@ -44,6 +44,7 @@ contract LeetBrian is ERC721A, ERC721AQueryable, Ownable {
 
     mapping(uint256 => uint256) private _traitCounts;
     mapping(uint256 => mapping(uint256 => Trait)) private _traits;
+    uint16[][6] private _traitRarities;
 
     mapping(uint256 => uint256) private _combo;
     mapping(uint256 => uint256) private _registry;
@@ -101,8 +102,10 @@ contract LeetBrian is ERC721A, ERC721AQueryable, Ownable {
      */
     function addTraits(
         uint8 layer,
-        Payload[] calldata payload
+        Payload[] calldata payload,
+        uint16[] calldata traitRarities
     ) public onlyOwner {
+        if(payload.length != traitRarities.length) revert();
         uint256 traitIndex = _traitCounts[layer];
         unchecked { _traitCounts[layer] += payload.length; }
 
@@ -110,6 +113,7 @@ contract LeetBrian is ERC721A, ERC721AQueryable, Ownable {
             Trait storage trait = _traits[layer][traitIndex];
             trait.image = SSTORE2.write(payload[i].image);
             trait.name = payload[i].name;
+            _traitRarities[layer].push(traitRarities[i]);
 
             unchecked {
                 ++i;
@@ -122,23 +126,21 @@ contract LeetBrian is ERC721A, ERC721AQueryable, Ownable {
      * @notice Whilelist mint
      */
     function whitelistMint(
-        bytes32[] calldata merkleProof,
-        uint256[][] calldata rarities
+        bytes32[] calldata merkleProof
     ) public {
         if (!checkWhitelist(msg.sender, merkleProof)) revert NotOnWhitelist();
         if (_minted[msg.sender]) revert MaxMintPerAddress();
 
-        _mint(1, rarities, msg.sender);
+        _mint(1, msg.sender);
     }
 
     /**
      * @notice Owner mint
      */
     function ownerMint(
-        uint256 amount,
-        uint256[][] calldata rarities
+        uint256 amount
     ) public onlyOwner {
-        _mint(amount, rarities, msg.sender);
+        _mint(amount, msg.sender);
     }
 
     /**
@@ -146,10 +148,9 @@ contract LeetBrian is ERC721A, ERC721AQueryable, Ownable {
      */
     function airdrop(
         uint256 amount,
-        uint256[][] calldata rarities,
         address to
     ) public onlyOwner {
-        _mint(amount, rarities, to);
+        _mint(amount, to);
     }
 
     /**
@@ -188,19 +189,15 @@ contract LeetBrian is ERC721A, ERC721AQueryable, Ownable {
      */
     function _mint(
         uint256 amount,
-        uint256[][] calldata rarities,
         address to
     ) private {
         if (!isOpen) revert MintClose();
-        if (keccak256(abi.encode(rarities)) != _raritiesHash) {
-            revert InvalidRarities();
-        }
         uint256 minted = _totalMinted();
         unchecked {
             if ((minted + amount) > supply) revert MintOut();
         }
 
-        _setTraitsCombination(minted, amount, rarities);
+        _setTraitsCombination(minted, amount);
         _safeMint(to, amount, "");
     }
 
@@ -288,8 +285,7 @@ contract LeetBrian is ERC721A, ERC721AQueryable, Ownable {
      */
     function _setTraitsCombination(
         uint256 tokenID,
-        uint256 amount,
-        uint256[][] calldata rarities
+        uint256 amount
     ) private {
         uint256 seed = uint256(
             keccak256(
@@ -299,12 +295,12 @@ contract LeetBrian is ERC721A, ERC721AQueryable, Ownable {
 
         uint256 current = tokenID;
         uint256 combination;
-        uint256[] calldata backgroundRarities = rarities[0];
-        uint256[] calldata bodyRarities = rarities[1];
-        uint256[] calldata underRarities = rarities[2];
-        uint256[] calldata eyesRarities = rarities[3];
-        uint256[] calldata overRarities = rarities[4];
-        uint256[] calldata specialRarities = rarities[5];
+        uint16[] memory backgroundRarities = _traitRarities[0];
+        uint16[] memory bodyRarities = _traitRarities[1];
+        uint16[] memory underRarities = _traitRarities[2];
+        uint16[] memory eyesRarities = _traitRarities[3];
+        uint16[] memory overRarities = _traitRarities[4];
+        uint16[] memory specialRarities = _traitRarities[5];
 
         while (true) {
             combination = _getRandomTraitIndex(backgroundRarities, seed);
@@ -332,7 +328,7 @@ contract LeetBrian is ERC721A, ERC721AQueryable, Ownable {
      * Inspired by Anonymice (0xbad6186e92002e312078b5a1dafd5ddf63d3f731)
      */
     function _getRandomTraitIndex(
-        uint256[] calldata rarities,
+        uint16[] memory rarities,
         uint256 seed
     ) private pure returns (uint256 index) {
         uint256 rand = seed % 10000;

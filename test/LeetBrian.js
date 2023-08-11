@@ -107,14 +107,14 @@ describe("Functional Validation", function () {
 
             // ADD TRAITS
             for (let i = 0; i < allLayers.length; i++) {
-                await leetContract.addTraits(i, allLayers[i].traits);
+                await leetContract.addTraits(i, allLayers[i].traits, allLayers[i].rarities);
             }
             console.log("ADDED TRAITS");
 
             // TEST MINT
             await leetContract.setMintStatus(true);
             const MINT_AMOUNTS = 33;
-            await leetContract.ownerMint(MINT_AMOUNTS, rarities);
+            await leetContract.ownerMint(MINT_AMOUNTS);
             console.log("MINTED", MINT_AMOUNTS);
 
             let distribution = {};
