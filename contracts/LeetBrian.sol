@@ -159,10 +159,10 @@ contract LeetBrian is ERC721A, ERC721AQueryable, Ownable {
 
         Brian memory brian = _getTraits(tokenID);
         bytes memory json = abi.encodePacked(
-            '{"name": "1337 Based Brian #',
+            '{"name": "1337 Brian #',
             LibString.toString(tokenID),
             '", "description":"',
-            "1337 Based Brians",
+            "1337 Brians",
             '","image":"data:image/svg+xml;base64,',
             _getTraitImage(brian),
             '",',
