@@ -42,8 +42,7 @@ async function main() {
     const contractCodeName = "LeetBrian";
     const contractName = "PUSSCODE";
     const contractSymbol = "PUSSCODE";
-    // const contractSupply = 8453;
-    const contractSupply = 300;
+    const contractSupply = 8453;
 
     // PREPARE LAYERS AND RARITIES
     const traits = await utils.fetchTraitsData(
@@ -89,19 +88,25 @@ async function main() {
 
     // ADD TRAITS
     for (let i = 0; i < allLayers.length; i++) {
+        const size = allLayers[i].traits.length;
         console.log(
-            `ADDING TRAITS AT LAYER ${i} FOR A TOTAL OF ${allLayers[i].traits.length} TRAITS`
+            `ADDING TRAITS AT LAYER ${i} FOR A TOTAL OF ${size} TRAITS`
         );
 
-        await leetContract.addTraits(
-            i,
-            allLayers[i].traits,
-            allLayers[i].rarities,
-            {
-                gasLimit: 60000000,
-            }
-        );
+        const batchAmount = 20;
+        for (let j = 0; j < size; j += batchAmount) {
+            await leetContract.addTraits(
+                i,
+                allLayers[i].traits.slice(j, j + batchAmount),
+                allLayers[i].rarities.slice(j, j + batchAmount),
+                {
+                    gasLimit: 60000000,
+                }
+            );
+            console.log(`ADDED TRAITS FOR LAYER ${i} BATCH ${j}`);
+        }
     }
+
     console.log("ADDED ALL TRAITS");
 
     // VERYFI ON BASESCAN
@@ -129,7 +134,9 @@ async function main() {
         await leetContract.setMintStatus(true);
         const batchAmount = 100;
         for (let i = 0; i < Math.floor(contractSupply / batchAmount); i++) {
-            await leetContract.ownerMint(batchAmount);
+            await leetContract.ownerMint(batchAmount, {
+                gasLimit: 60000000,
+            });
             console.log("MINTED", batchAmount);
         }
         let distribution = {};
