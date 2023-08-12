@@ -242,16 +242,17 @@ contract LeetBrian is ERC721A, ERC721AQueryable, Ownable {
                 _getTraitMetadata(
                     "background",
                     _traits[0][brian.background].name,
-                    true
+                    false
                 ),
-                _getTraitMetadata("brian", _traits[1][brian.body].name, true),
+                ",",
+                _getTraitMetadata("brian", _traits[1][brian.body].name, false),
                 _getTraitMetadata("under", _traits[2][brian.under].name, true),
                 _getTraitMetadata("eyes", _traits[3][brian.eyes].name, true),
                 _getTraitMetadata("over", _traits[4][brian.over].name, true),
                 _getTraitMetadata(
                     "special",
                     _traits[5][brian.special].name,
-                    false
+                    true
                 )
             );
     }
@@ -273,11 +274,11 @@ contract LeetBrian is ERC721A, ERC721AQueryable, Ownable {
         if (withComma) {
             return
                 string.concat(
-                    '{"trait_type":"',
+                    ',{"trait_type":"',
                     key,
                     '","value": "',
                     value,
-                    '"},'
+                    '"}'
                 );
         }
         return
