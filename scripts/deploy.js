@@ -42,13 +42,14 @@ async function main() {
     const contractCodeName = "LeetBrian";
     const contractName = "PUSSCODE";
     const contractSymbol = "PUSSCODE";
-    const contractSupply = 69;
+    // const contractSupply = 8453;
+    const contractSupply = 300;
 
     // PREPARE LAYERS AND RARITIES
-    // const traits = await utils.fetchTraitsData(
-    //     "https://1337py.vercel.app/brian/traits"
-    // );
-    const traits = utils.fetchMockTraitsDataForBrian();
+    const traits = await utils.fetchTraitsData(
+        "https://1337py.vercel.app/brian/traits"
+    );
+    // const traits = utils.fetchMockTraitsDataForBrian();
     const layerBackground = utils.prepLayer(
         TMP_ASSETS_DIR,
         traits,
@@ -123,12 +124,14 @@ async function main() {
     }
 
     // TEST MINT LOCALLY
-    if (hre.network.name == "localhost") {
+    if (hre.network.name == "localhost" || hre.network.name == "base-goerli") {
         console.log("TESTING MINTS");
         await leetContract.setMintStatus(true);
-        await leetContract.ownerMint(contractSupply);
-        console.log("MINTED", contractSupply);
-
+        const batchAmount = 100;
+        for (let i = 0; i < Math.floor(contractSupply / batchAmount); i++) {
+            await leetContract.ownerMint(batchAmount);
+            console.log("MINTED", batchAmount);
+        }
         let distribution = {};
         for (let i = 0; i < LAYERS.length; i++) {
             distribution[LAYERS[i]] = {};
@@ -138,7 +141,7 @@ async function main() {
             const payload = JSON.parse(
                 tokenURI.split("data:application/json,")[1]
             );
-            console.log(payload.attributes);
+            console.log(i, payload.attributes);
             for (let i = 0; i < payload.attributes.length; i++) {
                 const traitType = payload.attributes[i].trait_type;
                 const traitValue = payload.attributes[i].value;
