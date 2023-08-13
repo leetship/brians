@@ -15,30 +15,24 @@ module.exports = {
         },
     },
     networks: {
-        hardhat: {
-            blockGasLimit: 60000000,
-        },
+        hardhat: {},
         mainnet: {
             url: process.env.ETHEREUM_PROVIDER || "http://127.0.0.1:8555",
             accounts: [process.env.ETHEREUM_PRIVATE_KEY],
-            blockGasLimit: 60000000,
         },
         goerli: {
             url: process.env.GOERLI_PROVIDER || "http://127.0.0.1:8555",
             accounts: [process.env.GOERLI_PRIVATE_KEY],
-            blockGasLimit: 60000000,
         },
         "base-goerli": {
             url: "https://goerli.base.org",
             accounts: [process.env.GOERLI_PRIVATE_KEY],
             gasPrice: 1000000000,
-            blockGasLimit: 60000000,
         },
         "base-mainnet": {
             url: "https://mainnet.base.org",
             accounts: [process.env.ETHEREUM_PRIVATE_KEY],
             gasPrice: 1000000000,
-            blockGasLimit: 60000000,
         },
     },
     etherscan: {
