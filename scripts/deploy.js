@@ -93,14 +93,14 @@ async function main() {
             `ADDING TRAITS AT LAYER ${i} FOR A TOTAL OF ${size} TRAITS`
         );
 
-        const batchAmount = 20;
+        const batchAmount = 10;
         for (let j = 0; j < size; j += batchAmount) {
             await leetContract.addTraits(
                 i,
                 allLayers[i].traits.slice(j, j + batchAmount),
                 allLayers[i].rarities.slice(j, j + batchAmount),
                 {
-                    gasLimit: 60000000,
+                    gasLimit: 20000000,
                 }
             );
             console.log(`ADDED TRAITS FOR LAYER ${i} BATCH ${j}`);
@@ -132,10 +132,10 @@ async function main() {
     if (hre.network.name == "localhost" || hre.network.name == "base-goerli") {
         console.log("TESTING MINTS");
         await leetContract.setMintStatus(true);
-        const batchAmount = 100;
+        const batchAmount = 50;
         for (let i = 0; i < Math.floor(contractSupply / batchAmount); i++) {
             await leetContract.ownerMint(batchAmount, {
-                gasLimit: 60000000,
+                gasLimit: 20000000,
             });
             console.log("MINTED", batchAmount);
         }
