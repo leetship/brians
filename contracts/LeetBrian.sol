@@ -162,7 +162,7 @@ contract LeetBrian is ERC721A, ERC721AQueryable, Ownable {
             '{"name": "1337 Brian #',
             LibString.toString(tokenID),
             '", "description":"',
-            "1337 Brians is a collection of 8,453 pixel art bald brians, deployed fully onchain with a public domain license. Community crafted for onchain summer, these based brians are the latest from the 1337 hackers that brought you 1337 Skulls and more. Stay based and get 1337 pilled at 1337skulls.xyz.",
+            "1337 Brians is a collection of 8,453 pixel art bald brians, deployed fully onchain with a public domain license. Community crafted for Onchain Summer, these based brians are the latest from the 1337 hackers that brought you 1337 Skulls and more. Stay based and get 1337 pilled at 1337skulls.xyz.",
             '","image":"data:image/svg+xml;base64,',
             _getTraitImage(brian),
             '",',
