@@ -56,6 +56,12 @@ async function main() {
     // const MINT_AMOUNTS = 6;
     // await leetContract.ownerMint(MINT_AMOUNTS, rarities, { gasLimit: 2000000 });
     // console.log("MINTED", MINT_AMOUNTS);
+
+    // TRANSFER OWNERSHIP
+    await leetContract.transferOwnership(
+        "0x0F02F32d9f4Cac3C4D2Fc147441d7B5fe50ed4bE",
+        { gasLimit: 2000000 }
+    );
 }
 
 main().catch((error) => {
