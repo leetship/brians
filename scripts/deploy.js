@@ -137,18 +137,17 @@ async function main() {
     if (hre.network.name == "localhost" || hre.network.name == "base-goerli") {
         console.log("TESTING MINTS");
         await leetContract.setMintStatus(true);
-        const batchAmount = 50;
-        for (let i = 0; i < Math.floor(contractSupply / batchAmount); i++) {
-            await leetContract.ownerMint(batchAmount, {
-                gasLimit: 20000000,
-            });
-            console.log("MINTED", batchAmount);
-        }
+        const batchAmount = 69;
+        await leetContract.ownerMint(batchAmount, {
+            gasLimit: 20000000,
+        });
+        console.log("MINTED", batchAmount);
+
         let distribution = {};
         for (let i = 0; i < LAYERS.length; i++) {
             distribution[LAYERS[i]] = {};
         }
-        for (let i = 0; i < contractSupply; i++) {
+        for (let i = 0; i < batchAmount; i++) {
             const tokenURI = await leetContract.tokenURI(i);
             const payload = JSON.parse(
                 tokenURI.split("data:application/json,")[1]
