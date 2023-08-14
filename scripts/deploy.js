@@ -40,15 +40,20 @@ const delay = (ms) => {
 async function main() {
     // SET DEPLOYMENT METADATA
     const contractCodeName = "LeetBrian";
-    const contractName = "PUSSCODE";
-    const contractSymbol = "PUSSCODE";
+    const contractName = "1337 Brians";
+    const contractSymbol = "1337BRIAN";
     const contractSupply = 8453;
 
     // PREPARE LAYERS AND RARITIES
-    const traits = await utils.fetchTraitsData(
+    let traits = await utils.fetchTraitsData(
         "https://1337py.vercel.app/brian/traits"
     );
-    // const traits = utils.fetchMockTraitsDataForBrian();
+    // let traits = utils.fetchMockTraitsDataForBrian();
+
+    // FILTER OUT 0 RARITIES
+    traits = traits.filter((t) => t.rarity !== 0);
+
+    // FILTER INTO LAYERS
     const layerBackground = utils.prepLayer(
         TMP_ASSETS_DIR,
         traits,
@@ -93,7 +98,7 @@ async function main() {
             `ADDING TRAITS AT LAYER ${i} FOR A TOTAL OF ${size} TRAITS`
         );
 
-        const batchAmount = 10;
+        const batchAmount = 30;
         for (let j = 0; j < size; j += batchAmount) {
             await leetContract.addTraits(
                 i,
