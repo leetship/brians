@@ -11,7 +11,7 @@ import {Ownable} from "@openzeppelin/contracts/access/Ownable.sol";
 
 import "./LeetBrian.sol";
 
-contract LeetBrianFix is Ownable {
+contract LeetBrianMint is Ownable {
     LeetBrian public leetBrian;
 
     bytes32 private _merkleRoot;

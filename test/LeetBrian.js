@@ -37,7 +37,7 @@ describe("Functional Validation", function () {
     describe("Upon deployment", function () {
         it("Before mint", async function () {
             const contractCodeName = "LeetBrian";
-            const fixedContractCodeName = "LeetBrianFix";
+            const fixedContractCodeName = "LeetBrianMint";
             const contractName = "1337 Brians";
             const contractSymbol = "1337BRIAN";
             const contractSupply = 69;
