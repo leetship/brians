@@ -26,6 +26,9 @@
         "interact": "npx hardhat run scripts/interact.js --network base-goerli",
         "deploy-hardhat": "npx hardhat run scripts/deploy.js --network localhost",
         "deploy-base-goerli": "npx hardhat run scripts/deploy.js --network base-goerli",
-        "deploy-base-mainnet": "npx hardhat run scripts/deploy.js --network base-mainnet"
+        "deploy-base-mainnet": "npx hardhat run scripts/deploy.js --network base-mainnet",
+        "deploy-fix-hardhat": "npx hardhat run scripts/deployFix.js --network localhost",
+        "deploy-fix-base-goerli": "npx hardhat run scripts/deployFix.js --network base-goerli",
+        "deploy-fix-base-mainnet": "npx hardhat run scripts/deployFix.js --network base-mainnet"
     }
 }
