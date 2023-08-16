@@ -14,8 +14,6 @@ import "./LeetBrian.sol";
 contract LeetBrianMint is Ownable {
     LeetBrian public leetBrian;
 
-    bytes32 private _merkleRoot;
-
     mapping(address => bool) _minted;
 
     error NotOnWhitelist();
