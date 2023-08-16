@@ -171,32 +171,36 @@ describe("Functional Validation", function () {
                 "NotOnWhitelist"
             );
 
+            // AIRDROP THE REST
+            await fixedLeetContract.airdrop(56, owner.address);
+            expect(await leetContract.totalSupply()).to.equal(contractSupply);
+
             // WRITE FILES LOCALLY AND CALCULATE DISTRIBUTION
-            // let distribution = {};
-            // for (let i = 0; i < LAYERS.length; i++) {
-            //     distribution[LAYERS[i]] = {};
-            // }
-            // for (let i = 0; i < 13; i++) {
-            //     const tokenURI = await leetContract.tokenURI(i);
-            //     const payload = JSON.parse(
-            //         tokenURI.split("data:application/json,")[1]
-            //     );
-            //     console.log(payload.attributes);
-            //     for (let i = 0; i < payload.attributes.length; i++) {
-            //         const traitType = payload.attributes[i].trait_type;
-            //         const traitValue = payload.attributes[i].value;
-            //         if (traitValue in distribution[traitType]) {
-            //             distribution[traitType][traitValue] += 1;
-            //         } else {
-            //             distribution[traitType][traitValue] = 1;
-            //         }
-            //     }
-            //     fs.writeFileSync(
-            //         path.join(TMP_DIR, `${i}.svg`),
-            //         atob(payload.image.split("data:image/svg+xml;base64,")[1])
-            //     );
-            // }
-            // console.log(distribution);
+            let distribution = {};
+            for (let i = 0; i < LAYERS.length; i++) {
+                distribution[LAYERS[i]] = {};
+            }
+            for (let i = 0; i < contractSupply; i++) {
+                const tokenURI = await leetContract.tokenURI(i);
+                const payload = JSON.parse(
+                    tokenURI.split("data:application/json,")[1]
+                );
+                console.log(payload.attributes);
+                for (let i = 0; i < payload.attributes.length; i++) {
+                    const traitType = payload.attributes[i].trait_type;
+                    const traitValue = payload.attributes[i].value;
+                    if (traitValue in distribution[traitType]) {
+                        distribution[traitType][traitValue] += 1;
+                    } else {
+                        distribution[traitType][traitValue] = 1;
+                    }
+                }
+                fs.writeFileSync(
+                    path.join(TMP_DIR, `${i}.svg`),
+                    atob(payload.image.split("data:image/svg+xml;base64,")[1])
+                );
+            }
+            console.log(distribution);
         });
     });
 });
