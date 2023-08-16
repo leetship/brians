@@ -27,8 +27,8 @@ contract LeetBrianMint is Ownable {
         if (!checkWhitelist(msg.sender, merkleProof)) revert NotOnWhitelist();
         if (_minted[msg.sender]) revert MaxMintPerAddress();
 
-        leetBrian.airdrop(1, msg.sender);
         _minted[msg.sender] = true;
+        leetBrian.airdrop(1, msg.sender);
     }
 
     function setMintStatus(bool state) external onlyOwner {
