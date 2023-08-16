@@ -115,11 +115,7 @@ describe("Functional Validation", function () {
 
             // SET UP WHITELIST
             const [owner, addr1, addr2] = await ethers.getSigners();
-            const whitelistedAddresses = [
-                owner.address,
-                addr1.address,
-                addr2.address,
-            ];
+            const whitelistedAddresses = [owner.address, addr1.address];
             const merkleTree = new MerkleTree(
                 whitelistedAddresses.map((addr) => keccak256(addr)),
                 keccak256,
@@ -136,6 +132,14 @@ describe("Functional Validation", function () {
             );
             await leetContract.connect(addr1).whitelistMint(merkleProof1);
             expect(await leetContract.totalSupply()).to.equal(1);
+
+            // ADDRESS 1 WITH MERKLE PROOF 2 SHOULD FAIL
+            const merkleProof2 = merkleTree.getHexProof(
+                keccak256(addr2.address)
+            );
+            await expect(
+                leetContract.connect(addr1).whitelistMint(merkleProof2)
+            ).to.be.revertedWithCustomError(leetContract, "NotOnWhitelist");
 
             // ONLY ALLOW ONCE PER ADDRESS
             // SHOULD HAVE FAILED AT THIS STEP HERE!!!
@@ -157,6 +161,14 @@ describe("Functional Validation", function () {
             ).to.be.revertedWithCustomError(
                 fixedLeetContract,
                 "MaxMintPerAddress"
+            );
+
+            // AS WELL AS INVALID MERKLE PROOF
+            await expect(
+                fixedLeetContract.connect(addr1).whitelistMint(merkleProof2)
+            ).to.be.revertedWithCustomError(
+                fixedLeetContract,
+                "NotOnWhitelist"
             );
 
             // WRITE FILES LOCALLY AND CALCULATE DISTRIBUTION
