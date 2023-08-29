@@ -19,7 +19,7 @@ async function main() {
         const address = snapshot[i].address;
         const amount = snapshot[i].amount;
         if (amount === 420) {
-            for (let i = 0; i < 8; i++) {
+            for (let i = 0; i < 4; i++) {
                 console.log(50, address);
                 await leetContract.airdrop(50, address, { gasLimit: 28500000 });
             }
