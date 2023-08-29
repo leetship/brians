@@ -5,8 +5,10 @@ const delay = (ms) => {
 };
 
 async function main() {
-    const contractCodeName = "LeetBrianMint";
-    const originalContract = "0x5519dC53D698cE6b9EeFc71EFC454E4B269307B9";
+    // const contractCodeName = "LeetBrianMint";
+    const contractCodeName = "LeetBrianClaim";
+    const originalContract = "0x5519dC53D698cE6b9EeFc71EFC454E4B269307B9"; // MAINNET
+    // const originalContract = "0xF80537019c13db4205A02C11FeE02B77020B2F9d"; // GOERLI
 
     // DEPLOY CONTRACT
     const leetContract = await (

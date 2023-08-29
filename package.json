@@ -22,6 +22,7 @@
         "build": "npx hardhat compile",
         "local-node": "npx hardhat node",
         "test": "npx hardhat test test/LeetBrian.js",
+        "test-claim": "npx hardhat test test/LeetBrianClaim.js",
         "housekeep": "node scripts/housekeep.js",
         "interact": "npx hardhat run scripts/interact.js --network base-goerli",
         "airdrop-hardhat": "npx hardhat run scripts/airdrop.js --network localhost",
