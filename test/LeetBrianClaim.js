@@ -37,7 +37,7 @@ describe("Functional Validation", function () {
     describe("Upon deployment", function () {
         it("Claim", async function () {
             const contractCodeName = "LeetBrian";
-            const fixedContractCodeName = "LeetBrianClaim";
+            const claimContractCodeName = "LeetBrianClaim";
             const contractName = "1337 Brians";
             const contractSymbol = "1337BRIAN";
             const contractSupply = 69;
@@ -97,7 +97,7 @@ describe("Functional Validation", function () {
             await leetContract.deployed();
 
             const claimContract = await (
-                await ethers.getContractFactory(fixedContractCodeName)
+                await ethers.getContractFactory(claimContractCodeName)
             ).deploy(leetContract.address);
             await claimContract.deployed();
             console.log("DEPLOYED CONTRACT:", leetContract.address);
